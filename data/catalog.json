@@ -73433,7 +73433,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--latin-american-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--latin-american-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/latin-american-cinema/kaptain/logo.png",
@@ -73715,7 +73715,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--north-american-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--north-american-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/north-american-cinema/kaptain/logo.png",
@@ -74033,7 +74033,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--nordic-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--nordic-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/nordic-cinema/kaptain/logo.png",
@@ -74351,7 +74351,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--east-asian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--east-asian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/east-asian-cinema/kaptain/logo.png",
@@ -74657,7 +74657,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--southeast-asian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--southeast-asian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/southeast-asian-cinema/kaptain/logo.png",
@@ -74975,7 +74975,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--south-asian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--south-asian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/south-asian-cinema/kaptain/logo.png",
@@ -75341,7 +75341,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--middle-eastern-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--middle-eastern-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/middle-eastern-cinema/kaptain/logo.png",
@@ -75707,7 +75707,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--african-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--african-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/african-cinema/kaptain/logo.png",
@@ -75939,7 +75939,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--algerian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--algerian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/algerian-cinema/classic/logo.png",
@@ -76209,7 +76209,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--argentine-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--argentine-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/argentine-cinema/classic/logo.png",
@@ -76479,7 +76479,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--australian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--australian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/australian-cinema/classic/logo.png",
@@ -76749,7 +76749,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--bangladesh-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--bangladesh-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/bangladesh-cinema/classic/logo.png",
@@ -77019,7 +77019,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--belgian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--belgian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/belgian-cinema/classic/logo.png",
@@ -77289,7 +77289,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--brazilian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--brazilian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/brazilian-cinema/classic/logo.png",
@@ -77559,7 +77559,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--british-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--british-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/british-cinema/classic/logo.png",
@@ -77829,7 +77829,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--canadian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--canadian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/canadian-cinema/classic/logo.png",
@@ -78099,7 +78099,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--chilean-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--chilean-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/chilean-cinema/classic/logo.png",
@@ -78369,7 +78369,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--chinese-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--chinese-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/chinese-cinema/classic/logo.png",
@@ -78639,7 +78639,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--colombian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--colombian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/colombian-cinema/classic/logo.png",
@@ -78909,7 +78909,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--danish-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--danish-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/danish-cinema/classic/logo.png",
@@ -79179,7 +79179,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--dutch-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--dutch-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/dutch-cinema/classic/logo.png",
@@ -79449,7 +79449,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--egyptian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--egyptian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/egyptian-cinema/classic/logo.png",
@@ -79719,7 +79719,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--emirati-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--emirati-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/emirati-cinema/classic/logo.png",
@@ -79911,7 +79911,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--ethiopian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--ethiopian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/ethiopian-cinema/classic/logo.png",
@@ -80181,7 +80181,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--filipino-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--filipino-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/filipino-cinema/classic/logo.png",
@@ -80451,7 +80451,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--finnish-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--finnish-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/finnish-cinema/classic/logo.png",
@@ -80721,7 +80721,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--french-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--french-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/french-cinema/classic/logo.png",
@@ -80991,7 +80991,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--german-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--german-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/german-cinema/classic/logo.png",
@@ -81223,7 +81223,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--ghanaian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--ghanaian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/ghanaian-cinema/classic/logo.png",
@@ -81493,7 +81493,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--greek-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--greek-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/greek-cinema/classic/logo.png",
@@ -81763,7 +81763,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--hong-kong-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--hong-kong-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/hong-kong-cinema/classic/logo.png",
@@ -82033,7 +82033,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--icelandic-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--icelandic-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/icelandic-cinema/classic/logo.png",
@@ -82303,7 +82303,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--indian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--indian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/indian-cinema/classic/logo.png",
@@ -82573,7 +82573,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--indonesian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--indonesian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/indonesian-cinema/classic/logo.png",
@@ -82843,7 +82843,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--iraqi-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--iraqi-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/iraqi-cinema/classic/logo.png",
@@ -83113,7 +83113,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--irish-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--irish-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/irish-cinema/classic/logo.png",
@@ -83383,7 +83383,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--israeli-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--israeli-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/israeli-cinema/classic/logo.png",
@@ -83653,7 +83653,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--italian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--italian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/italian-cinema/classic/logo.png",
@@ -83923,7 +83923,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--japanese-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--japanese-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/japanese-cinema/classic/logo.png",
@@ -84193,7 +84193,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--jordanian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--jordanian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/jordanian-cinema/classic/logo.png",
@@ -84463,7 +84463,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--kenyan-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--kenyan-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/kenyan-cinema/classic/logo.png",
@@ -84733,7 +84733,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--korean-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--korean-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/korean-cinema/classic/logo.png",
@@ -85003,7 +85003,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--lebanese-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--lebanese-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/lebanese-cinema/classic/logo.png",
@@ -85273,7 +85273,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--mexican-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--mexican-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/mexican-cinema/classic/logo.png",
@@ -85543,7 +85543,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--moroccan-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--moroccan-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/moroccan-cinema/classic/logo.png",
@@ -85775,7 +85775,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--nepali-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--nepali-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/nepali-cinema/classic/logo.png",
@@ -86045,7 +86045,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--nigerian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--nigerian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/nigerian-cinema/classic/logo.png",
@@ -86315,7 +86315,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--norwegian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--norwegian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/norwegian-cinema/classic/logo.png",
@@ -86585,7 +86585,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--pakistani-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--pakistani-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/pakistani-cinema/classic/logo.png",
@@ -86855,7 +86855,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--persian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--persian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/persian-cinema/classic/logo.png",
@@ -87125,7 +87125,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--polish-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--polish-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/polish-cinema/classic/logo.png",
@@ -87395,7 +87395,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--portuguese-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--portuguese-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/portuguese-cinema/classic/logo.png",
@@ -87665,7 +87665,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--russian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--russian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/russian-cinema/classic/logo.png",
@@ -87935,7 +87935,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--saudi-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--saudi-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/saudi-cinema/classic/logo.png",
@@ -88127,7 +88127,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--senegalese-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--senegalese-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/senegalese-cinema/classic/logo.png",
@@ -88397,7 +88397,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--south-african-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--south-african-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/south-african-cinema/classic/logo.png",
@@ -88667,7 +88667,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--spanish-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--spanish-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/spanish-cinema/classic/logo.png",
@@ -88937,7 +88937,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--sri-lankan-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--sri-lankan-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/sri-lankan-cinema/classic/logo.png",
@@ -89207,7 +89207,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--swedish-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--swedish-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/swedish-cinema/classic/logo.png",
@@ -89477,7 +89477,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--taiwanese-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--taiwanese-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/taiwanese-cinema/classic/logo.png",
@@ -89747,7 +89747,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--thai-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--thai-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/thai-cinema/classic/logo.png",
@@ -90017,7 +90017,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--tunisian-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--tunisian-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/tunisian-cinema/classic/logo.png",
@@ -90287,7 +90287,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--turkish-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--turkish-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/turkish-cinema/classic/logo.png",
@@ -90557,7 +90557,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--us-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--us-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/us-cinema/classic/logo.png",
@@ -90827,7 +90827,7 @@
         "coverImageURL": "__BASE_URL__/images/international-cinema--vietnamese-cinema.webp",
         "backgroundImageURL": "__BASE_URL__/images/international-cinema--vietnamese-cinema-background.webp",
         "hideTitle": true,
-        "showsSourceRows": false,
+        "showsSourceRows": true,
         "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/international/vietnamese-cinema/classic/logo.png",

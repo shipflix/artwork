@@ -35,6 +35,16 @@ class PipelineTests(unittest.TestCase):
   self.assertEqual(r['sources'][0]['tmdbList']['_0']['sortBy'],'rating')
   r['sources'][0]['tmdbList']['_0']['sortBy']='vote_average.desc'
   with self.assertRaisesRegex(AssertionError,'Invalid Strand list sort order'):build.safe_catalog([r])
+ def test_international_imports_show_each_source_as_a_row(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   out=Path(tmp);write_site(out,self.catalog,{'tiles':[]},'https://example.test/artwork',self.catalog)
+   exports=[json.loads((out/'downloads/complete.json').read_text()),json.loads((out/'downloads/international-cinema.json').read_text())]
+   for exported in exports:
+    row=next(s for s in exported if s['title']=='International Cinema')
+    folders=row['source']['group']['_0']['contentSources'];self.assertEqual(len(folders),65)
+    for f in folders:
+     self.assertIs(f['showsSourceRows'],True)
+     original=next(r for r in self.catalog if r['id']==f['id']);self.assertEqual(f['sources'],original['sources']);self.assertIs(original['native']['showsSourceRows'],True)
  def test_sensitive_source_rejected(self):
   r=copy.deepcopy(self.catalog[0]);r['sources']=[{'mediaServer':{'_0':{'token':'secret'}}}]
   with self.assertRaises(AssertionError):build.safe_catalog([r])
