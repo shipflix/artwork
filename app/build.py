@@ -46,6 +46,7 @@ def safe_catalog(catalog):
  """Publishing is allowlisted: no media-server, add-on, token or private account data."""
  allowed={'tmdbDiscover','tmdbCollection','tmdbList','traktList'}
  for r in catalog:
+  assert r.get('native',{}).get('tileShape','wide') in {'wide','poster','square'}, 'Invalid Strand tile shape'
   assert r['key'] and '/' not in r['key'] and '..' not in r['key']
   for s in r['sources']:
    assert len(s)==1 and next(iter(s)) in allowed
