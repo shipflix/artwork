@@ -1,0 +1,90 @@
+name: Refresh artwork daily
+on:
+  schedule:
+    - cron: '17 17 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: [data/last-refresh.json, README.md, LICENSE]
+permissions:
+  contents: read
+concurrency:
+  group: artwork-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 90
+    permissions:
+      contents: write
+      pages: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            .state/cache
+            .state/last-site
+            .state/last-manifest.json
+          key: artwork-state-v1-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: artwork-state-v1-${{ runner.os }}-
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - name: Render complete collection
+        env:
+          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+          TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
+          ARTWORK_BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: python -u -m app.build --output _site --workers 4
+      - name: Validate complete release
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('_site')
+          m=json.loads((p/'manifest.json').read_text())
+          assert not m.get('partialSmokeBuild') and not m.get('preview')
+          assert len(m['tiles'])==715
+          for r in m['tiles']:
+              assert (p/r['tile']).is_file() and (p/r['wallpaper']).is_file()
+          print('All 715 category tiles and wallpapers are present.')
+          PY
+      - name: Upload Pages bundle
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+          retention-days: 1
+      - name: Record successful refresh
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          m=json.loads(Path('_site/status.json').read_text())
+          Path('data/last-refresh.json').write_text(json.dumps({'builtAt':m['builtAt']},indent=2)+'\n')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/last-refresh.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record successful daily artwork refresh'
+            git push
+          fi
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy artwork and downloads
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

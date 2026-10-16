@@ -1,0 +1,8 @@
+.state/
+_site/
+_site-staging/
+__pycache__/
+*.pyc
+.env
+*.token
+.DS_Store

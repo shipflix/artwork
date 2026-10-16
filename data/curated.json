@@ -1,0 +1,567 @@
+{
+  "logos": {
+    "Studios / 20th Century Studios": {
+      "file": "assets/studios-20th-century-studios.png",
+      "source": "original authentic mark",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/127928-20th-century-studios/logos/white/127928_white_1.png"
+    },
+    "Studios / A24": {
+      "file": "assets/studios-a24.png",
+      "source": "original authentic mark",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/41077-a24/logos/color/41077_color_1.png"
+    },
+    "Studios / Blumhouse Productions": {
+      "file": "assets/studios-blumhouse-productions.png",
+      "source": "original authentic mark",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/3172-blumhouse-productions/logos/white/3172_white_1.png"
+    },
+    "Studios / DC": {
+      "file": "assets/studios-dc.png",
+      "source": "original authentic mark",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/429-dc/logos/color/429_color_1.png"
+    },
+    "Studios / DreamWorks Pictures": {
+      "file": "assets/studios-dreamworks-pictures.png",
+      "source": "original authentic mark",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/7-dreamworks-pictures/logos/white/7_white_1.png"
+    },
+    "Studios / Focus Features": {
+      "file": "assets/studios-focus-features.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/studios/focus-features/classic/logo.png"
+    },
+    "Studios / Illumination": {
+      "file": "assets/studios-illumination.png",
+      "source": "original authentic mark",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/6704-illumination/logos/white/6704_white_1.png"
+    },
+    "Studios / Lionsgate": {
+      "file": "assets/studios-lionsgate.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/studios/lionsgate/classic/logo.webp"
+    },
+    "Studios / Lucasfilm Ltd.": {
+      "file": "assets/studios-lucasfilm-ltd.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/studios/lucasfilm-ltd/classic/logo.webp"
+    },
+    "Studios / Marvel Studios": {
+      "file": "assets/studios-marvel-studios.png",
+      "source": "authentic white brand asset",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/420-marvel-studios/logos/white/420_white_1.png"
+    },
+    "Studios / MGM": {
+      "file": "assets/studios-mgm.png",
+      "source": "authentic prepared brand mark; no silhouette flattening",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/21-metro-goldwyn-mayer/logos/white/21_color_5.png"
+    },
+    "Studios / New Line Cinema": {
+      "file": "assets/studios-new-line-cinema.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/studios/new-line-cinema/classic/logo.webp"
+    },
+    "Studios / Paramount Pictures": {
+      "file": "assets/studios-paramount-pictures.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/studios/paramount-pictures/classic/logo.webp"
+    },
+    "Studios / Pixar": {
+      "file": "assets/studios-pixar.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/studios/pixar/classic/logo.webp"
+    },
+    "Studios / Searchlight Pictures": {
+      "file": "assets/studios-searchlight-pictures.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/studios/searchlight-pictures/classic/logo.png"
+    },
+    "Studios / Sony Pictures": {
+      "file": "assets/studios-sony-pictures.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/studios/sony-pictures/classic/logo.png"
+    },
+    "Studios / Studio Ghibli": {
+      "file": "assets/studios-studio-ghibli.png",
+      "source": "authentic white brand asset",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/10342-studio-ghibli/logos/white/10342_white_1.png"
+    },
+    "Studios / Universal Pictures": {
+      "file": "assets/studios-universal-pictures.png",
+      "source": "original authentic mark",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/33-universal-pictures/logos/color/33_color_1.png"
+    },
+    "Studios / Walt Disney Studio": {
+      "file": "assets/studios-walt-disney-studio.png",
+      "source": "original authentic mark",
+      "url": "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/8bH86UPmMP8hlITzXV3XgV9eaAc.png"
+    },
+    "Studios / Warner Bros. Entertainment": {
+      "file": "assets/studios-warner-bros-entertainment.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/studios/warner-bros-entertainment/classic/logo.webp"
+    },
+    "Awards / Academy Awards": {
+      "file": "assets/awards-academy-awards.png",
+      "source": "authentic prepared brand mark; no silhouette flattening",
+      "url": "https://brand.oscars.org/oscars"
+    },
+    "Awards / Festival de Cannes": {
+      "file": "assets/awards-festival-de-cannes.png",
+      "source": "official website vector mark",
+      "url": "https://www.festival-cannes.com/en/"
+    },
+    "Awards / Golden Globes": {
+      "file": "assets/awards-golden-globes.png",
+      "source": "authentic prepared brand mark; no silhouette flattening",
+      "url": "https://goldenglobes.com/media-info/"
+    },
+    "Networks / ABC TV (AU)": {
+      "file": "assets/networks-abc-tv-au.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/abc-au/ghost/logo.png",
+      "renderPlain": true
+    },
+    "Networks / Adult Swim": {
+      "file": "assets/networks-adult-swim.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/adult-swim/ghost/logo.png",
+      "renderPlain": true
+    },
+    "Networks / BBC America": {
+      "file": "assets/networks-bbc-america.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/bbc-america/ghost/logo.png",
+      "renderPlain": true
+    },
+    "Networks / BBC Four": {
+      "file": "assets/networks-bbc-four.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/bbc-four/ghost/logo.png",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / BBC One": {
+      "file": "assets/networks-bbc-one.png",
+      "source": "existing colour brand asset",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/networks/4-bbc-one/logos/color/4_color_1.png",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / BBC Three": {
+      "file": "assets/networks-bbc-three.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/bbc-three/ghost/logo.png",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / BBC Two": {
+      "file": "assets/networks-bbc-two.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/bbc-two/ghost/logo.png",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / Bravo": {
+      "file": "assets/networks-bravo.png",
+      "source": "colour brand logo from article image",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Bravo_2024.svg/1280px-Bravo_2024.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "article": "Bravo (American TV network)",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / Cartoon Network": {
+      "file": "assets/networks-cartoon-network.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/cartoon-network/ghost/logo.png",
+      "renderPlain": true
+    },
+    "Networks / Channel 4": {
+      "file": "assets/networks-channel-4.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/channel-4/ghost/logo.png",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / Channel 5": {
+      "file": "assets/networks-channel-5.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/channel-5/ghost/logo.png",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / Comedy Central": {
+      "file": "assets/networks-comedy-central.png",
+      "source": "existing brand vector; white wordmark for dark backgrounds, yellow symbol retained",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/1280px-Comedy_Central_2018.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "article": "Comedy Central",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / Discovery": {
+      "file": "assets/networks-discovery.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/discovery/ghost/logo.png",
+      "renderPlain": true
+    },
+    "Networks / E!": {
+      "file": "assets/networks-e.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/e/ghost/logo.png",
+      "renderPlain": true
+    },
+    "Networks / E4": {
+      "file": "assets/networks-e4.png",
+      "source": "complete E4 colour brand logo",
+      "url": "https://en.wikipedia.org/wiki/File:E4_(channel)_logo.svg",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / HBO": {
+      "file": "assets/networks-hbo.png",
+      "source": "authentic prepared brand mark; no silhouette flattening",
+      "url": "https://art.kaptain.stream/networks/hbo/ghost/logo.png",
+      "applyColour": false,
+      "renderPlain": true
+    },
+    "Networks / HGTV": {
+      "file": "assets/networks-hgtv.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/hgtv/ghost/logo.png",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / ITV": {
+      "file": "assets/networks-itv.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/itv/ghost/logo.png",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / ITV2": {
+      "file": "assets/networks-itv2.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/itv2/ghost/logo.png",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / MTV": {
+      "file": "assets/networks-mtv.png",
+      "source": "colour brand logo from article image",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/1280px-MTV_2021_%28brand_version%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "article": "MTV",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / National Geographic": {
+      "file": "assets/networks-national-geographic.png",
+      "source": "existing colour brand asset",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/networks/43-national-geographic/logos/color/43_color_1.png",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / TLC": {
+      "file": "assets/networks-tlc.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/tlc/ghost/logo.png",
+      "applyColour": true,
+      "renderPlain": true
+    },
+    "Networks / WE tv": {
+      "file": "assets/networks-we-tv.png",
+      "source": "original authentic mark",
+      "url": "https://art.kaptain.stream/networks/we-tv/ghost/logo.png",
+      "applyColour": true,
+      "renderPlain": true
+    }
+  },
+  "moods": {
+    "Cozy & Comforting": {
+      "movieId": 346648,
+      "movieTitle": "Paddington 2",
+      "file": "assets/mood-cozy-comforting.jpg",
+      "backdropPath": "/iJgNOTSBNrC90U2xyYq9ln0b35o.jpg"
+    },
+    "Mind-Bending": {
+      "movieId": 27205,
+      "movieTitle": "Inception",
+      "file": "assets/mood-mind-bending.jpg",
+      "backdropPath": "/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg"
+    },
+    "Adrenaline Rush": {
+      "movieId": 76341,
+      "movieTitle": "Mad Max: Fury Road",
+      "file": "assets/mood-adrenaline-rush.jpg",
+      "backdropPath": "/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg"
+    },
+    "Epic & Sweeping": {
+      "movieId": 120,
+      "movieTitle": "The Lord of the Rings: The Fellowship of the Ring",
+      "file": "assets/mood-epic-sweeping.jpg",
+      "backdropPath": "/oiwc338EoBgS4sEI2ixAny4KQKg.jpg"
+    },
+    "Feel-Good": {
+      "movieId": 872,
+      "movieTitle": "Singin' in the Rain",
+      "file": "assets/mood-feel-good.jpg",
+      "backdropPath": "/6n53UI4mX9QMfe2S0Pgt8mGebY1.jpg",
+      "source": "TMDB film still: Gene Kelly at the lamppost",
+      "url": "https://image.tmdb.org/t/p/w1280/3iB7FvqE8t6wS2Itw0KNsv0zNRE.jpg",
+      "centering": [
+        0.2,
+        0.5
+      ]
+    },
+    "Slow Burn": {
+      "movieId": 335984,
+      "movieTitle": "Blade Runner 2049",
+      "file": "assets/mood-slow-burn.jpg",
+      "backdropPath": "/gNdLJU9TxrpGx4dkZidjys3fyy0.jpg"
+    },
+    "Tearjerkers": {
+      "movieId": 12477,
+      "movieTitle": "Grave of the Fireflies",
+      "file": "assets/mood-tearjerkers.jpg",
+      "backdropPath": "/aHaqZpOL7UyVu0nKqp3SMz0o2E1.jpg"
+    },
+    "80s & 90s Vibes": {
+      "movieId": 105,
+      "movieTitle": "Back to the Future",
+      "file": "assets/mood-80s-90s-vibes.jpg",
+      "backdropPath": "/5bzPWQ2dFUl2aZKkp7ILJVVkRed.jpg"
+    },
+    "Dark & Gritty": {
+      "movieId": 807,
+      "movieTitle": "Se7en",
+      "file": "assets/mood-dark-gritty.jpg",
+      "backdropPath": "/i5H7zusQGsysGQ8i6P361Vnr0n2.jpg"
+    },
+    "Spooky & Creepy": {
+      "movieId": 694,
+      "movieTitle": "The Shining",
+      "file": "assets/mood-spooky-creepy.jpg",
+      "backdropPath": "/AdKA2F1SzYPhSZdEbjH1Zh75UVQ.jpg"
+    }
+  },
+  "characters": {
+    "Discover Anime": {
+      "name": "Son Goku",
+      "file": "assets/anime-discover-anime.png",
+      "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait",
+      "renderScale": 1.18
+    },
+    "Shonen & Action Anime": {
+      "name": "Naruto Uzumaki",
+      "file": "assets/anime-shonen-action-anime.png",
+      "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+    },
+    "Studio Spotlight": {
+      "name": "Totoro",
+      "file": "assets/anime-studio-spotlight.png",
+      "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+    },
+    "Isekai & Fantasy Sagas": {
+      "name": "Rimuru Tempest",
+      "file": "assets/anime-isekai-fantasy-sagas.png",
+      "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+    },
+    "Slice of Life & Romance": {
+      "name": "Tohru Honda",
+      "file": "assets/anime-slice-of-life-romance.png",
+      "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+    },
+    "Sports & Competition Anime": {
+      "name": "Shoyo Hinata",
+      "file": "assets/anime-sports-competition-anime.png",
+      "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+    }
+  },
+  "basedOn": {
+    "True Story": {
+      "file": "assets/based-on-true-story.jpg",
+      "movieTitle": "Apollo 13",
+      "movieId": 568,
+      "mediaType": "movie",
+      "url": "https://image.tmdb.org/t/p/w1280/pcSjQftPIflB8pSy0g41oSktp6N.jpg",
+      "centering": [
+        0,
+        0.5
+      ],
+      "source": "TMDB adaptation backdrop",
+      "labelLines": [
+        "True",
+        "Stories"
+      ]
+    },
+    "Video Games": {
+      "file": "assets/based-on-video-games.jpg",
+      "movieTitle": "The Last of Us",
+      "movieId": 100088,
+      "mediaType": "tv",
+      "url": "https://image.tmdb.org/t/p/w1280/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
+      "centering": [
+        0.45,
+        0.5
+      ],
+      "source": "TMDB adaptation backdrop",
+      "labelLines": [
+        "Video",
+        "Games"
+      ]
+    },
+    "Book": {
+      "file": "assets/based-on-book.jpg",
+      "movieTitle": "Dune",
+      "movieId": 438631,
+      "mediaType": "movie",
+      "url": "https://image.tmdb.org/t/p/w1280/h3HsfV8Kn9Sz2QWUYYdP5ya23hx.jpg",
+      "centering": [
+        0.25,
+        0.5
+      ],
+      "source": "TMDB adaptation backdrop",
+      "labelLines": [
+        "Books"
+      ]
+    },
+    "Comics": {
+      "file": "assets/based-on-comics.jpg",
+      "movieTitle": "Spider-Man: Into the Spider-Verse",
+      "movieId": 324857,
+      "mediaType": "movie",
+      "url": "https://image.tmdb.org/t/p/w1280/qGQf2OHIkoh89K8XeKQzhxczf96.jpg",
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "source": "TMDB adaptation backdrop",
+      "labelLines": [
+        "Comics"
+      ]
+    },
+    "Mythology": {
+      "file": "assets/based-on-mythology.jpg",
+      "movieTitle": "Troy",
+      "movieId": 652,
+      "mediaType": "movie",
+      "url": "https://image.tmdb.org/t/p/w1280/ZPcC5hJh21QiW0jmhMQhZeSoGu.jpg",
+      "centering": [
+        0.45,
+        0.5
+      ],
+      "source": "TMDB adaptation backdrop",
+      "labelLines": [
+        "Mythology"
+      ]
+    },
+    "Play": {
+      "file": "assets/based-on-play.jpg",
+      "movieTitle": "Fences",
+      "movieId": 393457,
+      "mediaType": "movie",
+      "url": "https://image.tmdb.org/t/p/w1280/j2kgVOyp4dxlqohU5QJTrDHfbRD.jpg",
+      "centering": [
+        0.3,
+        0.5
+      ],
+      "source": "TMDB adaptation backdrop",
+      "labelLines": [
+        "Plays"
+      ]
+    },
+    "Fairy Tale": {
+      "file": "assets/based-on-fairy-tale.jpg",
+      "movieTitle": "Cinderella",
+      "movieId": 150689,
+      "mediaType": "movie",
+      "url": "https://image.tmdb.org/t/p/w1280/q7vmCCmyiHnuKGMzHZlr0fD44b9.jpg",
+      "centering": [
+        0.9,
+        0.5
+      ],
+      "source": "TMDB adaptation backdrop",
+      "labelLines": [
+        "Fairy",
+        "Tales"
+      ]
+    },
+    "Toy": {
+      "file": "assets/based-on-toy.jpg",
+      "movieTitle": "Barbie",
+      "movieId": 346698,
+      "mediaType": "movie",
+      "url": "https://image.tmdb.org/t/p/w1280/1esAE8sLJRWWFsLLeh5r3g2WanI.jpg",
+      "centering": [
+        0.45,
+        0.5
+      ],
+      "source": "TMDB adaptation backdrop",
+      "labelLines": [
+        "Toys"
+      ]
+    },
+    "TV Show": {
+      "file": "assets/based-on-tv-show.jpg",
+      "movieTitle": "Mission: Impossible",
+      "movieId": 954,
+      "mediaType": "movie",
+      "url": "https://image.tmdb.org/t/p/w1280/sra8XnL96OyLHENcglmZJg6HA8z.jpg",
+      "centering": [
+        0.7,
+        0.5
+      ],
+      "source": "TMDB adaptation backdrop",
+      "labelLines": [
+        "TV",
+        "Shows"
+      ]
+    },
+    "Short Story": {
+      "file": "assets/based-on-short-story.jpg",
+      "movieTitle": "The Shawshank Redemption",
+      "movieId": 278,
+      "mediaType": "movie",
+      "url": "https://image.tmdb.org/t/p/w1280/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
+      "centering": [
+        0.7,
+        0.5
+      ],
+      "source": "TMDB adaptation backdrop",
+      "labelLines": [
+        "Short",
+        "Stories"
+      ]
+    },
+    "Anime & Manga": {
+      "file": "assets/based-on-anime-manga.jpg",
+      "movieTitle": "Alita: Battle Angel",
+      "movieId": 399579,
+      "mediaType": "movie",
+      "url": "https://image.tmdb.org/t/p/w1280/8yjqnpOfuFQg3qLRl9Ca1NgIBB5.jpg",
+      "centering": [
+        0.65,
+        0.5
+      ],
+      "source": "TMDB adaptation backdrop",
+      "labelLines": [
+        "Anime &",
+        "Manga"
+      ]
+    },
+    "Board Games": {
+      "file": "assets/based-on-board-games.jpg",
+      "movieTitle": "Clue",
+      "movieId": 15196,
+      "mediaType": "movie",
+      "url": "https://image.tmdb.org/t/p/w1280/5TOolW5qH3N1zKUplk5ceFI2BC8.jpg",
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "source": "TMDB adaptation backdrop",
+      "labelLines": [
+        "Board",
+        "Games"
+      ]
+    }
+  }
+}
