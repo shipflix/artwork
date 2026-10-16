@@ -91,6 +91,23 @@ def copy_streaming_tile(recipe,out):
  else:
   with Image.open(source) as image:image.convert('RGB').save(out,'WEBP',quality=94)
 
+def background_uses_grid(recipe):
+ return len(recipe['titles'])>=23 and not (recipe['category']=='Film Collections' and recipe['style']=='franchise')
+
+def render_background(recipe,client,out,hero=None):
+ if background_uses_grid(recipe):
+  titles=recipe['titles'][:23]
+  assert len({t['poster_path'] for t in titles})==23
+  posters=[client.image(t['poster_path']).convert('RGB') for t in titles]
+  layout=render_wallpaper(posters,out)
+  assert len({i['posterIndex'] for i in layout})==len(layout)
+  return 'poster-columns-v9'
+ if hero is None or recipe['style']=='person':
+  try:hero=client.backdrop(recipe['titles'][0])
+  except SourceUnavailable:hero=client.image(recipe['titles'][0]['poster_path'],'original')
+ fade_background(hero,out)
+ return 'cinematic backdrop (franchise)' if recipe['category']=='Film Collections' and recipe['style']=='franchise' else 'cinematic backdrop (small source selection)'
+
 def render_record(r,client,chosen,curated,site,previous_site):
  images=site/'images';images.mkdir(exist_ok=True);tile=images/(r['key']+'.webp');wall=images/(r['key']+'-background.webp');group,title=r['category'],r['title'];entry={};hero=None
  try:
@@ -111,14 +128,7 @@ def render_record(r,client,chosen,curated,site,previous_site):
    except SourceUnavailable:hero=client.image(r['titles'][0]['poster_path'],'original')
    label=title if title in art.TITLE_OVERRIDES else title.removesuffix(' Collection').removesuffix(' collection')
    photographic_tile(label,hero,tile)
-  titles=r['titles'][:23]
-  if len(titles)>=23:
-   posters=[client.image(t['poster_path']).convert('RGB') for t in titles];layout=render_wallpaper(posters,wall);background_style='poster-columns-v9';assert len({i['posterIndex'] for i in layout})==len(layout)
-  else:
-   if hero is None or r['style']=='person':
-    try:hero=client.backdrop(r['titles'][0])
-    except SourceUnavailable:hero=client.image(r['titles'][0]['poster_path'],'original')
-   fade_background(hero,wall);background_style='cinematic backdrop (small source selection)'
+  background_style=render_background(r,client,wall,hero)
   for path in [tile,wall]:
    with Image.open(path) as im:im.verify()
  except Exception:

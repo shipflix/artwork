@@ -55,6 +55,33 @@ class PipelineTests(unittest.TestCase):
      self.assertEqual(folder['tileShape'],'wide');self.assertIs(folder['showsSourceRows'],True)
    for record in self.catalog:
     if record['category']=='Streaming Services':self.assertEqual(record['native']['tileShape'],'wide')
+ def test_background_policy_distinguishes_franchises_and_small_filmographies(self):
+  titles=[{'poster_path':f'/{i}.jpg'} for i in range(23)]
+  for category,style,expected in [('Spotlight','stack',True),('Film Collections','stack',True),('Film Collections','franchise',False),('Actors','person',True),('Legendary Directors','person',True)]:
+   r={'category':category,'style':style,'titles':titles};self.assertEqual(build.background_uses_grid(r),expected)
+   r['titles']=titles[:22];self.assertFalse(build.background_uses_grid(r))
+ def test_lists_fetch_further_pages_for_grid(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   c=Client(token='test',cache=Path(tmp))
+   def source(s,page=1,**kwargs):return [{'id':page*100+i,'type':'movie','poster_path':f'/{page}-{i}.jpg','title':'Movie'} for i in range(20)]
+   with patch.object(c,'source',side_effect=source) as fetch:
+    items,_=c.folder({'category':'Spotlight','title':'The Headliner','sources':[{'tmdbList':{'_0':{'listId':1}}}]})
+    self.assertGreaterEqual(len(items),23);self.assertTrue(any(call.kwargs.get('page')==2 for call in fetch.call_args_list))
+ def test_themed_collections_fetch_sources_beyond_six(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   c=Client(token='test',cache=Path(tmp))
+   def source(s,**kwargs):return [{'id':s['tmdbCollection']['_0']['collectionId']*10+i,'type':'movie','poster_path':f"/{s['tmdbCollection']['_0']['collectionId']}-{i}.jpg",'title':'Movie'} for i in range(3)]
+   with patch.object(c,'source',side_effect=source):
+    items,_=c.folder({'category':'Film Collections','title':'Comedy Collections','sources':[{'tmdbCollection':{'_0':{'collectionId':i}}} for i in range(10)]})
+    self.assertEqual(len(items),30)
+ def test_short_person_lists_are_supplemented_with_real_filmography(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   c=Client(token='test',today=dt.date(2026,10,16),cache=Path(tmp))
+   def api(endpoint,params):
+    if endpoint=='search/person':return {'results':[{'id':42,'name':'Example Actor'}]}
+    return {'cast':[{'id':i,'media_type':'movie','title':str(i),'poster_path':f'/{i}.jpg','release_date':'2020-01-01'} for i in range(30)]}
+   with patch.object(c,'api',side_effect=api):
+    items,_=c.folder({'category':'Actors','title':'Example Actor','sources':[]});self.assertEqual(len(items),30)
  def test_sensitive_source_rejected(self):
   r=copy.deepcopy(self.catalog[0]);r['sources']=[{'mediaServer':{'_0':{'token':'secret'}}}]
   with self.assertRaises(AssertionError):build.safe_catalog([r])

@@ -90,10 +90,25 @@ class Client:
    if len(items)<23:raise SourceUnavailable('Too few top-rated posters for the approved grid')
    return items[:60],['Artwork selected from TMDB top-rated '+('series' if typ=='tv' else 'movies')+'.']
   sources=recipe['sources']
-  for s in sources[:6]:
+  for s in sources:
    try:add(self.source(s))
    except SourceUnavailable as exc:notes.append(str(exc))
    if len(items)>=48:break
+  if len(items)<23:
+   paged=set()
+   for source in sources:
+    kind=next(iter(source));value=source[kind]['_0']
+    if kind not in ('tmdbList','traktList'):continue
+    identity=(kind,value['listId'])
+    if identity in paged:continue
+    paged.add(identity)
+    for page in range(2,5):
+     try:rows=self.source(source,page=page)
+     except SourceUnavailable as exc:notes.append(str(exc));break
+     if not rows:break
+     add(rows)
+     if len(items)>=40:break
+    if len(items)>=40:break
   if len(items)<24:
    for s in sources:
     if 'tmdbDiscover' in s:
@@ -103,7 +118,7 @@ class Client:
   if not items and recipe['title']=='Top Series':add(self.released(self.api('tv/top_rated',{'language':'en-US'}).get('results',[]),'tv'))
   if recipe['title']=='For You':
    items=[];seen.clear();paths.clear();add(self.released(self.api('trending/movie/week',{'language':'en-US'}).get('results',[])));add(self.released(self.api('trending/tv/week',{'language':'en-US'}).get('results',[]),'tv'));notes.append('Generic public picks; no personal recommendation account is included.')
-  if not items and recipe['category'] in ['Actors','Legendary Directors']:
+  if len(items)<23 and recipe['category'] in ['Actors','Legendary Directors']:
    people=self.api('search/person',{'query':recipe['title'],'include_adult':'false','language':'en-US'}).get('results',[])
    person=next((p for p in people if p.get('name','').casefold()==recipe['title'].casefold()),None)
    if person:
