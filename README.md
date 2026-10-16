@@ -2,7 +2,7 @@
 
 Clean artwork and cinematic wallpapers for [Kaptain’s](https://kaptain.stream/) collections in [Strand](https://apps.apple.com/app/id6759992167).
 
-**[Open Shipflix → Choose your categories](https://shipflix.github.io/artwork/)**
+**[Open Shipflix → Choose your shelf categories](https://shipflix.github.io/artwork/)**
 
 Choose what you want on the website and import it into Strand. You don’t need a GitHub account or your own hosting.
 
@@ -11,10 +11,10 @@ Choose what you want on the website and import it into Strand. You don’t need 
 On iPhone or iPad:
 
 1. **Back up your shelves.** In Strand, open **Settings → Shelves → Copy to Clipboard**, then paste the backup into a note and save it.
-2. **Choose your categories** on [Shipflix](https://shipflix.github.io/artwork/). Start with Recommended, or expand a category to pick individual folders.
-3. Tap **Copy selected rows**.
+2. **Choose your shelf categories** on [Shipflix](https://shipflix.github.io/artwork/). Start with Recommended, or expand a category to pick individual folders.
+3. Tap **Copy selected shelves**.
 4. In Strand, open **Settings → Shelves → Import from Clipboard** and allow pasting if asked.
-5. Choose **Append** to add the rows, or **Overwrite** to replace your existing shelf setup. Repeated imports with Append can create duplicates.
+5. Choose **Append** to add the shelves, or **Overwrite** to replace your existing shelf setup. Repeated imports with Append can create duplicates.
 
 Prefer a file? **Download JSON** saves the same selection as a JSON file.
 
@@ -22,7 +22,7 @@ For Apple TV, enable Strand’s iCloud sync on both devices using the same Apple
 
 ## What’s included
 
-784 folders across 18 categories, including all 22 streaming services and 80 networks. The Recommended selection has 163 folders, including a starter selection of 20 networks. Expand Networks to choose from all 80. Larger selections may exceed Strand’s iCloud storage allowance; the website shows your import size before importing.
+776 folders across 17 shelf categories, including all 22 streaming services and 80 networks. The Recommended selection has 163 folders, including a starter selection of 20 networks. Expand Networks to choose from all 80. Larger selections may exceed Strand’s iCloud storage allowance; the website shows your import size before importing.
 
 ## Artwork updates
 
