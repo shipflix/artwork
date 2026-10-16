@@ -53,7 +53,7 @@ class PipelineTests(unittest.TestCase):
     out=Path(tmp)/(r['key']+'.webp')
     with patch.object(Client,'image',side_effect=AssertionError('Network access is forbidden')):build.copy_streaming_tile(r,out)
     with Image.open(out) as image:image.verify()
-    source=ROOT/'assets/streaming'/(r['key']+Path(r['originalCoverURL']).suffix)
+    source=ROOT/json.loads((ROOT/'data/streaming-assets.json').read_text())[r['key']]['file']
     if source.suffix=='.webp':self.assertEqual(source.read_bytes(),out.read_bytes())
  def test_api_cache_refreshes_on_new_day_but_images_can_remain_cached(self):
   with tempfile.TemporaryDirectory() as tmp:

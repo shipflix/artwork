@@ -79,8 +79,10 @@ def prepare(recipe,client,seed,previous):
  return data
 
 def copy_streaming_tile(recipe,out):
- """Bundle the original tiles so publishing never depends on their old host."""
- source=ROOT/'assets/streaming'/(recipe['key']+Path(recipe['originalCoverURL']).suffix)
+ """Use the approved bundled tiles at stable published paths."""
+ assets=load(ROOT/'data/streaming-assets.json',{})
+ entry=assets.get(recipe['key'])
+ source=ROOT/entry['file'] if entry else ROOT/'assets/streaming'/(recipe['key']+Path(recipe['originalCoverURL']).suffix)
  if source.suffix=='.webp':shutil.copy2(source,out)
  else:
   with Image.open(source) as image:image.convert('RGB').save(out,'WEBP',quality=94)
