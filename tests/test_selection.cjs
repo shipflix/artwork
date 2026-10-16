@@ -9,8 +9,10 @@ const count = rows => rows.reduce((n,r)=>n+r.source.group._0.contentSources.leng
 assert.equal(count(select(catalog)),784);
 assert.deepEqual(select([]),[]);
 const recommended=select(catalog.filter(r=>r.recommended));
-assert.equal(count(recommended),223);
+assert.equal(count(recommended),163);
 assert.equal(count(recommended.filter(r=>r.title==='Film Collections')),11);
+assert.equal(count(recommended.filter(r=>r.title==='Networks')),20);
+assert.equal(count(select(catalog.filter(r=>r.category==='Networks'))),80);
 const film=catalog.filter(r=>r.category==='Film Collections');
 assert.equal(count(select(film)),255);
 assert.equal(count(select(film.filter(r=>r.style==='franchise'))),244);

@@ -117899,7 +117899,7 @@
       "originalCoverURL": "https://art.kaptain.stream/networks/bbc-america/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/bbc-america/ghost/backdrop.jpg",
       "seedKey": "757C45ED-AA1B-4FF6-9CC2-332DE6E6453D",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "64891892-004B-59D4-899B-6CCE8550132C",
@@ -118032,7 +118032,7 @@
       "originalCoverURL": "https://art.kaptain.stream/networks/bbc-four/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/bbc-four/ghost/backdrop.jpg",
       "seedKey": "27F7A289-51C0-494C-AC78-FF0279C79F0D",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "045088F6-D1F5-5FD9-8DF0-3BB82210E046",
@@ -118298,7 +118298,7 @@
       "originalCoverURL": "https://art.kaptain.stream/networks/bbc-three/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/bbc-three/ghost/backdrop.jpg",
       "seedKey": "386BF777-632A-43AD-9232-081E66591E6D",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "380BD98A-4D55-5D1E-912A-CE1E53104FA6",
@@ -118564,7 +118564,7 @@
       "originalCoverURL": "https://art.kaptain.stream/networks/bravo/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/bravo/ghost/backdrop.jpg",
       "seedKey": "736EC885-8E19-4088-B676-6529DF99BC04",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "71209D5C-C0EC-5A82-9273-31B71E597A53",
@@ -118963,7 +118963,7 @@
       "originalCoverURL": "https://art.kaptain.stream/networks/channel-5/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/channel-5/ghost/backdrop.jpg",
       "seedKey": "811D909C-49EB-4E67-9457-98E75356D0A5",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "968F157B-4CEA-58A1-8997-BFFB303A1919",
@@ -119362,7 +119362,7 @@
       "originalCoverURL": "https://art.kaptain.stream/networks/e/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/e/ghost/backdrop.jpg",
       "seedKey": "79E50E82-4F2B-4EC1-BAD8-CB546B440321",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "36AA4BB3-753B-5524-B504-A2D72C60013A",
@@ -119495,7 +119495,7 @@
       "originalCoverURL": "https://art.kaptain.stream/networks/e4/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/e4/ghost/backdrop.jpg",
       "seedKey": "5B6B08C5-FC32-4286-8F48-10ABA881FB1A",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "928FB75F-9B67-5018-A426-6F8C04719AD5",
@@ -119761,7 +119761,7 @@
       "originalCoverURL": "https://art.kaptain.stream/networks/hgtv/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/hgtv/ghost/backdrop.jpg",
       "seedKey": "CB4F67A1-C005-4666-B4B0-05A67EADDCC5",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "C18C1C6B-4752-5286-930E-031696E2410A",
@@ -120027,7 +120027,7 @@
       "originalCoverURL": "https://art.kaptain.stream/networks/itv2/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/itv2/ghost/backdrop.jpg",
       "seedKey": "6A82302A-1749-4B3E-B1BB-1562ABA71872",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "EB0698A4-F988-5CB1-932E-33792125A0BD",
@@ -120160,7 +120160,7 @@
       "originalCoverURL": "https://art.kaptain.stream/networks/mtv/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/mtv/ghost/backdrop.jpg",
       "seedKey": "7BD82B58-D5B5-45BE-928E-24AEEE64159D",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "2161AD49-496B-510E-9049-7E67001395C7",
@@ -120426,7 +120426,7 @@
       "originalCoverURL": "https://art.kaptain.stream/networks/tlc/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/tlc/ghost/backdrop.jpg",
       "seedKey": "E48E23A5-EBFB-483F-BBDC-3B1519602048",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "B4097A8C-A1D7-5E27-8DC6-99CE64E4F90D",
@@ -120559,7 +120559,7 @@
       "originalCoverURL": "https://art.kaptain.stream/networks/we-tv/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/we-tv/ghost/backdrop.jpg",
       "seedKey": "40778C97-916D-4F68-B935-551638D8071A",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "CD80F935-5506-5B20-9AF6-9570E403BBE5",
@@ -141099,7 +141099,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/a-e/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/a-e/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/a-e/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "B8E8D07C-17E7-54F0-8E34-816613B7938D",
@@ -141495,7 +141495,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/animal-planet/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/animal-planet/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/animal-planet/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "AAD6F9BB-F917-5630-91FB-4BEAEBCCE2ED",
@@ -141627,7 +141627,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/bet/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/bet/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/bet/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "589A6A95-7012-5604-B444-0AA6222970A2",
@@ -141759,7 +141759,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/canal-plus/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/canal-plus/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/canal-plus/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "9EA2C989-690F-5D4B-B7AC-19373BBA200F",
@@ -141891,7 +141891,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/cbc/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/cbc/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/cbc/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "2051B9E5-D30C-5B66-BA22-765D412D03D3",
@@ -142155,7 +142155,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/cinemax/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/cinemax/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/cinemax/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "742BEEC3-AED4-5834-9948-744397EEF2F4",
@@ -142287,7 +142287,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/cooking-channel/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/cooking-channel/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/cooking-channel/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "1F713A0F-DBC0-58D6-913C-556DA3D53061",
@@ -142419,7 +142419,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/ctv/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/ctv/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/ctv/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "C3C20B36-20C6-58FC-88D5-BDE9E4DA0DE3",
@@ -142551,7 +142551,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/dave/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/dave/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/dave/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "D9841F10-E669-5F81-BFE7-DD04D4E42ACA",
@@ -142683,7 +142683,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/disney-channel/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/disney-channel/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/disney-channel/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "AC09850D-9E8D-53BC-A00A-509895A9A48B",
@@ -142815,7 +142815,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/disney-junior/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/disney-junior/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/disney-junior/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "6BE6A513-243E-5AE2-B304-32E2FDFFB509",
@@ -142947,7 +142947,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/disney-xd/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/disney-xd/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/disney-xd/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "50835521-C8F0-5596-A876-69EECEE7CC1A",
@@ -143079,7 +143079,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/food-network/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/food-network/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/food-network/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "3A866AA9-EE14-574A-AA7A-AF125B5B2AF6",
@@ -143343,7 +143343,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/freeform/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/freeform/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/freeform/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "BE7673B1-F86F-5FB2-B66C-D54783A666E5",
@@ -143607,7 +143607,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/game-show-network/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/game-show-network/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/game-show-network/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "FB1D493C-D00B-5223-AE71-63AA9B43E04A",
@@ -143739,7 +143739,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/hallmark-channel/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/hallmark-channel/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/hallmark-channel/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "B4215C8C-E13A-5711-8942-B1D38BD073C4",
@@ -143871,7 +143871,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/hallmark-mystery/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/hallmark-mystery/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/hallmark-mystery/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "64CA9BBF-F142-5809-B68A-28FB36FB0419",
@@ -144135,7 +144135,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/ifc/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/ifc/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/ifc/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "D388B544-3C59-51D0-AB88-998E9ABF21D9",
@@ -144267,7 +144267,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/investigation-discovery/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/investigation-discovery/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/investigation-discovery/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "65387680-1FC6-5CB6-83FB-99F495EBCCCB",
@@ -144399,7 +144399,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/jtbc/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/jtbc/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/jtbc/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "A8702ADF-9B14-578E-8E79-B00F0C08EF4D",
@@ -144531,7 +144531,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/lifetime/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/lifetime/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/lifetime/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "FFC05AAF-DD9D-57CC-BDCB-3B4DEDCC9A09",
@@ -144669,7 +144669,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/magnolia-network/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/magnolia-network/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/magnolia-network/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "9C1E9B58-F08C-58AC-867F-9CCAF1E6C8FA",
@@ -144801,7 +144801,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/metv/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/metv/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/metv/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "5814C8B6-2F71-5179-B981-1E78137DE528",
@@ -144933,7 +144933,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/motortrend/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/motortrend/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/motortrend/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "F91FE32F-E5F3-518F-9022-9AC3E367542E",
@@ -145065,7 +145065,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/nat-geo-wild/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/nat-geo-wild/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/nat-geo-wild/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "948AD648-081A-5EBC-96B7-344337D165E3",
@@ -145461,7 +145461,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/own/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/own/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/own/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "7B188645-4EEA-5D47-9584-693DAF0AB1E9",
@@ -145593,7 +145593,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/oxygen/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/oxygen/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/oxygen/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "AE5AEFDB-7C60-588C-A94E-C7351A038EF8",
@@ -145725,7 +145725,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/paramount-network/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/paramount-network/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/paramount-network/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "877B0567-9026-5FEC-B4E9-F2FE31D3E857",
@@ -145857,7 +145857,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/pbs/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/pbs/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/pbs/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "834EC13A-20C3-52FB-9C9B-7BE86C03C153",
@@ -145989,7 +145989,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/science-channel/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/science-channel/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/science-channel/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "FA03EFDE-8E68-5A60-9F11-55F9748EF26D",
@@ -146253,7 +146253,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/sky-atlantic/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/sky-atlantic/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/sky-atlantic/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "6CF0E224-7EBF-596A-97C6-6C54AB6634CA",
@@ -146385,7 +146385,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/sky-max/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/sky-max/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/sky-max/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "B37B66BC-026F-5A6E-8A32-AAF5E068ABCE",
@@ -146517,7 +146517,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/smithsonian-channel/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/smithsonian-channel/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/smithsonian-channel/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "7466468A-DAB2-5277-AD9D-9B042407199F",
@@ -146649,7 +146649,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/starz/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/starz/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/starz/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "41505119-3E31-59F8-8A3E-A32C56CC49D1",
@@ -146781,7 +146781,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/sundance-tv/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/sundance-tv/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/sundance-tv/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "2603F4CF-76C2-59E1-B4DE-D853793546F3",
@@ -146913,7 +146913,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/syfy/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/syfy/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/syfy/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "AE9B7E54-C2E1-5C1F-A178-9EA1E766737E",
@@ -147045,7 +147045,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/tbs/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/tbs/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/tbs/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "295DEE55-3AF9-53BA-BDCC-430602F57780",
@@ -147177,7 +147177,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/the-cw/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/the-cw/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/the-cw/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "4DBC3172-D5C6-5AFF-998D-E4DD847F98B8",
@@ -147309,7 +147309,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/tnt/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/tnt/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/tnt/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "07A6B0ED-7576-5757-8D00-4ED7D1312E7F",
@@ -147441,7 +147441,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/tokyo-mx/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/tokyo-mx/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/tokyo-mx/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "E4947BBF-9D96-52F6-9221-1F6933310BAE",
@@ -147573,7 +147573,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/travel-channel/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/travel-channel/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/travel-channel/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "3B90AE47-D191-5DC2-907B-6309B2223B64",
@@ -147705,7 +147705,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/trutv/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/trutv/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/trutv/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "D87C3148-4DA5-596D-9F9E-AEB52D3B7B2F",
@@ -147837,7 +147837,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/tv-land/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/tv-land/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/tv-land/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "1F0CC86F-6A44-5CF6-BDA8-30369E984751",
@@ -147969,7 +147969,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/tv-tokyo/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/tv-tokyo/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/tv-tokyo/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "36256785-7D7F-5C91-81DD-1BC1F8B285B5",
@@ -148101,7 +148101,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/tvn/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/tvn/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/tvn/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "4A643BC4-88FA-5C56-8DAD-D12E20341F1C",
@@ -148233,7 +148233,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/usa-network/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/usa-network/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/usa-network/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "69AC0933-2A2E-5822-B73E-A4852A823AB3",
@@ -148365,7 +148365,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/vh1/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/vh1/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/vh1/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "01390929-995C-577A-BFAA-B3F401A0A112",
@@ -148503,7 +148503,7 @@
       "originalLogoURL": "https://art.kaptain.stream/networks/vice-tv/ghost/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/networks/vice-tv/ghost/cover.png",
       "originalBackgroundURL": "https://art.kaptain.stream/networks/vice-tv/ghost/backdrop.jpg",
-      "recommended": true
+      "recommended": false
     }
   ]
 }
