@@ -1,71 +1,45 @@
 # Shipflix
 
-An independent artwork remix for [Kaptain](https://kaptain.stream/)-style collections in [Strand](https://apps.apple.com/app/id6759992167). Not an official [Kaptain](https://kaptain.stream/) or Strand release.
+Clean artwork and cinematic wallpapers for [Kaptain’s](https://kaptain.stream/) collections in [Strand](https://apps.apple.com/app/id6759992167).
 
-**784 folders across 18 default categories**, with clean Strand imports, a gallery and a category picker. The recommended import contains 223 folders; the complete pack also includes actors, directors, international cinema and franchises. Personal servers, credentials and account-specific add-ons are excluded.
+**[Open Shipflix → Choose your categories](https://shipflix.github.io/artwork/)**
 
-## Daily updates
+Choose what you want on the website and import it into Strand. You don’t need a GitHub account or your own hosting.
 
-GitHub Actions fetches current source data daily, renders the approved layouts and publishes the result to GitHub Pages. Image paths stay fixed. This uses APIs and deterministic image rendering, not an AI model or Codex session. Logos, character illustrations and curated scene tiles remain fixed. All streaming-service tiles are bundled with the project and published at our own stable image URLs; a fresh build does not need to retrieve those tiles from [Kaptain’s](https://kaptain.stream/) server. Their original source addresses remain in the catalogue for attribution.
+## Get started
 
-Stacks have globally unique titles and poster images. Wallpapers with at least 23 titles use the approved staggered layout; smaller collections use a cinematic backdrop instead of repeated posters. Actor/director tiles use real TMDB portraits. Upstream failures are reported in `status.json`. Once an initial release exists, later image failures retain both last-good images. Incomplete builds do not deploy.
+On iPhone or iPad:
 
-Same-URL artwork updates were confirmed in Strand on the creator’s Apple TV on 16 October 2026, without re-importing shelves. This confirms that device’s update mechanism; exact refresh timing and other devices remain unmeasured.
+1. **Back up your shelves.** In Strand, open **Settings → Shelves → Copy to Clipboard**, then paste the backup into a note and save it.
+2. **Choose your categories** on [Shipflix](https://shipflix.github.io/artwork/). Start with Recommended, or pick your own rows.
+3. Tap **Copy selected rows for iOS**.
+4. In Strand, open **Settings → Shelves → Import from Clipboard** and allow pasting if asked.
+5. Choose **Append** to add the rows, or **Overwrite** to replace your existing shelf setup. Repeated imports with Append can create duplicates.
 
-## GitHub setup
+Prefer a file? **Download selected rows** saves the same selection as a JSON file.
 
-1. Create a **public repository** under the chosen project organisation and upload this folder's contents.
-2. In **Settings → Secrets and variables → Actions**, add `TMDB_READ_TOKEN`, using your TMDB API Read Access Token. Never commit the token. Optional: add `TRAKT_CLIENT_ID` for direct artwork lookups from Trakt-only public lists. Otherwise live supported TMDB sources or explicitly reported last-known representative selections are used where available.
-3. In **Settings → Pages**, choose **GitHub Actions**.
-4. Run **Actions → Refresh artwork daily → Run workflow**. The workflow refuses to deploy incomplete or smoke-test output.
-5. Check that your device retrieves an image replaced at the same URL; refresh timing depends on the client cache.
+For Apple TV, enable Strand’s iCloud sync on both devices using the same Apple Account.
 
-The schedule is 17:17 UTC daily (early morning Melbourne, with the local hour changing for daylight saving). Scheduled runs can be delayed. A small bot-authored refresh record keeps the repository active to avoid GitHub's 60-day inactivity rule for public schedules. Failed runs remain visible in Actions and use normal GitHub failure notifications.
+## What’s included
 
-Use standard hosted runners in a public repository. The build stops below 900 MiB to leave room under Pages' 1 GB published-site limit. Cache uses normal eviction; no increased cache allowance or paid feature is requested. Pages artifacts are retained for one day. Monitor traffic if the collection becomes popular; free hosting has limits.
+784 folders across 18 categories, including all 22 streaming services and 80 networks. The Recommended selection has 223 folders. Larger selections may exceed Strand’s iCloud storage allowance; the website shows your import size before downloading.
 
-## Importing
+## Artwork updates
 
-Choose the rows you want in the [gallery](https://shipflix.github.io/artwork/), then use **Download selected rows** to save your selection.
+Artwork refreshes are scheduled daily at the same image URLs, so you don’t need to re-import for artwork updates. Strand may keep older images cached for a while. Same-URL updates have been confirmed on Apple TV; exact timing varies by device.
 
-On iPhone or iPad, [get Strand on the App Store](https://apps.apple.com/app/id6759992167), then:
+Logos, character illustrations and selected scene artwork stay fixed. If a refresh fails, the previous artwork remains available.
 
-1. Back up your shelves using Strand’s **Settings → Shelves → Copy to Clipboard**, and save the copied text in a note.
-2. Open the gallery in Safari, choose your categories and tap **Copy selected rows for iOS**. Wait for the copied confirmation.
-3. In Strand, open **Settings → Shelves → Import from Clipboard** and allow pasting from Safari if prompted.
-4. Choose **Append** to add rows (repeated imports can create duplicates), or **Overwrite** to replace your existing shelf setup after backing it up.
+## Credits and usage
 
-For Apple TV, enable Strand’s iCloud sync on both devices with the same Apple Account.
+Shipflix provides artwork and browsing shelves only. It does not host or supply movies, TV episodes or playback streams. Use your own media and services you are authorised to access. Your personal servers, credentials and recommendations are not included; For You uses generic public picks.
 
-**Append adds rows; Overwrite replaces your current shelf setup.** Recipients use their own metadata/playback accounts. For You supplies public picks, not the author's private recommendations. Large setups may exceed Strand's remaining iCloud allowance; the picker warns about size and can exclude the 244 individual franchises.
+Original category organisation by **[Kaptain](https://kaptain.stream/)**. Shipflix is an independent project, not an official Kaptain or Strand release.
 
-## Local use
+<a href="https://www.themoviedb.org/"><img src="assets/tmdb-logo.svg" alt="TMDB" width="110"></a>
 
-macOS is the reference renderer: the approved typography uses the system Helvetica Neue font. No font file is redistributed. Standard GitHub macOS runners use the same font source.
+Film images, metadata and portraits from [TMDB](https://www.themoviedb.org/). This product uses the TMDB API but is not endorsed or certified by TMDB.
 
-```sh
-python3 -m pip install -r requirements.txt
-export TMDB_READ_TOKEN='your TMDB read access token'
-python3 -m unittest discover -s tests -v
-python3 -m app.build --base-url 'https://YOUR-ORG.github.io/YOUR-REPO' --output _site
-```
+Film artwork, logos, characters and trademarks belong to their respective owners. The anime illustrations are AI-generated recreations, not official licensed artwork. The code licence does not grant rights to third-party artwork.
 
-`TMDB_TOKEN_FILE` can point to a local token file. `ARTWORK_STATE` selects a cache/working directory. API response caches are dated; restoring yesterday's cache does not freeze today's selections. `ARTWORK_FONT` may select a local alternative, but that changes the design.
-
-A smoke build is explicitly marked as partial and cannot pass deployment validation:
-
-```sh
-python3 -m app.build --base-url 'https://example.test/artwork' --only discover--new-movies,based-on--book,networks--abc-tv-au --output _site-test
-```
-
-`--catalogue-only` previews the imports and picker without an API token; it does not generate finished artwork.
-
-## Media access
-
-Shipflix provides artwork and browsing shelves only. It does not host or supply movies, TV episodes or playback streams. Use your own media and services you are authorised to access.
-
-## Credits and rights
-
-Original category organisation: **[Kaptain](https://kaptain.stream/)**. Film images, metadata and portraits: **[TMDB](https://www.themoviedb.org/)**. The approved TMDB logo is bundled unmodified from its [official attribution page](https://www.themoviedb.org/about/logos-attribution). This product uses the TMDB API but is not endorsed or certified by TMDB. Film images, logos and trademarks belong to their respective owners. Brand asset sources are recorded in `data/curated.json`.
-
-The six anime illustrations are AI-generated recreations of recognisable characters, not official licensed artwork. Third-party artwork remains subject to its owners' rights and upstream terms. The code license does not grant rights to films, characters, logos, photographs or trademarks. Exploratory stock-photo concepts are excluded.
+For broken artwork, corrections or rights enquiries, [open an issue](https://github.com/shipflix/artwork/issues).
