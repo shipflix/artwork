@@ -34,8 +34,18 @@ jobs:
           tar -xf previous/artifact.tar -C _site
       - name: Replace only streaming tiles and verify preservation
         run: python3 scripts/publish_streaming_tiles.py _site
-      - name: Publish current gallery page
-        run: cp static/index.html _site/index.html
+      - name: Publish current gallery and import instructions
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          from app.site import write_site
+          site=Path('_site')
+          catalog=json.loads(Path('data/catalog.json').read_text())['folders']
+          manifest=json.loads((site/'manifest.json').read_text())
+          owner,repo=os.environ['GITHUB_REPOSITORY'].split('/')
+          write_site(site,catalog,manifest,f'https://{owner}.github.io/{repo}',catalog)
+          PYCODE
       - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9
         with:

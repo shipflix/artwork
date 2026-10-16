@@ -10,7 +10,7 @@ GitHub Actions fetches current source data daily, renders the approved layouts a
 
 Stacks have globally unique titles and poster images. Wallpapers with at least 23 titles use the approved staggered layout; smaller collections use a cinematic backdrop instead of repeated posters. Actor/director tiles use real TMDB portraits. Upstream failures are reported in `status.json`. Once an initial release exists, later image failures retain both last-good images. Incomplete builds do not deploy.
 
-**The Apple TV same-URL cache test is still required.** Reloading row data does not itself prove image revalidation; do not advertise automatic client refresh as verified until that test succeeds.
+Same-URL artwork updates were confirmed in Strand on the creator’s Apple TV on 16 October 2026, without re-importing shelves. This confirms that device’s update mechanism; exact refresh timing and other devices remain unmeasured.
 
 ## GitHub setup
 
@@ -18,7 +18,7 @@ Stacks have globally unique titles and poster images. Wallpapers with at least 2
 2. In **Settings → Secrets and variables → Actions**, add `TMDB_READ_TOKEN`, using your TMDB API Read Access Token. Never commit the token. Optional: add `TRAKT_CLIENT_ID` for direct artwork lookups from Trakt-only public lists. Otherwise live supported TMDB sources or explicitly reported last-known representative selections are used where available.
 3. In **Settings → Pages**, choose **GitHub Actions**.
 4. Run **Actions → Refresh artwork daily → Run workflow**. The workflow refuses to deploy incomplete or smoke-test output.
-5. Test an image replaced at the same URL on Apple TV before releasing the automatic-refresh claim.
+5. Check that your device retrieves an image replaced at the same URL; refresh timing depends on the client cache.
 
 The schedule is 17:17 UTC daily (early morning Melbourne, with the local hour changing for daylight saving). Scheduled runs can be delayed. A small bot-authored refresh record keeps the repository active to avoid GitHub's 60-day inactivity rule for public schedules. Failed runs remain visible in Actions and use normal GitHub failure notifications.
 
@@ -60,8 +60,12 @@ python3 -m app.build --base-url 'https://example.test/artwork' --only discover--
 
 `--catalogue-only` previews the imports and picker without an API token; it does not generate finished artwork.
 
+## Media access
+
+Shipflix provides artwork and browsing shelves only. It does not host or supply movies, TV episodes or playback streams. Use your own media and services you are authorised to access.
+
 ## Credits and rights
 
-Original category organisation: **[Kaptain](https://kaptain.stream/)**. Film images, metadata and portraits: **TMDB**. This product uses the TMDB API but is not endorsed or certified by TMDB. Film images, logos and trademarks belong to their respective owners. Brand asset sources are recorded in `data/curated.json`.
+Original category organisation: **[Kaptain](https://kaptain.stream/)**. Film images, metadata and portraits: **[TMDB](https://www.themoviedb.org/)**. The approved TMDB logo is bundled unmodified from its [official attribution page](https://www.themoviedb.org/about/logos-attribution). This product uses the TMDB API but is not endorsed or certified by TMDB. Film images, logos and trademarks belong to their respective owners. Brand asset sources are recorded in `data/curated.json`.
 
 The six anime illustrations are AI-generated recreations of recognisable characters, not official licensed artwork. Third-party artwork remains subject to its owners' rights and upstream terms. The code license does not grant rights to films, characters, logos, photographs or trademarks. Exploratory stock-photo concepts are excluded.
