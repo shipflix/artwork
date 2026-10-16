@@ -1,6 +1,6 @@
 # Shipflix
 
-An independent artwork remix for [Kaptain](https://kaptain.stream/)-style collections in Strand. Not an official [Kaptain](https://kaptain.stream/) or Strand release.
+An independent artwork remix for [Kaptain](https://kaptain.stream/)-style collections in [Strand](https://apps.apple.com/app/id6759992167). Not an official [Kaptain](https://kaptain.stream/) or Strand release.
 
 **784 folders across 18 default categories**, with clean Strand imports, a gallery and a category picker. The recommended import contains 223 folders; the complete pack also includes actors, directors, international cinema and franchises. Personal servers, credentials and account-specific add-ons are excluded.
 
@@ -28,7 +28,7 @@ Use standard hosted runners in a public repository. The build stops below 900 Mi
 
 Choose the rows you want in the [gallery](https://shipflix.github.io/artwork/), then use **Download selected rows** to save your selection.
 
-On iPhone or iPad:
+On iPhone or iPad, [get Strand on the App Store](https://apps.apple.com/app/id6759992167), then:
 
 1. Back up your shelves using Strand’s **Settings → Shelves → Copy to Clipboard**, and save the copied text in a note.
 2. Open the gallery in Safari, choose your categories and tap **Copy selected rows for iOS**. Wait for the copied confirmation.
