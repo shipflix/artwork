@@ -26,7 +26,16 @@ Use standard hosted runners in a public repository. The build stops below 900 Mi
 
 ## Importing
 
-Back up your shelves first. Download the recommended preset, full collection, an individual category or a selection from the gallery. Copy the complete JSON into **Settings → Shelves → Import from Clipboard**.
+Choose the rows you want in the [gallery](https://shipflix.github.io/artwork/), then use **Download selected rows** to save your selection.
+
+On iPhone or iPad:
+
+1. Back up your shelves using Strand’s **Settings → Shelves → Copy to Clipboard**, and save the copied text in a note.
+2. Open the gallery in Safari, choose your categories and tap **Copy selected rows for iOS**. Wait for the copied confirmation.
+3. In Strand, open **Settings → Shelves → Import from Clipboard** and allow pasting from Safari if prompted.
+4. Choose **Append** to add rows (repeated imports can create duplicates), or **Overwrite** to replace your existing shelf setup after backing it up.
+
+For Apple TV, enable Strand’s iCloud sync on both devices with the same Apple Account.
 
 **Append adds rows; Overwrite replaces your current shelf setup.** Recipients use their own metadata/playback accounts. For You supplies public picks, not the author's private recommendations. Large setups may exceed Strand's remaining iCloud allowance; the picker warns about size and can exclude the 244 individual franchises.
 
