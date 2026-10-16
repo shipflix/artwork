@@ -32,6 +32,15 @@ jobs:
           gh run download "$run_id" --repo "$GITHUB_REPOSITORY" --name github-pages --dir previous
           mkdir _site
           tar -xf previous/artifact.tar -C _site
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Install image renderer
+        run: python3 -m pip install Pillow==12.3.0
+      - name: Test network tile preservation
+        run: python3 -m unittest discover -s tests -p test_network_patch.py -v
+      - name: Publish reviewed network colour logos
+        run: python3 scripts/publish_network_tiles.py _site
       - name: Replace only streaming tiles and verify preservation
         run: python3 scripts/publish_streaming_tiles.py _site
       - name: Publish current gallery and import instructions

@@ -199,9 +199,11 @@
     },
     "Networks / Discovery": {
       "file": "assets/networks-discovery.png",
-      "source": "original authentic mark",
-      "url": "https://art.kaptain.stream/networks/discovery/ghost/logo.png",
-      "renderPlain": true
+      "source": "Authentic colour network logo from TMDB",
+      "url": "https://image.tmdb.org/t/p/original/8qkdZlbrTSVfkJ73DjOBrwYtMSC.png",
+      "renderPlain": true,
+      "colour": true,
+      "adaptation": "Colour brand mark retained; Discovery dark lettering adapted to white for charcoal contrast."
     },
     "Networks / E!": {
       "file": "assets/networks-e.png",
@@ -317,9 +319,10 @@
     },
     "Networks / CBS": {
       "file": "assets/networks--cbs-logo.png",
-      "url": "https://image.tmdb.org/t/p/original/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
-      "colour": false,
-      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/networks/16-cbs/logos/color/16_color_1.png",
+      "colour": true,
+      "adaptation": "Original CBS blue logo and transparency preserved.",
+      "source": "Existing colour brand asset"
     },
     "Networks / Cinemax": {
       "file": "assets/networks--cinemax-logo.png",
@@ -347,9 +350,10 @@
     },
     "Networks / Disney Channel": {
       "file": "assets/networks--disney-channel-logo.png",
-      "url": "https://image.tmdb.org/t/p/original/9AxUB1RdRnm0r5ki8Thb69Jo9Ma.png",
-      "colour": false,
-      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+      "url": "https://image.tmdb.org/t/p/original/gvhBea9OGqChmGKHa5CntbmsDBp.png",
+      "colour": true,
+      "adaptation": "Original colour logo and transparency preserved.",
+      "source": "Authentic colour network logo from TMDB"
     },
     "Networks / Disney XD": {
       "file": "assets/networks--disney-xd-logo.png",
@@ -451,7 +455,7 @@
       "file": "assets/networks--nat-geo-wild-logo.png",
       "url": "https://image.tmdb.org/t/p/original/esXeePrsUGpF6mGQXs3jImz9QoN.png",
       "colour": true,
-      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+      "adaptation": "Yellow brand frame retained; grey lettering made white for readability on charcoal."
     },
     "Networks / NBC": {
       "file": "assets/networks--nbc-logo.png",
@@ -473,9 +477,10 @@
     },
     "Networks / OWN": {
       "file": "assets/networks--own-logo.png",
-      "url": "https://image.tmdb.org/t/p/original/m8H0hZOpkskkIWeqRdiuP2CZOgq.png",
-      "colour": false,
-      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+      "url": "https://image.tmdb.org/t/p/original/8CkcmCg3rNdmu8PFimptXSNqYtF.png",
+      "colour": true,
+      "adaptation": "Original colour logo and transparency preserved.",
+      "source": "Authentic colour network logo from TMDB"
     },
     "Networks / Oxygen": {
       "file": "assets/networks--oxygen-logo.png",
@@ -491,9 +496,10 @@
     },
     "Networks / Paramount Network": {
       "file": "assets/networks--paramount-network-logo.png",
-      "url": "https://image.tmdb.org/t/p/original/4knr4ozp2IQrA3SMQlLSYKcM3ML.png",
-      "colour": false,
-      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+      "url": "https://image.tmdb.org/t/p/original/1knFKEQ3v05QqtMSc1yE996OmlV.png",
+      "colour": true,
+      "adaptation": "Official blue mountain mark retained; wordmark adapted to white for charcoal contrast.",
+      "source": "Authentic colour network logo from TMDB"
     },
     "Networks / Science Channel": {
       "file": "assets/networks--science-channel-logo.png",
@@ -539,9 +545,10 @@
     },
     "Networks / Syfy": {
       "file": "assets/networks--syfy-logo.png",
-      "url": "https://image.tmdb.org/t/p/original/iYfrkobwDhTOFJ4AXYPSLIEeaAT.png",
-      "colour": false,
-      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+      "url": "https://image.tmdb.org/t/p/original/cxyp5HtmGKnq92wi3M5l72RXDvp.png",
+      "colour": true,
+      "adaptation": "Original colour logo and transparency preserved.",
+      "source": "Authentic colour network logo from TMDB"
     },
     "Networks / The CW": {
       "file": "assets/networks--the-cw-logo.png",
