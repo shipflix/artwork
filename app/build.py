@@ -51,6 +51,9 @@ def safe_catalog(catalog):
    assert len(s)==1 and next(iter(s)) in allowed
    text=json.dumps(s).lower()
    assert not any(v in text for v in ['authorization','api_key','password','access_token','mediaserver','addonid','catalogid','127.0.0.1','localhost','jellyfin','emby'])
+   for kind in ('tmdbList','tmdbCollection'):
+    if kind in s:assert s[kind]['_0'].get('sortBy','original') in {'original','rating','release_date'}, 'Invalid Strand list sort order'
+   if 'tmdbDiscover' in s:assert s['tmdbDiscover']['_0'].get('sortBy')!='original', 'Discover sources need an API sort order'
    if 'traktList' in s:assert s['traktList']['_0']['isPublic'] is True and not s['traktList']['_0']['username']
 
 def fade_background(image,out):

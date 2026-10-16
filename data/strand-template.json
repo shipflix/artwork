@@ -21,7 +21,7 @@
                       "listId": 8687275,
                       "listName": "The Headliner",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -43,7 +43,7 @@
                       "listId": 8687276,
                       "listName": "The Visionary",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -65,7 +65,7 @@
                       "listId": 8687277,
                       "listName": "The Powerhouse",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -87,7 +87,7 @@
                       "listId": 8687278,
                       "listName": "The Saga",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -109,7 +109,7 @@
                       "listId": 8687279,
                       "listName": "The Cultural Pulse",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -131,7 +131,7 @@
                       "listId": 8687280,
                       "listName": "The Prestige Darling",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -153,7 +153,7 @@
                       "listId": 8687281,
                       "listName": "The Living Legend",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -175,7 +175,7 @@
                       "listId": 8687282,
                       "listName": "Retro Rewind",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -17083,7 +17083,7 @@
                       "listId": 8659010,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -17094,7 +17094,7 @@
                       "listId": 8659010,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -17127,7 +17127,7 @@
                       "listId": 8677429,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -17160,7 +17160,7 @@
                       "listId": 8677443,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -17205,7 +17205,7 @@
                       "listId": 8659103,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -17228,7 +17228,7 @@
                       "listId": 8659103,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -17285,7 +17285,7 @@
                       "listId": 8691903,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -17308,7 +17308,7 @@
                       "listId": 8691903,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -17365,7 +17365,7 @@
                       "listId": 8690693,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -17388,7 +17388,7 @@
                       "listId": 8690693,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -17433,7 +17433,7 @@
                       "listId": 8659011,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -17444,7 +17444,7 @@
                       "listId": 8659011,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -17477,7 +17477,7 @@
                       "listId": 8659014,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -17488,7 +17488,7 @@
                       "listId": 8659014,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -17521,7 +17521,7 @@
                       "listId": 8677434,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -17566,7 +17566,7 @@
                       "listId": 8659109,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -17589,7 +17589,7 @@
                       "listId": 8659109,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -17634,7 +17634,7 @@
                       "listId": 8659013,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -17645,7 +17645,7 @@
                       "listId": 8659013,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -17678,7 +17678,7 @@
                       "listId": 8690641,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -17689,7 +17689,7 @@
                       "listId": 8690641,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -17734,7 +17734,7 @@
                       "listId": 8659112,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -17757,7 +17757,7 @@
                       "listId": 8659112,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -17814,7 +17814,7 @@
                       "listId": 8659110,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -17837,7 +17837,7 @@
                       "listId": 8659110,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -17882,7 +17882,7 @@
                       "listId": 8659012,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -17893,7 +17893,7 @@
                       "listId": 8659012,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -17938,7 +17938,7 @@
                       "listId": 8659015,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -17961,7 +17961,7 @@
                       "listId": 8659015,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -18018,7 +18018,7 @@
                       "listId": 8691897,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -18041,7 +18041,7 @@
                       "listId": 8691897,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -18098,7 +18098,7 @@
                       "listId": 8659016,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -18121,7 +18121,7 @@
                       "listId": 8659016,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -18166,7 +18166,7 @@
                       "listId": 8659017,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -18177,7 +18177,7 @@
                       "listId": 8659017,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -18210,7 +18210,7 @@
                       "listId": 8677427,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -18255,7 +18255,7 @@
                       "listId": 8691896,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -18278,7 +18278,7 @@
                       "listId": 8691896,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -18335,7 +18335,7 @@
                       "listId": 8690642,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -18358,7 +18358,7 @@
                       "listId": 8690642,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -18403,7 +18403,7 @@
                       "listId": 8677440,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -18436,7 +18436,7 @@
                       "listId": 8659018,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -18447,7 +18447,7 @@
                       "listId": 8659018,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -18480,7 +18480,7 @@
                       "listId": 8677441,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -18525,7 +18525,7 @@
                       "listId": 8690643,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -18548,7 +18548,7 @@
                       "listId": 8690643,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -18605,7 +18605,7 @@
                       "listId": 8690644,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -18628,7 +18628,7 @@
                       "listId": 8690644,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -18685,7 +18685,7 @@
                       "listId": 8659117,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -18708,7 +18708,7 @@
                       "listId": 8659117,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -18753,7 +18753,7 @@
                       "listId": 8659019,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -18764,7 +18764,7 @@
                       "listId": 8659019,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -18797,7 +18797,7 @@
                       "listId": 8677436,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -18830,7 +18830,7 @@
                       "listId": 8659020,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -18841,7 +18841,7 @@
                       "listId": 8659020,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -18886,7 +18886,7 @@
                       "listId": 8659120,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -18909,7 +18909,7 @@
                       "listId": 8659120,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -18954,7 +18954,7 @@
                       "listId": 8659021,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -18965,7 +18965,7 @@
                       "listId": 8659021,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -19010,7 +19010,7 @@
                       "listId": 8690645,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -19033,7 +19033,7 @@
                       "listId": 8690645,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -19078,7 +19078,7 @@
                       "listId": 8659022,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -19089,7 +19089,7 @@
                       "listId": 8659022,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -19134,7 +19134,7 @@
                       "listId": 8690646,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -19157,7 +19157,7 @@
                       "listId": 8690646,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -19214,7 +19214,7 @@
                       "listId": 8659097,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -19237,7 +19237,7 @@
                       "listId": 8659097,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -19294,7 +19294,7 @@
                       "listId": 8659099,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -19317,7 +19317,7 @@
                       "listId": 8659099,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -19362,7 +19362,7 @@
                       "listId": 8659023,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -19373,7 +19373,7 @@
                       "listId": 8659023,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -19418,7 +19418,7 @@
                       "listId": 8659107,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -19441,7 +19441,7 @@
                       "listId": 8659107,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -19486,7 +19486,7 @@
                       "listId": 8677448,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -19531,7 +19531,7 @@
                       "listId": 8690647,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -19554,7 +19554,7 @@
                       "listId": 8690647,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -19599,7 +19599,7 @@
                       "listId": 8659025,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -19610,7 +19610,7 @@
                       "listId": 8659025,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -19655,7 +19655,7 @@
                       "listId": 8659125,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -19678,7 +19678,7 @@
                       "listId": 8659125,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -19735,7 +19735,7 @@
                       "listId": 8659118,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -19758,7 +19758,7 @@
                       "listId": 8659118,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -19803,7 +19803,7 @@
                       "listId": 8659024,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -19814,7 +19814,7 @@
                       "listId": 8659024,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -19847,7 +19847,7 @@
                       "listId": 8690648,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -19858,7 +19858,7 @@
                       "listId": 8690648,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -19903,7 +19903,7 @@
                       "listId": 8659028,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -19926,7 +19926,7 @@
                       "listId": 8659028,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -19983,7 +19983,7 @@
                       "listId": 8659131,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -20006,7 +20006,7 @@
                       "listId": 8659131,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -20051,7 +20051,7 @@
                       "listId": 8677438,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -20084,7 +20084,7 @@
                       "listId": 8677433,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -20129,7 +20129,7 @@
                       "listId": 8659026,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -20152,7 +20152,7 @@
                       "listId": 8659026,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -20209,7 +20209,7 @@
                       "listId": 8659111,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -20232,7 +20232,7 @@
                       "listId": 8659111,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -20289,7 +20289,7 @@
                       "listId": 8659090,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -20312,7 +20312,7 @@
                       "listId": 8659090,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -20357,7 +20357,7 @@
                       "listId": 8677426,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -20402,7 +20402,7 @@
                       "listId": 8690649,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -20425,7 +20425,7 @@
                       "listId": 8690649,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -20482,7 +20482,7 @@
                       "listId": 8690650,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -20505,7 +20505,7 @@
                       "listId": 8690650,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -20562,7 +20562,7 @@
                       "listId": 8659124,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -20585,7 +20585,7 @@
                       "listId": 8659124,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -20630,7 +20630,7 @@
                       "listId": 8690651,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -20641,7 +20641,7 @@
                       "listId": 8690651,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -20686,7 +20686,7 @@
                       "listId": 8659096,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -20709,7 +20709,7 @@
                       "listId": 8659096,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -20766,7 +20766,7 @@
                       "listId": 8659031,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -20789,7 +20789,7 @@
                       "listId": 8659031,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -20834,7 +20834,7 @@
                       "listId": 8677432,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -20867,7 +20867,7 @@
                       "listId": 8659029,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -20878,7 +20878,7 @@
                       "listId": 8659029,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -20911,7 +20911,7 @@
                       "listId": 8659032,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -20922,7 +20922,7 @@
                       "listId": 8659032,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -20967,7 +20967,7 @@
                       "listId": 8659093,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -20990,7 +20990,7 @@
                       "listId": 8659093,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -21035,7 +21035,7 @@
                       "listId": 8659030,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -21046,7 +21046,7 @@
                       "listId": 8659030,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -21079,7 +21079,7 @@
                       "listId": 8677437,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -21112,7 +21112,7 @@
                       "listId": 8677446,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -21157,7 +21157,7 @@
                       "listId": 8659094,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -21180,7 +21180,7 @@
                       "listId": 8659094,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -21237,7 +21237,7 @@
                       "listId": 8659036,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -21260,7 +21260,7 @@
                       "listId": 8659036,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -21317,7 +21317,7 @@
                       "listId": 8659033,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -21340,7 +21340,7 @@
                       "listId": 8659033,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -21385,7 +21385,7 @@
                       "listId": 8659035,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -21396,7 +21396,7 @@
                       "listId": 8659035,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -21441,7 +21441,7 @@
                       "listId": 8690652,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -21464,7 +21464,7 @@
                       "listId": 8690652,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -21521,7 +21521,7 @@
                       "listId": 8659115,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -21544,7 +21544,7 @@
                       "listId": 8659115,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -21589,7 +21589,7 @@
                       "listId": 8677444,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -21622,7 +21622,7 @@
                       "listId": 8677447,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -21655,7 +21655,7 @@
                       "listId": 8659034,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -21666,7 +21666,7 @@
                       "listId": 8659034,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -21711,7 +21711,7 @@
                       "listId": 8690653,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -21734,7 +21734,7 @@
                       "listId": 8690653,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -21791,7 +21791,7 @@
                       "listId": 8659095,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -21814,7 +21814,7 @@
                       "listId": 8659095,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -21871,7 +21871,7 @@
                       "listId": 8690654,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -21894,7 +21894,7 @@
                       "listId": 8690654,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -21939,7 +21939,7 @@
                       "listId": 8659039,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -21950,7 +21950,7 @@
                       "listId": 8659039,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -21983,7 +21983,7 @@
                       "listId": 8659038,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -21994,7 +21994,7 @@
                       "listId": 8659038,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -22027,7 +22027,7 @@
                       "listId": 8659037,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -22038,7 +22038,7 @@
                       "listId": 8659037,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -22071,7 +22071,7 @@
                       "listId": 8677445,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -22116,7 +22116,7 @@
                       "listId": 8659040,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -22139,7 +22139,7 @@
                       "listId": 8659040,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -22196,7 +22196,7 @@
                       "listId": 8659121,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -22219,7 +22219,7 @@
                       "listId": 8659121,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -22276,7 +22276,7 @@
                       "listId": 8690656,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -22299,7 +22299,7 @@
                       "listId": 8690656,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -22356,7 +22356,7 @@
                       "listId": 8690657,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -22379,7 +22379,7 @@
                       "listId": 8690657,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -22436,7 +22436,7 @@
                       "listId": 8690658,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -22459,7 +22459,7 @@
                       "listId": 8690658,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -22516,7 +22516,7 @@
                       "listId": 8659130,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -22539,7 +22539,7 @@
                       "listId": 8659130,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -22584,7 +22584,7 @@
                       "listId": 8659042,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -22595,7 +22595,7 @@
                       "listId": 8659042,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -22640,7 +22640,7 @@
                       "listId": 8690659,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -22663,7 +22663,7 @@
                       "listId": 8690659,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -22708,7 +22708,7 @@
                       "listId": 8659041,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -22719,7 +22719,7 @@
                       "listId": 8659041,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -22764,7 +22764,7 @@
                       "listId": 8690694,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -22787,7 +22787,7 @@
                       "listId": 8690694,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -22832,7 +22832,7 @@
                       "listId": 8677439,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -22877,7 +22877,7 @@
                       "listId": 8659088,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -22900,7 +22900,7 @@
                       "listId": 8659088,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -22957,7 +22957,7 @@
                       "listId": 8659043,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -22980,7 +22980,7 @@
                       "listId": 8659043,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -23025,7 +23025,7 @@
                       "listId": 8690660,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23036,7 +23036,7 @@
                       "listId": 8690660,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -23069,7 +23069,7 @@
                       "listId": 8677431,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -23102,7 +23102,7 @@
                       "listId": 8659044,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23113,7 +23113,7 @@
                       "listId": 8659044,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -23146,7 +23146,7 @@
                       "listId": 8659045,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23157,7 +23157,7 @@
                       "listId": 8659045,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -23202,7 +23202,7 @@
                       "listId": 8659048,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23225,7 +23225,7 @@
                       "listId": 8659048,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -23282,7 +23282,7 @@
                       "listId": 8659046,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23305,7 +23305,7 @@
                       "listId": 8659046,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -23362,7 +23362,7 @@
                       "listId": 8691900,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23385,7 +23385,7 @@
                       "listId": 8691900,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -23442,7 +23442,7 @@
                       "listId": 8659101,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23465,7 +23465,7 @@
                       "listId": 8659101,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -23522,7 +23522,7 @@
                       "listId": 8690661,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23545,7 +23545,7 @@
                       "listId": 8690661,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -23590,7 +23590,7 @@
                       "listId": 8659047,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23601,7 +23601,7 @@
                       "listId": 8659047,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -23646,7 +23646,7 @@
                       "listId": 8659108,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23669,7 +23669,7 @@
                       "listId": 8659108,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -23714,7 +23714,7 @@
                       "listId": 8659050,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23725,7 +23725,7 @@
                       "listId": 8659050,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -23758,7 +23758,7 @@
                       "listId": 8659051,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23769,7 +23769,7 @@
                       "listId": 8659051,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -23802,7 +23802,7 @@
                       "listId": 8659049,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23813,7 +23813,7 @@
                       "listId": 8659049,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -23858,7 +23858,7 @@
                       "listId": 8659123,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23881,7 +23881,7 @@
                       "listId": 8659123,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -23926,7 +23926,7 @@
                       "listId": 8659052,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -23937,7 +23937,7 @@
                       "listId": 8659052,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -23982,7 +23982,7 @@
                       "listId": 8659053,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24005,7 +24005,7 @@
                       "listId": 8659053,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -24062,7 +24062,7 @@
                       "listId": 8690695,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24085,7 +24085,7 @@
                       "listId": 8690695,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -24142,7 +24142,7 @@
                       "listId": 8659104,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24165,7 +24165,7 @@
                       "listId": 8659104,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -24210,7 +24210,7 @@
                       "listId": 8659054,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24221,7 +24221,7 @@
                       "listId": 8659054,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -24266,7 +24266,7 @@
                       "listId": 8659114,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24289,7 +24289,7 @@
                       "listId": 8659114,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -24334,7 +24334,7 @@
                       "listId": 8690662,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24345,7 +24345,7 @@
                       "listId": 8690662,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -24390,7 +24390,7 @@
                       "listId": 8659098,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24413,7 +24413,7 @@
                       "listId": 8659098,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -24470,7 +24470,7 @@
                       "listId": 8659102,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24493,7 +24493,7 @@
                       "listId": 8659102,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -24550,7 +24550,7 @@
                       "listId": 8659106,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24573,7 +24573,7 @@
                       "listId": 8659106,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -24630,7 +24630,7 @@
                       "listId": 8690663,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24653,7 +24653,7 @@
                       "listId": 8690663,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -24710,7 +24710,7 @@
                       "listId": 8691899,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24733,7 +24733,7 @@
                       "listId": 8691899,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -24778,7 +24778,7 @@
                       "listId": 8659056,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24789,7 +24789,7 @@
                       "listId": 8659056,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -24822,7 +24822,7 @@
                       "listId": 8677430,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -24855,7 +24855,7 @@
                       "listId": 8659055,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24866,7 +24866,7 @@
                       "listId": 8659055,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -24899,7 +24899,7 @@
                       "listId": 8691898,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24910,7 +24910,7 @@
                       "listId": 8691898,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -24943,7 +24943,7 @@
                       "listId": 8659057,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -24954,7 +24954,7 @@
                       "listId": 8659057,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -24999,7 +24999,7 @@
                       "listId": 8691901,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -25022,7 +25022,7 @@
                       "listId": 8691901,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -25079,7 +25079,7 @@
                       "listId": 8659122,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -25102,7 +25102,7 @@
                       "listId": 8659122,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -25147,7 +25147,7 @@
                       "listId": 8659058,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -25158,7 +25158,7 @@
                       "listId": 8659058,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -25203,7 +25203,7 @@
                       "listId": 8659116,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -25226,7 +25226,7 @@
                       "listId": 8659116,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -25283,7 +25283,7 @@
                       "listId": 8659105,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -25306,7 +25306,7 @@
                       "listId": 8659105,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -25363,7 +25363,7 @@
                       "listId": 8659060,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -25386,7 +25386,7 @@
                       "listId": 8659060,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -25431,7 +25431,7 @@
                       "listId": 8659059,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -25442,7 +25442,7 @@
                       "listId": 8659059,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -25475,7 +25475,7 @@
                       "listId": 8659132,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -25486,7 +25486,7 @@
                       "listId": 8659132,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -25519,7 +25519,7 @@
                       "listId": 8677450,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -25564,7 +25564,7 @@
                       "listId": 8690664,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -25587,7 +25587,7 @@
                       "listId": 8690664,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -25644,7 +25644,7 @@
                       "listId": 8690665,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -25667,7 +25667,7 @@
                       "listId": 8690665,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -25724,7 +25724,7 @@
                       "listId": 8659061,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -25747,7 +25747,7 @@
                       "listId": 8659061,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -25792,7 +25792,7 @@
                       "listId": 8677449,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -25837,7 +25837,7 @@
                       "listId": 8659062,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -25860,7 +25860,7 @@
                       "listId": 8659062,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -25905,7 +25905,7 @@
                       "listId": 8659064,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -25916,7 +25916,7 @@
                       "listId": 8659064,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -25961,7 +25961,7 @@
                       "listId": 8659128,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -25984,7 +25984,7 @@
                       "listId": 8659128,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -26029,7 +26029,7 @@
                       "listId": 8659066,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -26040,7 +26040,7 @@
                       "listId": 8659066,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -26073,7 +26073,7 @@
                       "listId": 8659063,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -26084,7 +26084,7 @@
                       "listId": 8659063,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -26129,7 +26129,7 @@
                       "listId": 8659119,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -26152,7 +26152,7 @@
                       "listId": 8659119,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -26209,7 +26209,7 @@
                       "listId": 8659100,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -26232,7 +26232,7 @@
                       "listId": 8659100,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -26277,7 +26277,7 @@
                       "listId": 8659065,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -26288,7 +26288,7 @@
                       "listId": 8659065,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -26333,7 +26333,7 @@
                       "listId": 8659113,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -26356,7 +26356,7 @@
                       "listId": 8659113,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -26401,7 +26401,7 @@
                       "listId": 8677442,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -26434,7 +26434,7 @@
                       "listId": 8677428,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -26479,7 +26479,7 @@
                       "listId": 8659091,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -26502,7 +26502,7 @@
                       "listId": 8659091,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -26547,7 +26547,7 @@
                       "listId": 8677435,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 }
@@ -26592,7 +26592,7 @@
                       "listId": 8690666,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -26615,7 +26615,7 @@
                       "listId": 8690666,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -26672,7 +26672,7 @@
                       "listId": 8690667,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -26695,7 +26695,7 @@
                       "listId": 8690667,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -26740,7 +26740,7 @@
                       "listId": 8659070,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -26751,7 +26751,7 @@
                       "listId": 8659070,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -26796,7 +26796,7 @@
                       "listId": 8659092,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -26819,7 +26819,7 @@
                       "listId": 8659092,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -26876,7 +26876,7 @@
                       "listId": 8659092,
                       "listName": "Top Rated Movies",
                       "mediaType": "movie",
-                      "sortBy": "vote_average.desc"
+                      "sortBy": "rating"
                     }
                   }
                 },
@@ -26899,7 +26899,7 @@
                       "listId": 8659092,
                       "listName": "New Movies",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 },
@@ -26963,7 +26963,7 @@
                       "listId": 8659157,
                       "listName": "Akira Kurosawa (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -26996,7 +26996,7 @@
                       "listId": 8677455,
                       "listName": "Alejandro González Iñárritu (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27029,7 +27029,7 @@
                       "listId": 8659136,
                       "listName": "Alex Garland (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27062,7 +27062,7 @@
                       "listId": 8677454,
                       "listName": "Alfonso Cuarón (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27095,7 +27095,7 @@
                       "listId": 8659069,
                       "listName": "Alfred Hitchcock (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27128,7 +27128,7 @@
                       "listId": 8690668,
                       "listName": "Antoine Fuqua (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27161,7 +27161,7 @@
                       "listId": 8690696,
                       "listName": "Ari Aster (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27194,7 +27194,7 @@
                       "listId": 8690669,
                       "listName": "Billy Wilder (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27227,7 +27227,7 @@
                       "listId": 8659137,
                       "listName": "Bong Joon Ho (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27260,7 +27260,7 @@
                       "listId": 8659067,
                       "listName": "Brian De Palma (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27293,7 +27293,7 @@
                       "listId": 8690670,
                       "listName": "Chad Stahelski (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27326,7 +27326,7 @@
                       "listId": 8659068,
                       "listName": "Christopher Nolan (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27359,7 +27359,7 @@
                       "listId": 8690671,
                       "listName": "Clint Eastwood (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27392,7 +27392,7 @@
                       "listId": 8659140,
                       "listName": "Damien Chazelle (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27425,7 +27425,7 @@
                       "listId": 8659142,
                       "listName": "Daniel Scheinert (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27458,7 +27458,7 @@
                       "listId": 8690697,
                       "listName": "Danny Boyle (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27491,7 +27491,7 @@
                       "listId": 8677453,
                       "listName": "Darren Aronofsky (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27524,7 +27524,7 @@
                       "listId": 8690672,
                       "listName": "David Cronenberg (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27557,7 +27557,7 @@
                       "listId": 8659071,
                       "listName": "David Fincher (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27590,7 +27590,7 @@
                       "listId": 8659072,
                       "listName": "David Lynch (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27623,7 +27623,7 @@
                       "listId": 8659073,
                       "listName": "Denis Villeneuve (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27656,7 +27656,7 @@
                       "listId": 8659133,
                       "listName": "Edgar Wright (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27689,7 +27689,7 @@
                       "listId": 8659145,
                       "listName": "Emerald Fennell (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27722,7 +27722,7 @@
                       "listId": 8659074,
                       "listName": "Francis Ford Coppola (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27755,7 +27755,7 @@
                       "listId": 8659151,
                       "listName": "George Lucas (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27788,7 +27788,7 @@
                       "listId": 8690673,
                       "listName": "George Miller (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27821,7 +27821,7 @@
                       "listId": 8690674,
                       "listName": "Gore Verbinski (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27854,7 +27854,7 @@
                       "listId": 8659077,
                       "listName": "Greta Gerwig (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27887,7 +27887,7 @@
                       "listId": 8659076,
                       "listName": "Guillermo del Toro (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27920,7 +27920,7 @@
                       "listId": 8659152,
                       "listName": "Guy Ritchie (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27953,7 +27953,7 @@
                       "listId": 8659150,
                       "listName": "Hayao Miyazaki (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -27986,7 +27986,7 @@
                       "listId": 8659075,
                       "listName": "James Cameron (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28019,7 +28019,7 @@
                       "listId": 8690675,
                       "listName": "James Gunn (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28052,7 +28052,7 @@
                       "listId": 8659154,
                       "listName": "James Wan (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28085,7 +28085,7 @@
                       "listId": 8659146,
                       "listName": "Joel Coen (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28118,7 +28118,7 @@
                       "listId": 8659078,
                       "listName": "John Carpenter (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28151,7 +28151,7 @@
                       "listId": 8690676,
                       "listName": "John Hughes (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28184,7 +28184,7 @@
                       "listId": 8690677,
                       "listName": "Jonathan Demme (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28217,7 +28217,7 @@
                       "listId": 8659135,
                       "listName": "Jordan Peele (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28250,7 +28250,7 @@
                       "listId": 8659158,
                       "listName": "Kathryn Bigelow (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28283,7 +28283,7 @@
                       "listId": 8690678,
                       "listName": "Luc Besson (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28316,7 +28316,7 @@
                       "listId": 8690679,
                       "listName": "Martin McDonagh (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28349,7 +28349,7 @@
                       "listId": 8659079,
                       "listName": "Martin Scorsese (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28382,7 +28382,7 @@
                       "listId": 8659155,
                       "listName": "Mel Brooks (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28415,7 +28415,7 @@
                       "listId": 8659159,
                       "listName": "Michael Mann (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28448,7 +28448,7 @@
                       "listId": 8659143,
                       "listName": "Mike Flanagan (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28481,7 +28481,7 @@
                       "listId": 8677457,
                       "listName": "Oliver Stone (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28514,7 +28514,7 @@
                       "listId": 8677462,
                       "listName": "Park Chan-wook (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28547,7 +28547,7 @@
                       "listId": 8659080,
                       "listName": "Paul Thomas Anderson (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28580,7 +28580,7 @@
                       "listId": 8690680,
                       "listName": "Paul Verhoeven (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28613,7 +28613,7 @@
                       "listId": 8677456,
                       "listName": "Pedro Almodóvar (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28646,7 +28646,7 @@
                       "listId": 8659081,
                       "listName": "Peter Jackson (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28679,7 +28679,7 @@
                       "listId": 8659082,
                       "listName": "Quentin Tarantino (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28712,7 +28712,7 @@
                       "listId": 8677459,
                       "listName": "Richard Linklater (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28745,7 +28745,7 @@
                       "listId": 8659083,
                       "listName": "Ridley Scott (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28778,7 +28778,7 @@
                       "listId": 8677458,
                       "listName": "Rob Reiner (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28811,7 +28811,7 @@
                       "listId": 8659162,
                       "listName": "Robert Eggers (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28844,7 +28844,7 @@
                       "listId": 8659144,
                       "listName": "Robert Zemeckis (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28877,7 +28877,7 @@
                       "listId": 8659161,
                       "listName": "Roland Emmerich (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28910,7 +28910,7 @@
                       "listId": 8690681,
                       "listName": "Ron Howard (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28943,7 +28943,7 @@
                       "listId": 8659134,
                       "listName": "Ryan Coogler (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -28976,7 +28976,7 @@
                       "listId": 8659141,
                       "listName": "Sam Esmail (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29009,7 +29009,7 @@
                       "listId": 8677461,
                       "listName": "Sam Mendes (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29042,7 +29042,7 @@
                       "listId": 8659149,
                       "listName": "Sam Raimi (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29075,7 +29075,7 @@
                       "listId": 8690682,
                       "listName": "Satoshi Kon (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29108,7 +29108,7 @@
                       "listId": 8677452,
                       "listName": "Sergio Leone (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29141,7 +29141,7 @@
                       "listId": 8690683,
                       "listName": "Sidney Lumet (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29174,7 +29174,7 @@
                       "listId": 8690684,
                       "listName": "Spike Jonze (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29207,7 +29207,7 @@
                       "listId": 8659084,
                       "listName": "Spike Lee (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29240,7 +29240,7 @@
                       "listId": 8659085,
                       "listName": "Stanley Kubrick (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29273,7 +29273,7 @@
                       "listId": 8677451,
                       "listName": "Steven Soderbergh (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29306,7 +29306,7 @@
                       "listId": 8659086,
                       "listName": "Steven Spielberg (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29339,7 +29339,7 @@
                       "listId": 8690685,
                       "listName": "Taika Waititi (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29372,7 +29372,7 @@
                       "listId": 8690686,
                       "listName": "Terry Gilliam (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29405,7 +29405,7 @@
                       "listId": 8690687,
                       "listName": "The Wachowskis (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29438,7 +29438,7 @@
                       "listId": 8659148,
                       "listName": "Tim Burton (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29471,7 +29471,7 @@
                       "listId": 8677460,
                       "listName": "Todd Phillips (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29504,7 +29504,7 @@
                       "listId": 8690691,
                       "listName": "Tony Scott (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29537,7 +29537,7 @@
                       "listId": 8659147,
                       "listName": "Vince Gilligan (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29570,7 +29570,7 @@
                       "listId": 8659089,
                       "listName": "Wes Anderson (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29603,7 +29603,7 @@
                       "listId": 8659160,
                       "listName": "Wes Craven (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29636,7 +29636,7 @@
                       "listId": 8690692,
                       "listName": "Wong Kar-wai (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29669,7 +29669,7 @@
                       "listId": 8659138,
                       "listName": "Yorgos Lanthimos (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29702,7 +29702,7 @@
                       "listId": 8659156,
                       "listName": "Zack Snyder (Recent)",
                       "mediaType": "movie",
-                      "sortBy": "primary_release_date.desc"
+                      "sortBy": "release_date"
                     }
                   }
                 }
@@ -29759,7 +29759,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         127928
@@ -29823,7 +29823,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         41077
@@ -29940,7 +29940,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         3172
@@ -30057,7 +30057,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         429
@@ -30174,7 +30174,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         7
@@ -30291,7 +30291,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         10146
@@ -30408,7 +30408,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         6704
@@ -30472,7 +30472,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         1632
@@ -30536,7 +30536,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         1
@@ -30653,7 +30653,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         420
@@ -30770,7 +30770,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         21
@@ -30887,7 +30887,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         12
@@ -31004,7 +31004,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         4
@@ -31121,7 +31121,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         3
@@ -31238,7 +31238,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         127929
@@ -31302,7 +31302,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         5
@@ -31365,7 +31365,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "companies": [
                         10342
                       ],
@@ -31427,7 +31427,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         33
@@ -31544,7 +31544,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         6125
@@ -31661,7 +31661,7 @@
                     "_0": {
                       "mediaType": "movie",
                       "name": "Popular Movies",
-                      "sortBy": "original",
+                      "sortBy": "popularity.desc",
                       "originalLanguage": "en",
                       "companies": [
                         174

@@ -30,6 +30,11 @@ class PipelineTests(unittest.TestCase):
   r=next(r for r in self.catalog if r['category']=='Networks' and r['title']=='Hallmark Mystery')
   self.assertEqual(len(r['sources']),6)
   self.assertTrue(all('tmdbCollection' in s for s in r['sources']))
+ def test_list_api_sort_order_is_rejected_before_publishing(self):
+  r=copy.deepcopy(next(r for r in self.catalog if r['category']=='Spotlight'))
+  self.assertEqual(r['sources'][0]['tmdbList']['_0']['sortBy'],'rating')
+  r['sources'][0]['tmdbList']['_0']['sortBy']='vote_average.desc'
+  with self.assertRaisesRegex(AssertionError,'Invalid Strand list sort order'):build.safe_catalog([r])
  def test_sensitive_source_rejected(self):
   r=copy.deepcopy(self.catalog[0]);r['sources']=[{'mediaServer':{'_0':{'token':'secret'}}}]
   with self.assertRaises(AssertionError):build.safe_catalog([r])
