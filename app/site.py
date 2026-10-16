@@ -1,5 +1,5 @@
 """Static preview gallery and clean Strand import downloads. No accounts or tracking."""
-import copy,json,shutil
+import copy,hashlib,json,shutil
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 
@@ -31,6 +31,7 @@ Films, artwork, logos and trademarks belong to their respective owners. Metadata
 '''
  (downloads/'READ-ME-FIRST.txt').write_text(notes)
  shutil.copyfile(ROOT/'assets/tmdb-logo.svg',site/'tmdb-logo.svg')
- page=(ROOT/'static/index.html').read_text();(site/'index.html').write_text(page)
+ version=hashlib.sha256(((site/'catalogue.json').read_text()+(downloads/'complete.json').read_text()).encode()).hexdigest()[:16]
+ page=(ROOT/'static/index.html').read_text().replace('__COLLECTION_VERSION__',version);(site/'index.html').write_text(page)
 
  shutil.copyfile(ROOT/'static/selection.js',site/'selection.js')
