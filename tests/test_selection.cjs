@@ -25,5 +25,10 @@ for(const row of result){
  for(const folder of row.source.group._0.contentSources)
   assert.deepEqual(folder,original.source.group._0.contentSources.find(f=>f.id===folder.id));
 }
+assert.ok(result.every(row=>row.source.group._0.hideTitle===true));
+const visibleTitles=configuration(shelves,new Set(subset.map(r=>r.id)),{hideFolderTitles:false});
+assert.ok(visibleTitles.every(row=>row.source.group._0.hideTitle===false));
+assert.equal(count(visibleTitles),count(result));
+for(let i=0;i<result.length;i++)assert.deepEqual(visibleTitles[i].source.group._0.contentSources,result[i].source.group._0.contentSources);
 assert.equal(JSON.stringify(shelves),before);
 console.log('Selection checks passed: recommended, all, empty, franchises, mixed subsets, sources and ordering.');

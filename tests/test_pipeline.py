@@ -153,6 +153,13 @@ class PipelineTests(unittest.TestCase):
    for f in folders:
     self.assertIn(f['tileShape'],{'wide','poster','square'});self.assertIs(f['showsSourceRows'],True)
     self.assertTrue(f['coverImageURL'].startswith('https://example.test/artwork/images/'));self.assertNotIn('?',f['coverImageURL']);self.assertNotIn('__BASE_URL__',f['backgroundImageURL'])
+ def test_all_hosted_imports_hide_folder_titles_by_default(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   out=Path(tmp);write_site(out,self.catalog,{'tiles':[],'builtAt':'test','preview':True},'https://example.test/artwork',self.catalog)
+   files=list((out/'downloads').glob('*.json'));self.assertEqual(len(files),19)
+   for path in files:
+    rows=json.loads(path.read_text());self.assertTrue(rows,path.name)
+    self.assertTrue(all(row['source']['group']['_0']['hideTitle'] is True for row in rows),path.name)
  def test_failed_initial_build_does_not_replace_previous_output(self):
   class FailingClient:
    def folder(self,*args,**kwargs):raise SourceUnavailable('offline')

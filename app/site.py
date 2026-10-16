@@ -15,6 +15,7 @@ def write_site(site,catalog,manifest,base_url,selected):
  def materialize(shelves,allowed=None):
   result=[]
   for shelf in copy.deepcopy(shelves):
+   shelf['source']['group']['_0']['hideTitle']=True
    folders=shelf['source']['group']['_0']['contentSources'];folders[:]=[f for f in folders if idkeys[f['id']] in keys and (allowed is None or idkeys[f['id']] in allowed)]
    for f in folders:
     for key in ['coverImageURL','backgroundImageURL']:f[key]=f[key].replace('__BASE_URL__',base_url)
