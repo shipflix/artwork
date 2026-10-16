@@ -139,6 +139,11 @@ class PipelineTests(unittest.TestCase):
  def test_stack_assignment_is_globally_unique_even_with_overlapping_pools(self):
   def t(i,path=None):return {'id':i,'type':'movie','poster_path':path or f'/{i}.jpg'}
   records=[{'key':'a','style':'stack','titles':[t(1),t(2),t(3),t(4)]},{'key':'b','style':'stack','titles':[t(1),t(5),t(6),t(7,'/2.jpg')]}];result=build.assign_stacks(records);all=[t for values in result.values() for t in values];self.assertEqual(len(all),6);self.assertEqual(len({t['id'] for t in all}),6);self.assertEqual(len({t['poster_path'] for t in all}),6)
+ def test_rejected_for_you_artwork_does_not_return_on_daily_refresh(self):
+  blocked='/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg'
+  titles=[{'id':i,'type':'movie','poster_path':blocked if i==0 else f'/{i}.jpg'} for i in range(4)]
+  result=build.assign_stacks([{'key':'discover--for-you','style':'stack','titles':titles}])
+  self.assertNotIn(blocked,[t['poster_path'] for t in result['discover--for-you']]);self.assertEqual(len(titles),4)
  def test_insufficient_unique_posters_stops_instead_of_repeating(self):
   with self.assertRaises(RuntimeError):build.assign_stacks([{'key':'a','style':'stack','titles':[{'id':1,'type':'movie','poster_path':'/1.jpg'}]}])
  def test_import_urls_are_stable_and_recommended_pack_has_163_folders(self):

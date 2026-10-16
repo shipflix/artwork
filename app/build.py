@@ -15,7 +15,8 @@ def load(path,default=None):return json.loads(path.read_text()) if path.exists()
 def assign_stacks(records):
  """Exact maximum matching prevents repeats of title or artwork across every stack."""
  from collections import deque
- rows=[r for r in records if r['style']=='stack'];unique={}
+ exclusions=load(ROOT/'data/stack-exclusions.json',{})
+ rows=[{**r,'titles':[t for t in r['titles'] if t['poster_path'] not in exclusions.get(r['key'],[])]} for r in records if r['style']=='stack'];unique={}
  for r in rows:
   for t in r['titles']:unique.setdefault((t['type'],t['id']),t)
  bypath={};resource={key:bypath.setdefault(t['poster_path'],len(bypath)) for key,t in unique.items()};slots=[(r,pos) for pos in range(3) for r in rows];n=len(slots);m=len(bypath);sink=1+n+m;graph=[[] for _ in range(sink+1)]

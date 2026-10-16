@@ -1,6 +1,12 @@
 name: Refresh top Discover artwork
 on:
   workflow_dispatch:
+    inputs:
+      target:
+        description: Artwork to refresh
+        type: choice
+        options: [top-discover, for-you]
+        default: top-discover
 permissions:
   contents: read
   actions: read
@@ -39,10 +45,15 @@ jobs:
           tar -xf previous/artifact.tar -C _site
       - name: Replace only streaming tiles and verify preservation
         run: python3 scripts/publish_streaming_tiles.py _site
-      - name: Refresh two Discover tiles and wallpapers
+      - name: Refresh selected Discover artwork
         env:
           TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
-        run: python scripts/refresh_discover.py _site
+        run: |
+          if [ '${{ inputs.target }}' = 'for-you' ]; then
+            python scripts/refresh_for_you.py _site
+          else
+            python scripts/refresh_discover.py _site
+          fi
       - name: Publish current gallery and import instructions
         run: |
           python3 - <<'PYCODE'
