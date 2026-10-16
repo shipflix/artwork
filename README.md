@@ -11,18 +11,18 @@ Choose what you want on the website and import it into Strand. You don’t need 
 On iPhone or iPad:
 
 1. **Back up your shelves.** In Strand, open **Settings → Shelves → Copy to Clipboard**, then paste the backup into a note and save it.
-2. **Choose your categories** on [Shipflix](https://shipflix.github.io/artwork/). Start with Recommended, or pick your own rows.
-3. Tap **Copy selected rows for iOS**.
+2. **Choose your categories** on [Shipflix](https://shipflix.github.io/artwork/). Start with Recommended, or expand a category to pick individual folders.
+3. Tap **Copy selected rows**.
 4. In Strand, open **Settings → Shelves → Import from Clipboard** and allow pasting if asked.
 5. Choose **Append** to add the rows, or **Overwrite** to replace your existing shelf setup. Repeated imports with Append can create duplicates.
 
-Prefer a file? **Download selected rows** saves the same selection as a JSON file.
+Prefer a file? **Download JSON** saves the same selection as a JSON file.
 
 For Apple TV, enable Strand’s iCloud sync on both devices using the same Apple Account.
 
 ## What’s included
 
-784 folders across 18 categories, including all 22 streaming services and 80 networks. The Recommended selection has 223 folders. Larger selections may exceed Strand’s iCloud storage allowance; the website shows your import size before downloading.
+784 folders across 18 categories, including all 22 streaming services and 80 networks. The Recommended selection has 223 folders. Larger selections may exceed Strand’s iCloud storage allowance; the website shows your import size before importing.
 
 ## Artwork updates
 

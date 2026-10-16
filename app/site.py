@@ -32,3 +32,5 @@ Films, artwork, logos and trademarks belong to their respective owners. Metadata
  (downloads/'READ-ME-FIRST.txt').write_text(notes)
  shutil.copyfile(ROOT/'assets/tmdb-logo.svg',site/'tmdb-logo.svg')
  page=(ROOT/'static/index.html').read_text();(site/'index.html').write_text(page)
+
+ shutil.copyfile(ROOT/'static/selection.js',site/'selection.js')
