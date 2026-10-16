@@ -100,7 +100,7 @@ class PipelineTests(unittest.TestCase):
    out=Path(tmp);write_site(out,self.catalog,{'tiles':[],'builtAt':'test','preview':True},'https://example.test/artwork',self.catalog)
    full=json.loads((out/'downloads/complete.json').read_text());small=json.loads((out/'downloads/recommended.json').read_text());folders=[f for s in full for f in s['source']['group']['_0']['contentSources']];self.assertEqual(len(folders),784);self.assertEqual(sum(len(s['source']['group']['_0']['contentSources']) for s in small),163)
    for f in folders:
-    self.assertIn(f['tileShape'],{'wide','poster','square'})
+    self.assertIn(f['tileShape'],{'wide','poster','square'});self.assertIs(f['showsSourceRows'],True)
     self.assertTrue(f['coverImageURL'].startswith('https://example.test/artwork/images/'));self.assertNotIn('?',f['coverImageURL']);self.assertNotIn('__BASE_URL__',f['backgroundImageURL'])
  def test_failed_initial_build_does_not_replace_previous_output(self):
   class FailingClient:
