@@ -45,6 +45,16 @@ class PipelineTests(unittest.TestCase):
     for f in folders:
      self.assertIs(f['showsSourceRows'],True)
      original=next(r for r in self.catalog if r['id']==f['id']);self.assertEqual(f['sources'],original['sources']);self.assertIs(original['native']['showsSourceRows'],True)
+ def test_streaming_imports_use_wide_tiles(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   out=Path(tmp);write_site(out,self.catalog,{'tiles':[]},'https://example.test/artwork',self.catalog)
+   for filename in ('complete.json','recommended.json','streaming-services.json'):
+    rows=json.loads((out/'downloads'/filename).read_text());group=next(s for s in rows if s['title']=='Streaming Services')['source']['group']['_0']
+    self.assertEqual(group['tileShape'],'wide');self.assertEqual(len(group['contentSources']),22)
+    for folder in group['contentSources']:
+     self.assertEqual(folder['tileShape'],'wide');self.assertIs(folder['showsSourceRows'],True)
+   for record in self.catalog:
+    if record['category']=='Streaming Services':self.assertEqual(record['native']['tileShape'],'wide')
  def test_sensitive_source_rejected(self):
   r=copy.deepcopy(self.catalog[0]);r['sources']=[{'mediaServer':{'_0':{'token':'secret'}}}]
   with self.assertRaises(AssertionError):build.safe_catalog([r])

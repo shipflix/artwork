@@ -98431,7 +98431,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--apple-tv-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/2552-apple-tv/logos/color/2552_color_1.png?raw=true",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/apple-tv/classic/cover.webp",
@@ -99260,7 +99260,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--crunchyroll-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Crunchyroll_logo_2024.png/960px-Crunchyroll_logo_2024.png?_=20240720022613",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/crunchyroll/classic/cover.webp",
@@ -101959,7 +101959,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--disney-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/2739-disney/logos/color/2739_color_4.png?raw=true",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/disney/classic/cover.webp",
@@ -102142,7 +102142,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--hayu-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/hayu/classic/cover.png",
@@ -105001,7 +105001,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--hbo-max-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/streaming-services/hbo-max/classic/logo.webp",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/hbo-max/classic/cover.webp",
@@ -107992,7 +107992,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--netflix-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/213-netflix/logos/color/213_color_1.png?raw=true",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/netflix/classic/cover.webp",
@@ -110731,7 +110731,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--paramount-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/4330-paramount/logos/color/4330_color_2.png?raw=true",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/paramount-plus/classic/cover.png",
@@ -113656,7 +113656,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--prime-video-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/streaming-services/prime-video/classic/logo.webp",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/prime-video/classic/cover.webp",
@@ -114617,7 +114617,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--shudder-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/companies/142877-shudder/logos/color/142877_color_1.png?raw=true",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/shudder/classic/cover.webp",
@@ -117494,7 +117494,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--tubi-tv-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/streaming-services/tubi-tv/classic/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/tubi/classic/cover.png",
@@ -123382,7 +123382,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--hulu-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/453-hulu/logos/color/453_color_1.png?raw=true",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/hulu/classic/cover.webp",
@@ -126078,7 +126078,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--amc-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/streaming-services/amc/classic/logo.png",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/amcplus/classic/cover.png",
@@ -126396,7 +126396,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--crave-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/crave/classic/cover.png",
@@ -127708,7 +127708,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--criterion-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/258-criterion-channel/logos/white/258_white_1.png",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/criterion-channel/classic/cover.png",
@@ -128398,7 +128398,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--curiosity-stream-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/CuriosityStream.svg/960px-CuriosityStream.svg.png?_=20200418093832",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/curiosity-stream/classic/cover.png",
@@ -129144,7 +129144,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--discovery-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/streaming-services/discovery/classic/logo.webp",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/discovery/classic/cover.webp",
@@ -129350,7 +129350,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--magellan-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/magellan/classic/cover.png",
@@ -131832,7 +131832,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--mgm-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/6219-mgm/logos/color/6219_color_1.png?raw=true",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/mgm/classic/cover.webp",
@@ -133076,7 +133076,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--mubi-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/refs/heads/main/collections/companies/204957-mubi/logos/white/204957_white_2.png",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/mubi/classic/cover.webp",
@@ -135590,7 +135590,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--peacock-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/3353-peacock/logos/color/3353_color_1.png?raw=true",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/peacock/classic/cover.webp",
@@ -138376,7 +138376,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--pluto-tv-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Pluto_TV_logo_2024.svg/500px-Pluto_TV_logo_2024.svg.png",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/pluto-tv/classic/cover.png",
@@ -140962,7 +140962,7 @@
         "backgroundImageURL": "__BASE_URL__/images/streaming-services--starz-background.webp",
         "hideTitle": true,
         "showsSourceRows": true,
-        "tileShape": "poster"
+        "tileShape": "wide"
       },
       "originalLogoURL": "https://art.kaptain.stream/streaming-services/starz/classic/logo.webp",
       "originalCoverURL": "https://art.kaptain.stream/streaming-services/starz/classic/cover.webp",

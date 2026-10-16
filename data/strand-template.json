@@ -48777,7 +48777,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--apple-tv-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "4F77E02D-B167-516A-8E01-51F3BB3AA4A6",
@@ -49190,7 +49190,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--crunchyroll-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "BCACCDEA-80F6-5E09-A3FF-0B7F4EA5FFFE",
@@ -50538,7 +50538,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--disney-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "3B8F4F68-37BC-51BB-879F-8993DF6BFF9B",
@@ -50628,7 +50628,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--hayu-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "D5ADF602-E6DF-5D54-929E-1D1A6EF063D0",
@@ -52056,7 +52056,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--hbo-max-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "DB5B8C03-6863-570E-AE64-20923D1BDE8C",
@@ -53550,7 +53550,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--netflix-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "1B1121C6-6146-55DA-8D66-2027DC2BF961",
@@ -54918,7 +54918,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--paramount-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "EC474DC8-1A0A-5DCC-BDD6-4316BFDB04BE",
@@ -56379,7 +56379,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--prime-video-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "5B095105-7F27-58BE-9B8C-E47C7D1265D7",
@@ -56858,7 +56858,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--shudder-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "60F22A3D-2ECA-594E-A200-6A8F2607B266",
@@ -58295,7 +58295,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--tubi-tv-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "CD80F935-5506-5B20-9AF6-9570E403BBE5",
@@ -59708,7 +59708,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--hulu-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "0D19A0B9-24F6-5194-B77C-41B16AFA8496",
@@ -61055,7 +61055,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--amc-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "7E9DF1DF-53B6-5BE2-B1F5-2CD7D8C755E1",
@@ -61213,7 +61213,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--crave-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "E652661B-C433-54F4-858C-A76E6AA9787F",
@@ -61868,7 +61868,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--criterion-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "CB3A45F1-A212-5359-8D08-8F2F83E8B299",
@@ -62212,7 +62212,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--curiosity-stream-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "7B33763F-A331-50DC-BA36-4B3E5F2C290D",
@@ -62584,7 +62584,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--discovery-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "904FFD46-D470-50AB-BFF5-E89E12F44259",
@@ -62686,7 +62686,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--magellan-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "DAFC4934-4968-5A45-932D-35B89FC7DDC5",
@@ -63926,7 +63926,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--mgm-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "7CBA377E-9912-566D-8DAB-1ECCFCA5371B",
@@ -64547,7 +64547,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--mubi-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "54E78C73-32EA-549C-B40C-BA63FD1B8BF7",
@@ -65803,7 +65803,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--peacock-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "677768D8-FAB3-58EE-82A7-DF9F7D7F66BD",
@@ -67195,7 +67195,7 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--pluto-tv-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             },
             {
               "id": "C74F6418-7CAE-5F0C-A0B0-14090C238A41",
@@ -68487,12 +68487,12 @@
               "backgroundImageURL": "__BASE_URL__/images/streaming-services--starz-background.webp",
               "hideTitle": true,
               "showsSourceRows": true,
-              "tileShape": "poster"
+              "tileShape": "wide"
             }
           ],
           "coverFillsHero": true,
           "hideTitle": false,
-          "tileShape": "poster"
+          "tileShape": "wide"
         }
       }
     }
