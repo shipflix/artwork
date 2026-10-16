@@ -26,6 +26,10 @@ class PipelineTests(unittest.TestCase):
   for group,names in coverage.items():
    shelf=next(s for s in template if s['title']==group)
    self.assertEqual({f['title'] for f in shelf['source']['group']['_0']['contentSources']},set(names))
+ def test_hallmark_mystery_uses_its_film_collections_not_hallmark_channel(self):
+  r=next(r for r in self.catalog if r['category']=='Networks' and r['title']=='Hallmark Mystery')
+  self.assertEqual(len(r['sources']),6)
+  self.assertTrue(all('tmdbCollection' in s for s in r['sources']))
  def test_sensitive_source_rejected(self):
   r=copy.deepcopy(self.catalog[0]);r['sources']=[{'mediaServer':{'_0':{'token':'secret'}}}]
   with self.assertRaises(AssertionError):build.safe_catalog([r])

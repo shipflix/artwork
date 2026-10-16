@@ -108,5 +108,8 @@
       "Vice TV",
       "WE tv"
     ]
+  },
+  "sourceCorrections": {
+    "Networks / Hallmark Mystery": "Upstream uses Hallmark Channel network 384; replaced with six actual Hallmark mystery film collections. TMDB network 2300 has no released poster-bearing series."
   }
 }

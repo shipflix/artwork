@@ -143749,62 +143749,56 @@
       "style": "logo",
       "sources": [
         {
-          "tmdbDiscover": {
+          "tmdbCollection": {
             "_0": {
-              "mediaType": "tv",
-              "name": "Popular Series",
-              "sortBy": "popularity.desc",
-              "genres": [
-                9648
-              ],
-              "networks": [
-                384
-              ],
-              "originalLanguage": "en",
-              "voteCountGte": 1,
-              "companies": [],
-              "keywords": [],
-              "excludeGenres": []
+              "collectionId": 521293,
+              "name": "Aurora Teagarden Mystery",
+              "sortBy": "original"
             }
           }
         },
         {
-          "tmdbDiscover": {
+          "tmdbCollection": {
             "_0": {
-              "mediaType": "tv",
-              "name": "Recent Series",
-              "sortBy": "first_air_date.desc",
-              "genres": [
-                9648
-              ],
-              "networks": [
-                384
-              ],
-              "originalLanguage": "en",
-              "voteCountGte": 1,
-              "companies": [],
-              "keywords": [],
-              "excludeGenres": []
+              "collectionId": 364344,
+              "name": "Hannah Swensen Mysteries",
+              "sortBy": "original"
             }
           }
         },
         {
-          "tmdbDiscover": {
+          "tmdbCollection": {
             "_0": {
-              "mediaType": "tv",
-              "name": "Top Rated Series",
-              "sortBy": "vote_average.desc",
-              "genres": [
-                9648
-              ],
-              "networks": [
-                384
-              ],
-              "originalLanguage": "en",
-              "voteCountGte": 5,
-              "companies": [],
-              "keywords": [],
-              "excludeGenres": []
+              "collectionId": 1083910,
+              "name": "The Curious Caterer",
+              "sortBy": "original"
+            }
+          }
+        },
+        {
+          "tmdbCollection": {
+            "_0": {
+              "collectionId": 659184,
+              "name": "Mystery 101",
+              "sortBy": "original"
+            }
+          }
+        },
+        {
+          "tmdbCollection": {
+            "_0": {
+              "collectionId": 584691,
+              "name": "Chronicle Mysteries",
+              "sortBy": "original"
+            }
+          }
+        },
+        {
+          "tmdbCollection": {
+            "_0": {
+              "collectionId": 565004,
+              "name": "Darrow & Darrow",
+              "sortBy": "original"
             }
           }
         }
@@ -143814,62 +143808,56 @@
         "title": "Hallmark Mystery",
         "sources": [
           {
-            "tmdbDiscover": {
+            "tmdbCollection": {
               "_0": {
-                "mediaType": "tv",
-                "name": "Popular Series",
-                "sortBy": "popularity.desc",
-                "genres": [
-                  9648
-                ],
-                "networks": [
-                  384
-                ],
-                "originalLanguage": "en",
-                "voteCountGte": 1,
-                "companies": [],
-                "keywords": [],
-                "excludeGenres": []
+                "collectionId": 521293,
+                "name": "Aurora Teagarden Mystery",
+                "sortBy": "original"
               }
             }
           },
           {
-            "tmdbDiscover": {
+            "tmdbCollection": {
               "_0": {
-                "mediaType": "tv",
-                "name": "Recent Series",
-                "sortBy": "first_air_date.desc",
-                "genres": [
-                  9648
-                ],
-                "networks": [
-                  384
-                ],
-                "originalLanguage": "en",
-                "voteCountGte": 1,
-                "companies": [],
-                "keywords": [],
-                "excludeGenres": []
+                "collectionId": 364344,
+                "name": "Hannah Swensen Mysteries",
+                "sortBy": "original"
               }
             }
           },
           {
-            "tmdbDiscover": {
+            "tmdbCollection": {
               "_0": {
-                "mediaType": "tv",
-                "name": "Top Rated Series",
-                "sortBy": "vote_average.desc",
-                "genres": [
-                  9648
-                ],
-                "networks": [
-                  384
-                ],
-                "originalLanguage": "en",
-                "voteCountGte": 5,
-                "companies": [],
-                "keywords": [],
-                "excludeGenres": []
+                "collectionId": 1083910,
+                "name": "The Curious Caterer",
+                "sortBy": "original"
+              }
+            }
+          },
+          {
+            "tmdbCollection": {
+              "_0": {
+                "collectionId": 659184,
+                "name": "Mystery 101",
+                "sortBy": "original"
+              }
+            }
+          },
+          {
+            "tmdbCollection": {
+              "_0": {
+                "collectionId": 584691,
+                "name": "Chronicle Mysteries",
+                "sortBy": "original"
+              }
+            }
+          },
+          {
+            "tmdbCollection": {
+              "_0": {
+                "collectionId": 565004,
+                "name": "Darrow & Darrow",
+                "sortBy": "original"
               }
             }
           }
