@@ -60,6 +60,15 @@ class PipelineTests(unittest.TestCase):
     with Image.open(out) as image:image.verify()
     source=ROOT/json.loads((ROOT/'data/streaming-assets.json').read_text())[r['key']]['file']
     if source.suffix=='.webp':self.assertEqual(source.read_bytes(),out.read_bytes())
+ def test_top_discovery_artwork_has_enough_posters_for_grid(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   c=Client(token='test',today=dt.date(2026,10,16),cache=Path(tmp))
+   def api(endpoint,params):
+    return {'results':[{'id':params['page']*100+i,'name':'Series','title':'Movie','poster_path':f"/{params['page']}-{i}.jpg",'release_date':'2020-01-01','first_air_date':'2020-01-01'} for i in range(20)]}
+   with patch.object(c,'api',side_effect=api),patch.object(c,'source',side_effect=AssertionError('Sparse provider lists must not control top-rated artwork')):
+    for title in ('Top Series','Top Movies'):
+     items,_=c.folder({'category':'Discover','title':title,'sources':[]})
+     self.assertEqual(len(items),60);self.assertEqual(len({t['poster_path'] for t in items}),60)
  def test_api_cache_refreshes_on_new_day_but_images_can_remain_cached(self):
   with tempfile.TemporaryDirectory() as tmp:
    cache=Path(tmp);calls=[]

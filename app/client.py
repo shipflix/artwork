@@ -81,6 +81,14 @@ class Client:
    for r in rows:
     key=(r['type'],r['id'])
     if key not in seen and r['poster_path'] not in paths:items.append(r);seen.add(key);paths.add(r['poster_path'])
+  # These discovery headings need a full ranked artwork pool, even when the
+  # imported provider lists are sparse or unavailable.
+  if recipe['category']=='Discover' and recipe['title'] in ('Top Series','Top Movies'):
+   typ='tv' if recipe['title']=='Top Series' else 'movie'
+   for page in range(1,4):
+    add(self.released(self.api(typ+'/top_rated',{'language':'en-US','page':page}).get('results',[]),typ))
+   if len(items)<23:raise SourceUnavailable('Too few top-rated posters for the approved grid')
+   return items[:60],['Artwork selected from TMDB top-rated '+('series' if typ=='tv' else 'movies')+'.']
   sources=recipe['sources']
   for s in sources[:6]:
    try:add(self.source(s))

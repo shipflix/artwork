@@ -1,0 +1,65 @@
+name: Refresh top Discover artwork
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: artwork-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: macos-15
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      actions: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - name: Test tile-only publishing
+        run: python3 -m unittest discover -s tests -p test_streaming_patch.py -v
+      - name: Retrieve latest successful published release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          run_id=$(gh run list --repo "$GITHUB_REPOSITORY" --branch main --status success --limit 30 --json databaseId,workflowName --jq '[.[] | select(.workflowName == "Refresh artwork daily" or .workflowName == "Publish streaming tiles and gallery" or .workflowName == "Refresh top Discover artwork")][0].databaseId')
+          test -n "$run_id" && test "$run_id" != null
+          gh run download "$run_id" --repo "$GITHUB_REPOSITORY" --name github-pages --dir previous
+          mkdir _site
+          tar -xf previous/artifact.tar -C _site
+      - name: Replace only streaming tiles and verify preservation
+        run: python3 scripts/publish_streaming_tiles.py _site
+      - name: Refresh two Discover tiles and wallpapers
+        env:
+          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+        run: python scripts/refresh_discover.py _site
+      - name: Publish current gallery and import instructions
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          from app.site import write_site
+          site=Path('_site')
+          catalog=json.loads(Path('data/catalog.json').read_text())['folders']
+          manifest=json.loads((site/'manifest.json').read_text())
+          owner,repo=os.environ['GITHUB_REPOSITORY'].split('/')
+          write_site(site,catalog,manifest,f'https://{owner}.github.io/{repo}',catalog)
+          PYCODE
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9
+        with:
+          path: _site
+          retention-days: 1
+      - name: Deploy approved tiles
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346

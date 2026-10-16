@@ -23,11 +23,11 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - name: Test tile-only publishing
         run: python3 -m unittest discover -s tests -p test_streaming_patch.py -v
-      - name: Retrieve last successful complete release
+      - name: Retrieve latest successful published release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          run_id=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow refresh.yml --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId')
+          run_id=$(gh run list --repo "$GITHUB_REPOSITORY" --branch main --status success --limit 30 --json databaseId,workflowName --jq '[.[] | select(.workflowName == "Refresh artwork daily" or .workflowName == "Publish streaming tiles and gallery" or .workflowName == "Refresh top Discover artwork")][0].databaseId')
           test -n "$run_id" && test "$run_id" != null
           gh run download "$run_id" --repo "$GITHUB_REPOSITORY" --name github-pages --dir previous
           mkdir _site
