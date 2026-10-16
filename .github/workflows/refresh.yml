@@ -50,10 +50,10 @@ jobs:
           p=Path('_site')
           m=json.loads((p/'manifest.json').read_text())
           assert not m.get('partialSmokeBuild') and not m.get('preview')
-          assert len(m['tiles'])==715
+          assert len(m['tiles'])==784
           for r in m['tiles']:
               assert (p/r['tile']).is_file() and (p/r['wallpaper']).is_file()
-          print('All 715 category tiles and wallpapers are present.')
+          print('All 784 category tiles and wallpapers are present.')
           PY
       - name: Upload Pages bundle
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
@@ -70,10 +70,17 @@ jobs:
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # A newer source commit will publish its own refresh; do not fail this
+          # deployment by racing it with the bookkeeping commit.
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo 'Newer source revision exists; skipping refresh bookkeeping.'
+            exit 0
+          fi
           git add data/last-refresh.json
           if ! git diff --cached --quiet; then
             git commit -m 'Record successful daily artwork refresh'
-            git push
+            git push || echo 'Refresh bookkeeping was superseded by a newer commit.'
           fi
   deploy:
     needs: build

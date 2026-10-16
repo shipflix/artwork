@@ -9,9 +9,23 @@ class PipelineTests(unittest.TestCase):
  @classmethod
  def setUpClass(cls):cls.catalog=json.loads((ROOT/'data/catalog.json').read_text())['folders']
  def test_complete_catalogue_is_public_and_has_no_personal_sources(self):
-  self.assertEqual(len(self.catalog),715);self.assertEqual(len({r['id'] for r in self.catalog}),715);self.assertEqual(len({r['key'] for r in self.catalog}),715);build.safe_catalog(self.catalog);self.assertEqual(sum(r['recommended'] for r in self.catalog),154)
+  self.assertEqual(len(self.catalog),784);self.assertEqual(len({r['id'] for r in self.catalog}),784);self.assertEqual(len({r['key'] for r in self.catalog}),784);build.safe_catalog(self.catalog);self.assertEqual(sum(r['recommended'] for r in self.catalog),223)
   for r in self.catalog:
    for s in r['sources']:self.assertNotIn('mediaServer',s);self.assertNotIn('addon',s)
+ def test_streaming_and_network_categories_cover_full_upstream_pack(self):
+  coverage=json.loads((ROOT/'data/upstream-coverage.json').read_text())['categories'];curated=json.loads((ROOT/'data/curated.json').read_text())
+  for group,names in coverage.items():
+   rows=[r for r in self.catalog if r['category']==group]
+   self.assertEqual({r['title'] for r in rows},set(names))
+   for r in rows:
+    self.assertTrue(r['sources']);self.assertEqual(r['native']['sources'],r['sources'])
+    if group=='Networks':
+     self.assertEqual(r['native']['tileShape'],'poster')
+     self.assertTrue((ROOT/curated['logos'][group+' / '+r['title']]['file']).is_file())
+  template=json.loads((ROOT/'data/strand-template.json').read_text())
+  for group,names in coverage.items():
+   shelf=next(s for s in template if s['title']==group)
+   self.assertEqual({f['title'] for f in shelf['source']['group']['_0']['contentSources']},set(names))
  def test_sensitive_source_rejected(self):
   r=copy.deepcopy(self.catalog[0]);r['sources']=[{'mediaServer':{'_0':{'token':'secret'}}}]
   with self.assertRaises(AssertionError):build.safe_catalog([r])
@@ -29,7 +43,7 @@ class PipelineTests(unittest.TestCase):
  def test_all_streaming_tiles_are_bundled_and_copy_without_network_access(self):
   from PIL import Image
   rows=[r for r in self.catalog if r['category']=='Streaming Services']
-  self.assertEqual(len(rows),10)
+  self.assertEqual(len(rows),22)
   with tempfile.TemporaryDirectory() as tmp:
    for r in rows:
     out=Path(tmp)/(r['key']+'.webp')
@@ -53,10 +67,10 @@ class PipelineTests(unittest.TestCase):
   records=[{'key':'a','style':'stack','titles':[t(1),t(2),t(3),t(4)]},{'key':'b','style':'stack','titles':[t(1),t(5),t(6),t(7,'/2.jpg')]}];result=build.assign_stacks(records);all=[t for values in result.values() for t in values];self.assertEqual(len(all),6);self.assertEqual(len({t['id'] for t in all}),6);self.assertEqual(len({t['poster_path'] for t in all}),6)
  def test_insufficient_unique_posters_stops_instead_of_repeating(self):
   with self.assertRaises(RuntimeError):build.assign_stacks([{'key':'a','style':'stack','titles':[{'id':1,'type':'movie','poster_path':'/1.jpg'}]}])
- def test_import_urls_are_stable_and_recommended_pack_has_154_folders(self):
+ def test_import_urls_are_stable_and_recommended_pack_has_223_folders(self):
   with tempfile.TemporaryDirectory() as tmp:
    out=Path(tmp);write_site(out,self.catalog,{'tiles':[],'builtAt':'test','preview':True},'https://example.test/artwork',self.catalog)
-   full=json.loads((out/'downloads/complete.json').read_text());small=json.loads((out/'downloads/recommended.json').read_text());folders=[f for s in full for f in s['source']['group']['_0']['contentSources']];self.assertEqual(len(folders),715);self.assertEqual(sum(len(s['source']['group']['_0']['contentSources']) for s in small),154)
+   full=json.loads((out/'downloads/complete.json').read_text());small=json.loads((out/'downloads/recommended.json').read_text());folders=[f for s in full for f in s['source']['group']['_0']['contentSources']];self.assertEqual(len(folders),784);self.assertEqual(sum(len(s['source']['group']['_0']['contentSources']) for s in small),223)
    for f in folders:
     self.assertTrue(f['coverImageURL'].startswith('https://example.test/artwork/images/'));self.assertNotIn('?',f['coverImageURL']);self.assertNotIn('__BASE_URL__',f['backgroundImageURL'])
  def test_failed_initial_build_does_not_replace_previous_output(self):

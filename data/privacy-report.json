@@ -1,5 +1,5 @@
 {
-  "folders": 715,
+  "folders": 784,
   "shelves": 18,
   "removedUnsupportedOrPersonalAddonSources": 41,
   "personalServerSourcesIncluded": false,
@@ -20,8 +20,8 @@
     "Documentaries": 7,
     "Kids and Family": 6,
     "Reality TV": 6,
-    "Streaming Services": 10,
-    "Networks": 23
+    "Streaming Services": 22,
+    "Networks": 80
   },
-  "estimatedCompactFullImportBytes": 823150
+  "estimatedCompactFullImportBytes": 977977
 }

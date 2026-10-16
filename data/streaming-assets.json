@@ -1,0 +1,74 @@
+{
+  "streaming-services--hulu": {
+    "page": "https://apps.apple.com/us/app/hulu-stream-tv-shows-movies/id376510438?platform=tv",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/6e/af/386eaf67-944e-59ff-d596-2c00bf036fc7/App_Icon-marketing.lsr/2560x1440bb.png",
+    "file": "assets/streaming/streaming-services--hulu.webp",
+    "adaptation": "Official Apple TV brand artwork with increased padding; no poster stack"
+  },
+  "streaming-services--amc": {
+    "page": "https://apps.apple.com/us/app/amc-tv-shows-movies/id1578728899?platform=tv",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/8d/5c/b98d5cf0-1b82-9ae7-bf57-627b8185dc8a/App_Icon-marketing.lsr/2560x1440bb.png",
+    "file": "assets/streaming/streaming-services--amc.png",
+    "adaptation": "Official Apple TV brand artwork with increased padding; no poster stack"
+  },
+  "streaming-services--crave": {
+    "page": "https://apps.apple.com/ca/app/crave/id942568279?platform=tv",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/46/23/3446238d-93ea-e815-a2ac-901266cf0b2f/App_Icon_-_Small-marketing.lsr/2560x1440bb.png",
+    "file": "assets/streaming/streaming-services--crave.png",
+    "adaptation": "Official Apple TV brand artwork with increased padding; no poster stack"
+  },
+  "streaming-services--criterion": {
+    "page": "https://apps.apple.com/us/app/the-criterion-channel/id1454275199?platform=tv",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/8c/78/0e8c7816-0504-611f-a39c-e21ed98831ba/App_Icon-marketing.lsr/2560x1440bb.png",
+    "file": "assets/streaming/streaming-services--criterion.png",
+    "adaptation": "Official Apple TV brand artwork with increased padding; no poster stack"
+  },
+  "streaming-services--curiosity-stream": {
+    "page": "https://apps.apple.com/us/app/curiositystream/id971830624?platform=tv",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/5e/af/5e5eaf0c-72d4-c3ed-2d92-dd3d5e1387d3/App_Icon-marketing.lsr/2560x1440bb.png",
+    "file": "assets/streaming/streaming-services--curiosity-stream.png",
+    "adaptation": "Official Apple TV brand artwork with increased padding; no poster stack"
+  },
+  "streaming-services--discovery": {
+    "page": "https://apps.apple.com/us/app/discovery-stream-tv-shows/id1498327873?platform=tv",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/c1/4e/d6c14ea7-e88b-304b-fb7a-456364a4a3f2/App_Icon-marketing.lsr/2560x1440bb.png",
+    "file": "assets/streaming/streaming-services--discovery.webp",
+    "adaptation": "Official Apple TV brand artwork with increased padding; no poster stack"
+  },
+  "streaming-services--magellan": {
+    "page": "https://apps.apple.com/us/app/magellantv-documentaries/id1449628141?platform=tv",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/be/29/9dbe295c-d08e-7cca-04dd-bd430c69d00e/App_Icon-marketing.lsr/2560x1440bb.png",
+    "file": "assets/streaming/streaming-services--magellan.png",
+    "adaptation": "Official Apple TV brand artwork with increased padding; no poster stack"
+  },
+  "streaming-services--mgm": {
+    "page": "https://apps.apple.com/us/app/mgm/id1387514950?platform=tv",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/20/09/062009f8-9e75-e515-b17d-7f3f58fb78b4/App_Icon-marketing.lsr/2560x1440bb.png",
+    "file": "assets/streaming/streaming-services--mgm.webp",
+    "adaptation": "Official Apple TV brand artwork with increased padding; no poster stack"
+  },
+  "streaming-services--mubi": {
+    "page": "https://apps.apple.com/us/app/mubi-stream-great-cinema/id626148774?platform=tv",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/cd/4b/becd4b96-607c-a042-931c-f72efe0c296a/App_Icon-marketing.lsr/2560x1440bb.png",
+    "file": "assets/streaming/streaming-services--mubi.webp",
+    "adaptation": "Official Apple TV brand artwork with increased padding; no poster stack"
+  },
+  "streaming-services--peacock": {
+    "page": "https://apps.apple.com/us/app/peacock-tv-stream-tv-movies/id1508186374?platform=tv",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/d5/2f/fbd52fa5-538d-f2a3-21da-74cafca1b41d/App_Icon-marketing.lsr/2560x1440bb.png",
+    "file": "assets/streaming/streaming-services--peacock.webp",
+    "adaptation": "Official Apple TV brand artwork with increased padding; no poster stack"
+  },
+  "streaming-services--pluto-tv": {
+    "page": "https://apps.apple.com/us/app/pluto-tv-watch-free-movies-tv/id751712884?platform=tv",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/a2/ac/f0a2acd9-bfc3-6d46-29f3-c438cd318b0f/App_Icon_-_Small-marketing.lsr/2560x1440bb.png",
+    "file": "assets/streaming/streaming-services--pluto-tv.png",
+    "adaptation": "Official Apple TV brand artwork with increased padding; no poster stack"
+  },
+  "streaming-services--starz": {
+    "page": "https://apps.apple.com/us/app/starz/id550221096?platform=tv",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/f4/05/9cf405e7-6bf1-1a97-6fd7-43bdd7bedba7/App_Icon_-_Small-marketing.lsr/2560x1440bb.png",
+    "file": "assets/streaming/streaming-services--starz.webp",
+    "adaptation": "Official Apple TV brand artwork with increased padding; no poster stack"
+  }
+}

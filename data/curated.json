@@ -272,6 +272,348 @@
       "url": "https://art.kaptain.stream/networks/we-tv/ghost/logo.png",
       "applyColour": true,
       "renderPlain": true
+    },
+    "Networks / A&E": {
+      "file": "assets/networks--a-e-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/ptSTdU4GPNJ1M8UVEOtA0KgtuNk.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / AMC": {
+      "file": "assets/networks--amc-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/pmvRmATOCaDykE6JrVoeYxlFHw3.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / ABC": {
+      "file": "assets/networks--abc-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Animal Planet": {
+      "file": "assets/networks--animal-planet-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/m3KrDu1g96YByhH0wp4OvyghgsG.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Canal+": {
+      "file": "assets/networks--canal-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/9aotxauvc9685tq9pTcRJszuT06.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / CBC": {
+      "file": "assets/networks--cbc-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/zjgqkIvBURbwoHbHhmnzaTFyZgR.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / BET": {
+      "file": "assets/networks--bet-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/gaouRlJrfZlEA5EPHhO5qqZ1Fgu.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / CBS": {
+      "file": "assets/networks--cbs-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Cinemax": {
+      "file": "assets/networks--cinemax-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/6mSHSquNpfLgDdv6VnOOvC5Uz2h.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Cooking Channel": {
+      "file": "assets/networks--cooking-channel-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/w7zRUMYgEwdOWD9tAjHqFtREbMU.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / CTV": {
+      "file": "assets/networks--ctv-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/uPoKSf3GtME7IZz4alnoWvc0nWx.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Dave": {
+      "file": "assets/networks--dave-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/yC6rBzi726lxMWSf2IkjqXs7ZOs.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Disney Channel": {
+      "file": "assets/networks--disney-channel-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/9AxUB1RdRnm0r5ki8Thb69Jo9Ma.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Disney XD": {
+      "file": "assets/networks--disney-xd-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/nKM9EnV7jTpt3MKRbhBusJ03lAY.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Disney Junior": {
+      "file": "assets/networks--disney-junior-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/sxdLifeoMky9WcptGZeMcCXdJ76.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Food Network": {
+      "file": "assets/networks--food-network-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/tm2UclPxfamHyFuILLq4jNxsi8v.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / FOX": {
+      "file": "assets/networks--fox-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Freeform": {
+      "file": "assets/networks--freeform-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/jk2Z7WH6JnHSZrxouYh4sireM3a.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / FX": {
+      "file": "assets/networks--fx-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/aexGjtcs42DgRtZh7zOxayiry4J.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Hallmark Channel": {
+      "file": "assets/networks--hallmark-channel-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/9JTL7HcaiVxq7M6eu5m7giFqaxR.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Hallmark Mystery": {
+      "file": "assets/networks--hallmark-mystery-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/9JTL7HcaiVxq7M6eu5m7giFqaxR.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Game Show Network": {
+      "file": "assets/networks--game-show-network-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/8wCI3fSTKCU3R1PwgqA9ATKFy5D.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / History": {
+      "file": "assets/networks--history-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/9fGgdJz17aBX7dOyfHJtsozB7bf.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / IFC": {
+      "file": "assets/networks--ifc-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/jZYZjulF2FTaAHo5TKBHBC4ihS1.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Investigation Discovery": {
+      "file": "assets/networks--investigation-discovery-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/3s6YJSYXW9mtJwoszTVI1BHDNc6.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Lifetime": {
+      "file": "assets/networks--lifetime-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/kEeaVLcJ6L6jq3v5YlPcjQs9igm.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / JTBC": {
+      "file": "assets/networks--jtbc-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/44I4aVlasm8Blb8WPGXTkMYuZJF.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Magnolia Network": {
+      "file": "assets/networks--magnolia-network-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/vcFEr6ywBL8mA8S2BxxxiKrNWO1.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / MotorTrend": {
+      "file": "assets/networks--motortrend-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/2BGpHwd0CpeH4fKN32O217RbtI8.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Nat Geo Wild": {
+      "file": "assets/networks--nat-geo-wild-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/esXeePrsUGpF6mGQXs3jImz9QoN.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / NBC": {
+      "file": "assets/networks--nbc-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/cm111bsDVlYaC1foL0itvEI4yLG.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / MeTV": {
+      "file": "assets/networks--metv-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/qrqFyJGAxOJvKXP2y2dQss5XDkW.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Nickelodeon": {
+      "file": "assets/networks--nickelodeon-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/i0e7qsKhCcB6EJy0qvjhnFB2lgp.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / OWN": {
+      "file": "assets/networks--own-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/m8H0hZOpkskkIWeqRdiuP2CZOgq.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Oxygen": {
+      "file": "assets/networks--oxygen-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/acDtMnoo5byrtFLEJa6J5BYfgBW.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / PBS": {
+      "file": "assets/networks--pbs-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/4Fn4eQmEmJZ9YWjiIhZ6cF1QHAi.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Paramount Network": {
+      "file": "assets/networks--paramount-network-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/4knr4ozp2IQrA3SMQlLSYKcM3ML.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Science Channel": {
+      "file": "assets/networks--science-channel-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/orcpefChr3hPSipPcoYa9gSq7ev.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Showtime": {
+      "file": "assets/networks--showtime-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/Allse9kbjiP6ExaQrnSpIhkurEi.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Sky Atlantic": {
+      "file": "assets/networks--sky-atlantic-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/6es7UmBjk2HTSZKq3NbtAxYEGCx.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Smithsonian Channel": {
+      "file": "assets/networks--smithsonian-channel-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/meU2LRnHcSr0m0Upx5loxHWETqF.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Sky Max": {
+      "file": "assets/networks--sky-max-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/g2IOt9G84UAjsDPMXQiqgr77AMV.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / STARZ": {
+      "file": "assets/networks--starz-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/qx3Y9LCaK4mq1ykFuDIfjshlo3U.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / SundanceTV": {
+      "file": "assets/networks--sundancetv-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/yMzgCPTJfk6SQ6IXX9PIlSxD4ZU.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Syfy": {
+      "file": "assets/networks--syfy-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/iYfrkobwDhTOFJ4AXYPSLIEeaAT.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / The CW": {
+      "file": "assets/networks--the-cw-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/hEpcdJ4O6eitG9ADSnDXNUrlovS.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / TBS": {
+      "file": "assets/networks--tbs-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/65r0kR6MfOBYF0gEQsJGM6v5fEG.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / TNT": {
+      "file": "assets/networks--tnt-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/6ISsKwa2XUhSC6oBtHZjYf6xFqv.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Tokyo MX": {
+      "file": "assets/networks--tokyo-mx-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/hSdroyVthq3CynxTIIY7lnS8w1.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Travel Channel": {
+      "file": "assets/networks--travel-channel-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/8SwN81R7P5vD5mhtOE0taw5mji4.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / truTV": {
+      "file": "assets/networks--trutv-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/c48pVcWAEYhEFXrWFsYxx343mjx.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / tvN": {
+      "file": "assets/networks--tvn-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/4iJILrndsUAvriueBVHe8u0nVqo.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / TV Land": {
+      "file": "assets/networks--tv-land-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/lOCn3EqluXoP8olsZsJHoWITwQJ.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / TV Tokyo": {
+      "file": "assets/networks--tv-tokyo-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / USA Network": {
+      "file": "assets/networks--usa-network-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/g1e0H0Ka97IG5SyInMXdJkHGKiH.png",
+      "colour": true,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / VH1": {
+      "file": "assets/networks--vh1-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/w9oUxxUiXTC1O1MzJSvsMjQbgft.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
+    },
+    "Networks / Vice TV": {
+      "file": "assets/networks--vice-tv-logo.png",
+      "url": "https://image.tmdb.org/t/p/original/iA3HkJ8eNQZngQAjETO24YV8p1n.png",
+      "colour": false,
+      "adaptation": "Official mark with monochrome/dark lettering adapted for charcoal contrast; coloured brand elements preserved."
     }
   },
   "moods": {

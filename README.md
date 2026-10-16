@@ -2,11 +2,11 @@
 
 An independent artwork remix for [Kaptain](https://kaptain.stream/)-style collections in Strand. Not an official [Kaptain](https://kaptain.stream/) or Strand release.
 
-**715 folders across 18 default categories**, with clean Strand imports, a gallery and a category picker. The recommended import contains 154 folders; the complete pack also includes actors, directors, international cinema and franchises. Personal servers, credentials and account-specific add-ons are excluded.
+**784 folders across 18 default categories**, with clean Strand imports, a gallery and a category picker. The recommended import contains 223 folders; the complete pack also includes actors, directors, international cinema and franchises. Personal servers, credentials and account-specific add-ons are excluded.
 
 ## Daily updates
 
-GitHub Actions fetches current source data daily, renders the approved layouts and publishes the result to GitHub Pages. Image paths stay fixed. This uses APIs and deterministic image rendering, not an AI model or Codex session. Logos, character illustrations and curated scene tiles remain fixed. All ten original streaming-service tiles are bundled with the project and published at our own stable image URLs; a fresh build does not need to retrieve those tiles from [Kaptain’s](https://kaptain.stream/) server. Their original source addresses remain in the catalogue for attribution.
+GitHub Actions fetches current source data daily, renders the approved layouts and publishes the result to GitHub Pages. Image paths stay fixed. This uses APIs and deterministic image rendering, not an AI model or Codex session. Logos, character illustrations and curated scene tiles remain fixed. All streaming-service tiles are bundled with the project and published at our own stable image URLs; a fresh build does not need to retrieve those tiles from [Kaptain’s](https://kaptain.stream/) server. Their original source addresses remain in the catalogue for attribution.
 
 Stacks have globally unique titles and poster images. Wallpapers with at least 23 titles use the approved staggered layout; smaller collections use a cinematic backdrop instead of repeated posters. Actor/director tiles use real TMDB portraits. Upstream failures are reported in `status.json`. Once an initial release exists, later image failures retain both last-good images. Incomplete builds do not deploy.
 

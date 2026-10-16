@@ -22,7 +22,7 @@ def write_site(site,catalog,manifest,base_url,selected):
  notes='''Shipflix — independent artwork remix for Kaptain (https://kaptain.stream/)-style collections in Strand.
 Import only the categories you want. Back up Settings > Shelves > Copy to Clipboard first.
 Use Append to add rows; Overwrite replaces all existing shelves. Do not overwrite without a backup.
-The complete default collection has 715 folders. Large imports may exceed Strand's iCloud storage allowance alongside other app data; recommended and individual-category downloads are provided.
+The complete default collection has 784 folders. Large imports may exceed Strand's iCloud storage allowance alongside other app data; recommended and individual-category downloads are provided.
 For You uses generic public picks. Your own recommendations and server settings are never distributed.
 Artwork is regenerated daily after hosting is enabled. The artwork URLs stay the same. A client may continue showing cached images until it revalidates them; Apple TV same-URL cache behaviour is not yet verified.
 A daily build does not necessarily change every image: logos, character art and curated scene tiles are deliberately fixed; failed upstream lookups retain last-good artwork and appear in status.json.
