@@ -26,7 +26,9 @@ For Apple TV, enable Strand’s iCloud sync on both devices using the same Apple
 
 ## Artwork updates
 
-Artwork refreshes are scheduled daily at the same image URLs, so you don’t need to re-import for artwork updates. Strand may keep older images cached for a while. Same-URL updates have been confirmed on Apple TV; exact timing varies by device.
+Shipflix generates fresh artwork daily at the same image URLs, so poster stacks and backgrounds reflect changes to the content in each collection. **Strand - Media Hub does not currently refresh the artwork automatically.** In the creator’s testing, reimporting shelves picked up the new images. Reimporting is optional; back up first, as Append may create duplicates and Overwrite removes all existing shelves.
+
+We hope Strand will support automatic image refresh in a future update, but there is no confirmed release date. [Support the feature request on Discord](https://discord.com/channels/1476738927707557981/1561199292989968396).
 
 Logos, character illustrations and selected scene artwork stay fixed. If a refresh fails, the previous artwork remains available.
 
