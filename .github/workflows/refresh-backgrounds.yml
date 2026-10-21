@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   publish:
-    runs-on: macos-15
+    runs-on: macos-15-intel
     timeout-minutes: 45
     permissions:
       contents: read

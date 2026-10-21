@@ -2,6 +2,8 @@ name: Refresh artwork daily
 on:
   schedule:
     - cron: '17 17 * * *'
+    # Catch up after a runner outage; skip when today's artwork is already live.
+    - cron: '17 20 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -12,8 +14,44 @@ concurrency:
   group: artwork-pages
   cancel-in-progress: false
 jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      refresh: ${{ steps.check.outputs.refresh }}
+    steps:
+      - name: Check whether a scheduled refresh is still needed
+        id: check
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python3 - <<'PYCODE'
+          import datetime as dt,json,os,time,urllib.request
+          from zoneinfo import ZoneInfo
+          refresh=True
+          if os.environ['EVENT_NAME']=='schedule':
+              try:
+                  url='https://shipflix.github.io/artwork/status.json?freshness='+str(time.time_ns())
+                  request=urllib.request.Request(url,headers={'Cache-Control':'no-cache','User-Agent':'Shipflix-Refresh-Check'})
+                  with urllib.request.urlopen(request,timeout=25) as response:
+                      status=json.load(response)
+                  built=dt.datetime.fromisoformat(status['builtAt'].replace('Z','+00:00'))
+                  if built.tzinfo is None:
+                      raise ValueError('Build timestamp must have a timezone')
+                  zone=ZoneInfo('Australia/Melbourne')
+                  refresh=built.astimezone(zone).date()!=dt.datetime.now(zone).date()
+                  print('Published artwork:',built.isoformat())
+              except Exception as exc:
+                  print('Unable to verify freshness; attempt the refresh:',type(exc).__name__)
+          with open(os.environ['GITHUB_OUTPUT'],'a') as output:
+              output.write('refresh='+str(refresh).lower()+'\n')
+          print('Refresh needed:',refresh)
+          PYCODE
   build:
-    runs-on: macos-15
+    needs: freshness
+    if: needs.freshness.outputs.refresh == 'true'
+    # Keep native Helvetica rendering without depending on the constrained ARM pool.
+    runs-on: macos-15-intel
     timeout-minutes: 90
     permissions:
       contents: write
