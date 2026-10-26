@@ -5,7 +5,7 @@ on:
       target:
         description: Artwork to refresh
         type: choice
-        options: [top-discover, for-you]
+        options: [top-discover, for-you, anime]
         default: top-discover
 permissions:
   contents: read
@@ -38,18 +38,29 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          run_id=$(gh run list --repo "$GITHUB_REPOSITORY" --branch main --status success --limit 30 --json databaseId,workflowName --jq '[.[] | select(.workflowName == "Refresh artwork daily" or .workflowName == "Publish streaming tiles and gallery" or .workflowName == "Refresh top Discover artwork" or .workflowName == "Refresh category wallpapers")][0].databaseId')
+          # The catch-up schedule can succeed without publishing a new bundle.
+          candidates=$(gh run list --repo "$GITHUB_REPOSITORY" --branch main --status success --limit 30 --json databaseId,workflowName --jq '.[] | select(.workflowName == "Refresh artwork daily" or .workflowName == "Publish streaming tiles and gallery" or .workflowName == "Refresh top Discover artwork" or .workflowName == "Refresh category wallpapers") | .databaseId')
+          run_id=''
+          for candidate in $candidates; do
+            artifact=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$candidate/artifacts" --jq '.artifacts[] | select(.name == "github-pages" and .expired == false) | .id')
+            if [ -n "$artifact" ]; then
+              run_id=$candidate
+              break
+            fi
+          done
           test -n "$run_id" && test "$run_id" != null
           gh run download "$run_id" --repo "$GITHUB_REPOSITORY" --name github-pages --dir previous
           mkdir _site
           tar -xf previous/artifact.tar -C _site
       - name: Replace only streaming tiles and verify preservation
         run: python3 scripts/publish_streaming_tiles.py _site
-      - name: Refresh selected Discover artwork
+      - name: Refresh selected artwork
         env:
           TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
         run: |
-          if [ '${{ inputs.target }}' = 'for-you' ]; then
+          if [ '${{ inputs.target }}' = 'anime' ]; then
+            python scripts/publish_anime_tiles.py _site
+          elif [ '${{ inputs.target }}' = 'for-you' ]; then
             python scripts/refresh_for_you.py _site
           else
             python scripts/refresh_discover.py _site

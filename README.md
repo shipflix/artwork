@@ -30,7 +30,7 @@ Shipflix generates fresh artwork daily at the same image URLs, so poster stacks 
 
 We hope Strand will support automatic image refresh in a future update, but there is no confirmed release date. [Support the feature request on Discord](https://discord.com/channels/1476738927707557981/1561199292989968396).
 
-Logos, character illustrations and selected scene artwork stay fixed. If a refresh fails, the previous artwork remains available.
+Anime character tiles rotate weekly through a prepared collection, changing on Mondays in Melbourne. Their image URLs, typography and charcoal backgrounds stay the same. Logos and selected scene artwork stay fixed. If a refresh fails, the previous artwork remains available.
 
 ## Credits and usage
 

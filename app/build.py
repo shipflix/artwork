@@ -148,6 +148,9 @@ def main():
  if not args.base_url:parser.error('--base-url is required; it is the permanent public Pages address')
  if not args.base_url.startswith('https://'):parser.error('Public artwork requires an HTTPS base URL')
  client=Client();curated=load(ROOT/'data/curated.json');seed=load(ROOT/'data/seed.json',{});oldmeta=load(STATE/'last-manifest.json',{'tiles':[]});previous={r['key']:r for r in oldmeta['tiles']};previous_site=STATE/'last-site';target=Path(args.output);stage=target.with_name(target.name+'-staging');shutil.rmtree(stage,ignore_errors=True);stage.mkdir(parents=True)
+ from .anime import weekly_characters
+ rotation=load(ROOT/'data/anime-rotation.json',{})
+ if rotation:curated=weekly_characters(curated,rotation)
  selected=catalog
  if args.only:
   keys=set(args.only.split(','));selected=[r for r in catalog if r['key'] in keys];assert len(selected)==len(keys)

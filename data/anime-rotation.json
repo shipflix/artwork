@@ -1,0 +1,140 @@
+{
+  "startsOn": "2026-10-26",
+  "timezone": "Australia/Melbourne",
+  "categories": {
+    "Discover Anime": [
+      {
+        "name": "Sailor Moon",
+        "file": "assets/anime-rotation/sailor-moon.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Spike Spiegel",
+        "file": "assets/anime-rotation/spike-spiegel.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Anya Forger",
+        "file": "assets/anime-rotation/anya-forger.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Son Goku",
+        "file": "assets/anime-discover-anime.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait",
+        "renderScale": 1.18
+      }
+    ],
+    "Shonen & Action Anime": [
+      {
+        "name": "Son Goku",
+        "file": "assets/anime-discover-anime.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait",
+        "renderScale": 1.18
+      },
+      {
+        "name": "Naruto Uzumaki",
+        "file": "assets/anime-shonen-action-anime.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Monkey D. Luffy",
+        "file": "assets/anime-rotation/monkey-d-luffy.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Tanjiro Kamado",
+        "file": "assets/anime-rotation/tanjiro-kamado.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      }
+    ],
+    "Studio Spotlight": [
+      {
+        "name": "Totoro",
+        "file": "assets/anime-studio-spotlight.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Kiki",
+        "file": "assets/anime-rotation/kiki.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Violet Evergarden",
+        "file": "assets/anime-rotation/violet-evergarden.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Denji",
+        "file": "assets/anime-rotation/denji.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      }
+    ],
+    "Isekai & Fantasy Sagas": [
+      {
+        "name": "Rimuru Tempest",
+        "file": "assets/anime-isekai-fantasy-sagas.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Emilia",
+        "file": "assets/anime-rotation/emilia.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Aqua",
+        "file": "assets/anime-rotation/aqua.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Frieren",
+        "file": "assets/anime-rotation/frieren.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      }
+    ],
+    "Slice of Life & Romance": [
+      {
+        "name": "Tohru Honda",
+        "file": "assets/anime-slice-of-life-romance.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Marin Kitagawa",
+        "file": "assets/anime-rotation/marin-kitagawa.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Taiga Aisaka",
+        "file": "assets/anime-rotation/taiga-aisaka.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Kaguya Shinomiya",
+        "file": "assets/anime-rotation/kaguya-shinomiya.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      }
+    ],
+    "Sports & Competition Anime": [
+      {
+        "name": "Shoyo Hinata",
+        "file": "assets/anime-sports-competition-anime.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Yoichi Isagi",
+        "file": "assets/anime-rotation/yoichi-isagi.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Hanamichi Sakuragi",
+        "file": "assets/anime-rotation/hanamichi-sakuragi.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      },
+      {
+        "name": "Ippo Makunouchi",
+        "file": "assets/anime-rotation/ippo-makunouchi.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
+      }
+    ]
+  }
+}
