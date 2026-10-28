@@ -16,14 +16,23 @@ def assign_stacks(records):
  """Exact maximum matching prevents repeats of title or artwork across every stack."""
  from collections import deque
  exclusions=load(ROOT/'data/stack-exclusions.json',{})
- rows=[{**r,'titles':[t for t in r['titles'] if t['poster_path'] not in exclusions.get(r['key'],[])]} for r in records if r['style']=='stack'];unique={}
+ rows=[{**r,'titles':[t for t in r['titles'] if t['poster_path'] not in exclusions.get(r['key'],[])]} for r in records if r['style']=='stack'];unique={};pinned={}
+ for r in rows:
+  ids=r.get('artworkStackMovieIds',[])
+  if ids:
+   assert len(ids)==3 and len(set(ids))==3,'An approved stack must contain three distinct films'
+   pinned[r['key']]=[next(t for t in r['titles'] if t['type']=='movie' and t['id']==movie_id) for movie_id in ids]
+ reserved_ids={(t['type'],t['id']) for stack in pinned.values() for t in stack}
+ reserved_paths={t['poster_path'] for stack in pinned.values() for t in stack}
+ assert len(reserved_ids)==len(reserved_paths)==sum(map(len,pinned.values())),'Approved stacks must not repeat films or posters'
  for r in rows:
   for t in r['titles']:unique.setdefault((t['type'],t['id']),t)
  bypath={};resource={key:bypath.setdefault(t['poster_path'],len(bypath)) for key,t in unique.items()};slots=[(r,pos) for pos in range(3) for r in rows];n=len(slots);m=len(bypath);sink=1+n+m;graph=[[] for _ in range(sink+1)]
  def edge(a,b,cap,cost):graph[a].append([b,len(graph[b]),cap,cost]);graph[b].append([a,len(graph[a])-1,0,-cost])
  for i,(r,pos) in enumerate(slots):
   edge(0,1+i,1,0)
-  for rank,t in enumerate(r['titles']):edge(1+i,1+n+resource[(t['type'],t['id'])],1,rank*(8 if pos==0 else 1)+pos)
+  candidates=[pinned[r['key']][pos]] if r['key'] in pinned else [t for t in r['titles'] if (t['type'],t['id']) not in reserved_ids and t['poster_path'] not in reserved_paths]
+  for rank,t in enumerate(candidates):edge(1+i,1+n+resource[(t['type'],t['id'])],1,rank*(8 if pos==0 else 1)+pos)
  for j in range(m):edge(1+n+j,sink,1,0)
  for _ in slots:
   dist=[10**12]*len(graph);dist[0]=0;prev=[None]*len(graph);q=deque([0]);inside={0}

@@ -89,7 +89,14 @@ class Client:
     add(self.released(self.api(typ+'/top_rated',{'language':'en-US','page':page}).get('results',[]),typ))
    if len(items)<23:raise SourceUnavailable('Too few top-rated posters for the approved grid')
    return items[:60],['Artwork selected from TMDB top-rated '+('series' if typ=='tv' else 'movies')+'.']
+  # Approved seasonal covers retain recognisable films while browsing queries
+  # continue to surface new releases. Fetch real TMDB poster assets each day.
+  pinned=recipe.get('artworkStackMovieIds',[])
+  for movie_id in pinned:
+   add(self.released([self.api('movie/'+str(movie_id),{'language':'en-US'})]))
   sources=recipe['sources']
+  if pinned:
+   sources=sorted(sources,key=lambda s:s.get('tmdbDiscover',{}).get('_0',{}).get('sortBy')!='popularity.desc')
   for s in sources:
    try:add(self.source(s))
    except SourceUnavailable as exc:notes.append(str(exc))
