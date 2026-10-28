@@ -88,6 +88,8 @@ def prepare(recipe,client,seed,previous):
  except SourceUnavailable:
   if previous:data.update(titles=previous['titles'],notes=['Source unavailable; last successful title selection retained.'])
   else:raise
+ excluded=set(data.get('artworkExcludeMovieIds',[]))
+ data['titles']=[t for t in data['titles'] if not (t['type']=='movie' and t['id'] in excluded)]
  # Small or strongly overlapping spotlight lists use a single scene instead of reusing stacks.
  if data['style']=='stack' and len(data['titles'])<3:data['style']='franchise'
  return data

@@ -76,9 +76,10 @@ class Client:
    return items
   raise SourceUnavailable('Unsupported catalogue source')
  def folder(self,recipe,seed=None):
-  items=[];notes=[];seen=set();paths=set()
+  items=[];notes=[];seen=set();paths=set();excluded=set(recipe.get('artworkExcludeMovieIds',[]))
   def add(rows):
    for r in rows:
+    if r['type']=='movie' and r['id'] in excluded:continue
     key=(r['type'],r['id'])
     if key not in seen and r['poster_path'] not in paths:items.append(r);seen.add(key);paths.add(r['poster_path'])
   # These discovery headings need a full ranked artwork pool, even when the

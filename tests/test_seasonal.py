@@ -4,8 +4,8 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from app.build import safe_catalog, background_uses_grid, assign_stacks
-from app.client import Client
+from app.build import safe_catalog, background_uses_grid, assign_stacks, prepare
+from app.client import Client, SourceUnavailable
 from app.site import write_site
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -75,6 +75,25 @@ class SeasonalTests(unittest.TestCase):
             with patch.object(client, 'api', side_effect=api), patch.object(client, 'source', return_value=extra):
                 titles, _ = client.folder(christmas)
             self.assertEqual([t['id'] for t in titles[:3]], [632856, 10719, 771])
+
+    def test_batman_returns_stays_out_of_christmas_artwork_even_with_cached_sources(self):
+        christmas = next(r for r in self.seasonal if r['title'] == 'Christmas')
+        self.assertIn(364, christmas['artworkExcludeMovieIds'])
+        def movie(i):
+            return {'id': i, 'type': 'movie', 'title': str(i), 'poster_path': f'/{i}.jpg'}
+        rows = [movie(364), movie(771)]
+        with tempfile.TemporaryDirectory() as tmp:
+            client = Client(token='test', cache=Path(tmp))
+            # Test the normal lookup with no pinned calls, then the render-plan
+            # fallback for a previous selection made before the exclusion existed.
+            recipe = {**christmas, 'artworkStackMovieIds': []}
+            with patch.object(client, 'source', return_value=rows):
+                selected, _ = client.folder(recipe)
+            self.assertEqual([t['id'] for t in selected], [771])
+            with patch.object(client, 'folder', side_effect=SourceUnavailable('offline')):
+                selected = prepare(christmas, client, None, {'titles': rows})
+            self.assertEqual([t['id'] for t in selected['titles']], [771])
+        self.assertEqual(christmas['sources'], christmas['native']['sources'])
 
 
 if __name__ == '__main__':
