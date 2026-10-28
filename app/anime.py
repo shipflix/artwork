@@ -21,8 +21,7 @@ def rotation_week(config, now=None):
 def weekly_characters(curated, config, now=None):
     """Preserve legacy entries when no rotation is configured.
 
-    Keep Goku's original Discover portrait in its rotation pool without
-    showing him in two categories that week. Advance each category's cursor
+    Avoid showing the same character in two categories. Advance each cursor
     after resolving collisions so it changes again the following week.
     Replaying from the epoch makes the result independent of workflow run count.
     """

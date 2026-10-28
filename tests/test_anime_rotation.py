@@ -35,8 +35,11 @@ class AnimeRotationTests(unittest.TestCase):
                          ['Sailor Moon', 'Son Goku', 'Totoro', 'Rimuru Tempest', 'Tohru Honda', 'Shoyo Hinata'])
 
     def test_originals_and_all_approved_characters_remain_available(self):
-        for title, original in self.curated['characters'].items():
-            self.assertIn(original, self.config['categories'][title])
+        entries = [entry for pool in self.config['categories'].values() for entry in pool]
+        for original in self.curated['characters'].values():
+            self.assertIn(original, entries)
+        names = [entry['name'] for entry in entries]
+        self.assertEqual(len(names), len(set(names)), 'Characters must belong to only one category')
         self.assertEqual(len(self.config['categories']['Discover Anime']), 4)
         self.assertTrue(all(len(pool) == 4 for title, pool in self.config['categories'].items()
                             if title != 'Discover Anime'))

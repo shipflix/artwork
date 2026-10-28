@@ -19,10 +19,9 @@
         "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
       },
       {
-        "name": "Son Goku",
-        "file": "assets/anime-discover-anime.png",
-        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait",
-        "renderScale": 1.18
+        "name": "Edward Elric",
+        "file": "assets/anime-rotation/edward-elric.png",
+        "source": "Built-in imagegen: recognisable character recreation, transparent cel-animation portrait"
       }
     ],
     "Shonen & Action Anime": [
