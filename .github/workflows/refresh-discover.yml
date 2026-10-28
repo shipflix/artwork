@@ -5,7 +5,7 @@ on:
       target:
         description: Artwork to refresh
         type: choice
-        options: [top-discover, for-you, anime]
+        options: [top-discover, for-you, anime, seasonal]
         default: top-discover
 permissions:
   contents: read
@@ -58,7 +58,9 @@ jobs:
         env:
           TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
         run: |
-          if [ '${{ inputs.target }}' = 'anime' ]; then
+          if [ '${{ inputs.target }}' = 'seasonal' ]; then
+            python scripts/publish_seasonal.py _site
+          elif [ '${{ inputs.target }}' = 'anime' ]; then
             python scripts/publish_anime_tiles.py _site
           elif [ '${{ inputs.target }}' = 'for-you' ]; then
             python scripts/refresh_for_you.py _site

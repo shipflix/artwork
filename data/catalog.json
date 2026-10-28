@@ -4,6 +4,7 @@
     "Spotlight",
     "Discover",
     "Genres",
+    "Seasonal",
     "Moods & Vibes",
     "Based on",
     "Film Collections",
@@ -12826,6 +12827,553 @@
       "originalBackgroundURL": "https://art.kaptain.stream/genres/western/classic/backdrop.jpg",
       "seedKey": "E67BD93D-9C4E-4A6E-AC17-09743F6D5FB9",
       "recommended": true
+    },
+    {
+      "id": "F2F46810-255C-5B28-B323-8E03A895D8C3",
+      "key": "seasonal--christmas",
+      "category": "Seasonal",
+      "title": "Christmas",
+      "style": "stack",
+      "sources": [
+        {
+          "tmdbDiscover": {
+            "_0": {
+              "mediaType": "movie",
+              "name": "New Christmas Movies",
+              "sortBy": "primary_release_date.desc",
+              "voteCountGte": 10,
+              "genres": [],
+              "excludeGenres": [
+                27
+              ],
+              "keywords": [
+                207317
+              ],
+              "companies": [],
+              "networks": []
+            }
+          }
+        },
+        {
+          "tmdbDiscover": {
+            "_0": {
+              "mediaType": "movie",
+              "name": "Popular Christmas Movies",
+              "sortBy": "popularity.desc",
+              "voteCountGte": 25,
+              "genres": [],
+              "excludeGenres": [
+                27
+              ],
+              "keywords": [
+                207317
+              ],
+              "companies": [],
+              "networks": []
+            }
+          }
+        },
+        {
+          "tmdbDiscover": {
+            "_0": {
+              "mediaType": "movie",
+              "name": "Top Rated Christmas Movies",
+              "sortBy": "vote_average.desc",
+              "voteCountGte": 100,
+              "genres": [],
+              "excludeGenres": [
+                27
+              ],
+              "keywords": [
+                207317
+              ],
+              "companies": [],
+              "networks": []
+            }
+          }
+        },
+        {
+          "tmdbDiscover": {
+            "_0": {
+              "mediaType": "movie",
+              "name": "Family Christmas Movies",
+              "sortBy": "popularity.desc",
+              "voteCountGte": 10,
+              "genres": [
+                10751
+              ],
+              "excludeGenres": [
+                27
+              ],
+              "keywords": [
+                207317
+              ],
+              "companies": [],
+              "networks": []
+            }
+          }
+        }
+      ],
+      "native": {
+        "id": "F2F46810-255C-5B28-B323-8E03A895D8C3",
+        "title": "Christmas",
+        "sources": [
+          {
+            "tmdbDiscover": {
+              "_0": {
+                "mediaType": "movie",
+                "name": "New Christmas Movies",
+                "sortBy": "primary_release_date.desc",
+                "voteCountGte": 10,
+                "genres": [],
+                "excludeGenres": [
+                  27
+                ],
+                "keywords": [
+                  207317
+                ],
+                "companies": [],
+                "networks": []
+              }
+            }
+          },
+          {
+            "tmdbDiscover": {
+              "_0": {
+                "mediaType": "movie",
+                "name": "Popular Christmas Movies",
+                "sortBy": "popularity.desc",
+                "voteCountGte": 25,
+                "genres": [],
+                "excludeGenres": [
+                  27
+                ],
+                "keywords": [
+                  207317
+                ],
+                "companies": [],
+                "networks": []
+              }
+            }
+          },
+          {
+            "tmdbDiscover": {
+              "_0": {
+                "mediaType": "movie",
+                "name": "Top Rated Christmas Movies",
+                "sortBy": "vote_average.desc",
+                "voteCountGte": 100,
+                "genres": [],
+                "excludeGenres": [
+                  27
+                ],
+                "keywords": [
+                  207317
+                ],
+                "companies": [],
+                "networks": []
+              }
+            }
+          },
+          {
+            "tmdbDiscover": {
+              "_0": {
+                "mediaType": "movie",
+                "name": "Family Christmas Movies",
+                "sortBy": "popularity.desc",
+                "voteCountGte": 10,
+                "genres": [
+                  10751
+                ],
+                "excludeGenres": [
+                  27
+                ],
+                "keywords": [
+                  207317
+                ],
+                "companies": [],
+                "networks": []
+              }
+            }
+          }
+        ],
+        "coverImageURL": "__BASE_URL__/images/seasonal--christmas.webp",
+        "backgroundImageURL": "__BASE_URL__/images/seasonal--christmas-background.webp",
+        "hideTitle": true,
+        "showsSourceRows": true,
+        "tileShape": "wide"
+      },
+      "originalLogoURL": "",
+      "originalCoverURL": "",
+      "originalBackgroundURL": "",
+      "seedKey": "0E719EC8-D753-5BA2-AF54-0DA2D924A713",
+      "recommended": false
+    },
+    {
+      "id": "A06083BC-1D71-5356-806C-D6EC1166FC1D",
+      "key": "seasonal--valentines-day",
+      "category": "Seasonal",
+      "title": "Valentine’s Day",
+      "style": "stack",
+      "sources": [
+        {
+          "tmdbDiscover": {
+            "_0": {
+              "mediaType": "movie",
+              "name": "New Valentine’s Day Movies",
+              "sortBy": "primary_release_date.desc",
+              "voteCountGte": 10,
+              "genres": [
+                10749
+              ],
+              "excludeGenres": [
+                27,
+                53
+              ],
+              "keywords": [
+                160404
+              ],
+              "companies": [],
+              "networks": []
+            }
+          }
+        },
+        {
+          "tmdbDiscover": {
+            "_0": {
+              "mediaType": "movie",
+              "name": "Popular Valentine’s Day Movies",
+              "sortBy": "popularity.desc",
+              "voteCountGte": 25,
+              "genres": [
+                10749
+              ],
+              "excludeGenres": [
+                27,
+                53
+              ],
+              "keywords": [
+                160404
+              ],
+              "companies": [],
+              "networks": []
+            }
+          }
+        },
+        {
+          "tmdbDiscover": {
+            "_0": {
+              "mediaType": "movie",
+              "name": "Top Rated Valentine’s Day Movies",
+              "sortBy": "vote_average.desc",
+              "voteCountGte": 100,
+              "genres": [
+                10749
+              ],
+              "excludeGenres": [
+                27,
+                53
+              ],
+              "keywords": [
+                160404
+              ],
+              "companies": [],
+              "networks": []
+            }
+          }
+        },
+        {
+          "tmdbDiscover": {
+            "_0": {
+              "mediaType": "movie",
+              "name": "Valentine’s Comedies",
+              "sortBy": "popularity.desc",
+              "voteCountGte": 10,
+              "genres": [
+                35
+              ],
+              "excludeGenres": [
+                27,
+                53
+              ],
+              "keywords": [
+                160404
+              ],
+              "companies": [],
+              "networks": []
+            }
+          }
+        }
+      ],
+      "native": {
+        "id": "A06083BC-1D71-5356-806C-D6EC1166FC1D",
+        "title": "Valentine’s Day",
+        "sources": [
+          {
+            "tmdbDiscover": {
+              "_0": {
+                "mediaType": "movie",
+                "name": "New Valentine’s Day Movies",
+                "sortBy": "primary_release_date.desc",
+                "voteCountGte": 10,
+                "genres": [
+                  10749
+                ],
+                "excludeGenres": [
+                  27,
+                  53
+                ],
+                "keywords": [
+                  160404
+                ],
+                "companies": [],
+                "networks": []
+              }
+            }
+          },
+          {
+            "tmdbDiscover": {
+              "_0": {
+                "mediaType": "movie",
+                "name": "Popular Valentine’s Day Movies",
+                "sortBy": "popularity.desc",
+                "voteCountGte": 25,
+                "genres": [
+                  10749
+                ],
+                "excludeGenres": [
+                  27,
+                  53
+                ],
+                "keywords": [
+                  160404
+                ],
+                "companies": [],
+                "networks": []
+              }
+            }
+          },
+          {
+            "tmdbDiscover": {
+              "_0": {
+                "mediaType": "movie",
+                "name": "Top Rated Valentine’s Day Movies",
+                "sortBy": "vote_average.desc",
+                "voteCountGte": 100,
+                "genres": [
+                  10749
+                ],
+                "excludeGenres": [
+                  27,
+                  53
+                ],
+                "keywords": [
+                  160404
+                ],
+                "companies": [],
+                "networks": []
+              }
+            }
+          },
+          {
+            "tmdbDiscover": {
+              "_0": {
+                "mediaType": "movie",
+                "name": "Valentine’s Comedies",
+                "sortBy": "popularity.desc",
+                "voteCountGte": 10,
+                "genres": [
+                  35
+                ],
+                "excludeGenres": [
+                  27,
+                  53
+                ],
+                "keywords": [
+                  160404
+                ],
+                "companies": [],
+                "networks": []
+              }
+            }
+          }
+        ],
+        "coverImageURL": "__BASE_URL__/images/seasonal--valentines-day.webp",
+        "backgroundImageURL": "__BASE_URL__/images/seasonal--valentines-day-background.webp",
+        "hideTitle": true,
+        "showsSourceRows": true,
+        "tileShape": "wide"
+      },
+      "originalLogoURL": "",
+      "originalCoverURL": "",
+      "originalBackgroundURL": "",
+      "seedKey": "3E9C7533-7385-57B6-BB57-874EAA1E02D2",
+      "recommended": false
+    },
+    {
+      "id": "DB0DE769-EFB8-5649-AADD-D266BC794307",
+      "key": "seasonal--halloween",
+      "category": "Seasonal",
+      "title": "Halloween",
+      "style": "stack",
+      "sources": [
+        {
+          "tmdbDiscover": {
+            "_0": {
+              "mediaType": "movie",
+              "name": "New Halloween Movies",
+              "sortBy": "primary_release_date.desc",
+              "voteCountGte": 10,
+              "genres": [],
+              "excludeGenres": [],
+              "keywords": [
+                3335
+              ],
+              "companies": [],
+              "networks": []
+            }
+          }
+        },
+        {
+          "tmdbDiscover": {
+            "_0": {
+              "mediaType": "movie",
+              "name": "Popular Halloween Movies",
+              "sortBy": "popularity.desc",
+              "voteCountGte": 25,
+              "genres": [],
+              "excludeGenres": [],
+              "keywords": [
+                3335
+              ],
+              "companies": [],
+              "networks": []
+            }
+          }
+        },
+        {
+          "tmdbDiscover": {
+            "_0": {
+              "mediaType": "movie",
+              "name": "Top Rated Halloween Movies",
+              "sortBy": "vote_average.desc",
+              "voteCountGte": 100,
+              "genres": [],
+              "excludeGenres": [],
+              "keywords": [
+                3335
+              ],
+              "companies": [],
+              "networks": []
+            }
+          }
+        },
+        {
+          "tmdbDiscover": {
+            "_0": {
+              "mediaType": "movie",
+              "name": "Family Halloween Movies",
+              "sortBy": "popularity.desc",
+              "voteCountGte": 10,
+              "genres": [
+                10751
+              ],
+              "excludeGenres": [],
+              "keywords": [
+                3335
+              ],
+              "companies": [],
+              "networks": []
+            }
+          }
+        }
+      ],
+      "native": {
+        "id": "DB0DE769-EFB8-5649-AADD-D266BC794307",
+        "title": "Halloween",
+        "sources": [
+          {
+            "tmdbDiscover": {
+              "_0": {
+                "mediaType": "movie",
+                "name": "New Halloween Movies",
+                "sortBy": "primary_release_date.desc",
+                "voteCountGte": 10,
+                "genres": [],
+                "excludeGenres": [],
+                "keywords": [
+                  3335
+                ],
+                "companies": [],
+                "networks": []
+              }
+            }
+          },
+          {
+            "tmdbDiscover": {
+              "_0": {
+                "mediaType": "movie",
+                "name": "Popular Halloween Movies",
+                "sortBy": "popularity.desc",
+                "voteCountGte": 25,
+                "genres": [],
+                "excludeGenres": [],
+                "keywords": [
+                  3335
+                ],
+                "companies": [],
+                "networks": []
+              }
+            }
+          },
+          {
+            "tmdbDiscover": {
+              "_0": {
+                "mediaType": "movie",
+                "name": "Top Rated Halloween Movies",
+                "sortBy": "vote_average.desc",
+                "voteCountGte": 100,
+                "genres": [],
+                "excludeGenres": [],
+                "keywords": [
+                  3335
+                ],
+                "companies": [],
+                "networks": []
+              }
+            }
+          },
+          {
+            "tmdbDiscover": {
+              "_0": {
+                "mediaType": "movie",
+                "name": "Family Halloween Movies",
+                "sortBy": "popularity.desc",
+                "voteCountGte": 10,
+                "genres": [
+                  10751
+                ],
+                "excludeGenres": [],
+                "keywords": [
+                  3335
+                ],
+                "companies": [],
+                "networks": []
+              }
+            }
+          }
+        ],
+        "coverImageURL": "__BASE_URL__/images/seasonal--halloween.webp",
+        "backgroundImageURL": "__BASE_URL__/images/seasonal--halloween-background.webp",
+        "hideTitle": true,
+        "showsSourceRows": true,
+        "tileShape": "wide"
+      },
+      "originalLogoURL": "",
+      "originalCoverURL": "",
+      "originalBackgroundURL": "",
+      "seedKey": "EDFD3AD6-D72D-532A-B2EB-EF0E1F0D2E85",
+      "recommended": false
     },
     {
       "id": "FCEDB913-1A58-55A9-9FBE-92598087FADD",

@@ -6404,10 +6404,298 @@
     }
   },
   {
+    "id": "CCCDA222-FBB4-5D65-9DD8-A6F8BCD83CBD",
+    "title": "Seasonal",
+    "isEnabled": true,
+    "sortOrder": 3,
+    "style": "collections_row",
+    "source": {
+      "group": {
+        "_0": {
+          "title": "Seasonal",
+          "contentSources": [
+            {
+              "id": "F2F46810-255C-5B28-B323-8E03A895D8C3",
+              "title": "Christmas",
+              "sources": [
+                {
+                  "tmdbDiscover": {
+                    "_0": {
+                      "mediaType": "movie",
+                      "name": "New Christmas Movies",
+                      "sortBy": "primary_release_date.desc",
+                      "voteCountGte": 10,
+                      "genres": [],
+                      "excludeGenres": [
+                        27
+                      ],
+                      "keywords": [
+                        207317
+                      ],
+                      "companies": [],
+                      "networks": []
+                    }
+                  }
+                },
+                {
+                  "tmdbDiscover": {
+                    "_0": {
+                      "mediaType": "movie",
+                      "name": "Popular Christmas Movies",
+                      "sortBy": "popularity.desc",
+                      "voteCountGte": 25,
+                      "genres": [],
+                      "excludeGenres": [
+                        27
+                      ],
+                      "keywords": [
+                        207317
+                      ],
+                      "companies": [],
+                      "networks": []
+                    }
+                  }
+                },
+                {
+                  "tmdbDiscover": {
+                    "_0": {
+                      "mediaType": "movie",
+                      "name": "Top Rated Christmas Movies",
+                      "sortBy": "vote_average.desc",
+                      "voteCountGte": 100,
+                      "genres": [],
+                      "excludeGenres": [
+                        27
+                      ],
+                      "keywords": [
+                        207317
+                      ],
+                      "companies": [],
+                      "networks": []
+                    }
+                  }
+                },
+                {
+                  "tmdbDiscover": {
+                    "_0": {
+                      "mediaType": "movie",
+                      "name": "Family Christmas Movies",
+                      "sortBy": "popularity.desc",
+                      "voteCountGte": 10,
+                      "genres": [
+                        10751
+                      ],
+                      "excludeGenres": [
+                        27
+                      ],
+                      "keywords": [
+                        207317
+                      ],
+                      "companies": [],
+                      "networks": []
+                    }
+                  }
+                }
+              ],
+              "coverImageURL": "__BASE_URL__/images/seasonal--christmas.webp",
+              "backgroundImageURL": "__BASE_URL__/images/seasonal--christmas-background.webp",
+              "hideTitle": true,
+              "showsSourceRows": true,
+              "tileShape": "wide"
+            },
+            {
+              "id": "A06083BC-1D71-5356-806C-D6EC1166FC1D",
+              "title": "Valentine’s Day",
+              "sources": [
+                {
+                  "tmdbDiscover": {
+                    "_0": {
+                      "mediaType": "movie",
+                      "name": "New Valentine’s Day Movies",
+                      "sortBy": "primary_release_date.desc",
+                      "voteCountGte": 10,
+                      "genres": [
+                        10749
+                      ],
+                      "excludeGenres": [
+                        27,
+                        53
+                      ],
+                      "keywords": [
+                        160404
+                      ],
+                      "companies": [],
+                      "networks": []
+                    }
+                  }
+                },
+                {
+                  "tmdbDiscover": {
+                    "_0": {
+                      "mediaType": "movie",
+                      "name": "Popular Valentine’s Day Movies",
+                      "sortBy": "popularity.desc",
+                      "voteCountGte": 25,
+                      "genres": [
+                        10749
+                      ],
+                      "excludeGenres": [
+                        27,
+                        53
+                      ],
+                      "keywords": [
+                        160404
+                      ],
+                      "companies": [],
+                      "networks": []
+                    }
+                  }
+                },
+                {
+                  "tmdbDiscover": {
+                    "_0": {
+                      "mediaType": "movie",
+                      "name": "Top Rated Valentine’s Day Movies",
+                      "sortBy": "vote_average.desc",
+                      "voteCountGte": 100,
+                      "genres": [
+                        10749
+                      ],
+                      "excludeGenres": [
+                        27,
+                        53
+                      ],
+                      "keywords": [
+                        160404
+                      ],
+                      "companies": [],
+                      "networks": []
+                    }
+                  }
+                },
+                {
+                  "tmdbDiscover": {
+                    "_0": {
+                      "mediaType": "movie",
+                      "name": "Valentine’s Comedies",
+                      "sortBy": "popularity.desc",
+                      "voteCountGte": 10,
+                      "genres": [
+                        35
+                      ],
+                      "excludeGenres": [
+                        27,
+                        53
+                      ],
+                      "keywords": [
+                        160404
+                      ],
+                      "companies": [],
+                      "networks": []
+                    }
+                  }
+                }
+              ],
+              "coverImageURL": "__BASE_URL__/images/seasonal--valentines-day.webp",
+              "backgroundImageURL": "__BASE_URL__/images/seasonal--valentines-day-background.webp",
+              "hideTitle": true,
+              "showsSourceRows": true,
+              "tileShape": "wide"
+            },
+            {
+              "id": "DB0DE769-EFB8-5649-AADD-D266BC794307",
+              "title": "Halloween",
+              "sources": [
+                {
+                  "tmdbDiscover": {
+                    "_0": {
+                      "mediaType": "movie",
+                      "name": "New Halloween Movies",
+                      "sortBy": "primary_release_date.desc",
+                      "voteCountGte": 10,
+                      "genres": [],
+                      "excludeGenres": [],
+                      "keywords": [
+                        3335
+                      ],
+                      "companies": [],
+                      "networks": []
+                    }
+                  }
+                },
+                {
+                  "tmdbDiscover": {
+                    "_0": {
+                      "mediaType": "movie",
+                      "name": "Popular Halloween Movies",
+                      "sortBy": "popularity.desc",
+                      "voteCountGte": 25,
+                      "genres": [],
+                      "excludeGenres": [],
+                      "keywords": [
+                        3335
+                      ],
+                      "companies": [],
+                      "networks": []
+                    }
+                  }
+                },
+                {
+                  "tmdbDiscover": {
+                    "_0": {
+                      "mediaType": "movie",
+                      "name": "Top Rated Halloween Movies",
+                      "sortBy": "vote_average.desc",
+                      "voteCountGte": 100,
+                      "genres": [],
+                      "excludeGenres": [],
+                      "keywords": [
+                        3335
+                      ],
+                      "companies": [],
+                      "networks": []
+                    }
+                  }
+                },
+                {
+                  "tmdbDiscover": {
+                    "_0": {
+                      "mediaType": "movie",
+                      "name": "Family Halloween Movies",
+                      "sortBy": "popularity.desc",
+                      "voteCountGte": 10,
+                      "genres": [
+                        10751
+                      ],
+                      "excludeGenres": [],
+                      "keywords": [
+                        3335
+                      ],
+                      "companies": [],
+                      "networks": []
+                    }
+                  }
+                }
+              ],
+              "coverImageURL": "__BASE_URL__/images/seasonal--halloween.webp",
+              "backgroundImageURL": "__BASE_URL__/images/seasonal--halloween-background.webp",
+              "hideTitle": true,
+              "showsSourceRows": true,
+              "tileShape": "wide"
+            }
+          ],
+          "coverFillsHero": true,
+          "hideTitle": true,
+          "tileShape": "wide"
+        }
+      }
+    }
+  },
+  {
     "id": "B7DA6E9E-B733-56AA-811F-1798D1238030",
     "title": "Moods & Vibes",
     "isEnabled": true,
-    "sortOrder": 3,
+    "sortOrder": 4,
     "style": "collections_row",
     "source": {
       "group": {
@@ -7905,7 +8193,7 @@
     "id": "2F6EFDE0-2274-558C-AC27-7C4EEB440DAA",
     "title": "Based on",
     "isEnabled": true,
-    "sortOrder": 4,
+    "sortOrder": 5,
     "style": "collections_row",
     "source": {
       "group": {
@@ -9472,7 +9760,7 @@
     "id": "10A2598B-5679-56F6-AD72-7F3BDCCD7DD8",
     "title": "Film Collections",
     "isEnabled": true,
-    "sortOrder": 5,
+    "sortOrder": 6,
     "style": "collections_row",
     "source": {
       "group": {
@@ -17054,7 +17342,7 @@
     "id": "19DAEAE6-1D06-5DA7-A877-48431EE0966D",
     "title": "Actors",
     "isEnabled": true,
-    "sortOrder": 6,
+    "sortOrder": 7,
     "style": "collections_row",
     "source": {
       "group": {
@@ -26934,7 +27222,7 @@
     "id": "DC1AD7AF-6A5B-5FB7-AA43-B78A1847A71A",
     "title": "Legendary Directors",
     "isEnabled": true,
-    "sortOrder": 7,
+    "sortOrder": 8,
     "style": "collections_row",
     "source": {
       "group": {
@@ -29725,7 +30013,7 @@
     "id": "5DD5E152-2E8C-5E33-9113-3975E85AED29",
     "title": "Studios",
     "isEnabled": true,
-    "sortOrder": 8,
+    "sortOrder": 9,
     "style": "collections_row",
     "source": {
       "group": {
@@ -31710,7 +31998,7 @@
     "id": "52AC8D1C-FB51-5852-AC77-FDA99FDD652D",
     "title": "By Decade",
     "isEnabled": true,
-    "sortOrder": 9,
+    "sortOrder": 10,
     "style": "collections_row",
     "source": {
       "group": {
@@ -33913,7 +34201,7 @@
     "id": "4F8AB7FB-3C3F-5372-AAB6-3FCDB82E608A",
     "title": "Anime",
     "isEnabled": true,
-    "sortOrder": 10,
+    "sortOrder": 11,
     "style": "collections_row",
     "source": {
       "group": {
@@ -35331,7 +35619,7 @@
     "id": "9E855916-8906-5BD5-A226-5E69787024AA",
     "title": "Awards",
     "isEnabled": true,
-    "sortOrder": 11,
+    "sortOrder": 12,
     "style": "collections_row",
     "source": {
       "group": {
@@ -36043,7 +36331,7 @@
     "id": "0F3A127F-FD38-53C6-A1C9-E4CAEBFE1819",
     "title": "International Cinema",
     "isEnabled": true,
-    "sortOrder": 12,
+    "sortOrder": 13,
     "style": "collections_row",
     "source": {
       "group": {
@@ -44943,7 +45231,7 @@
     "id": "7A7C448D-D4BA-5B12-8B6F-C87B0C58A935",
     "title": "Documentaries",
     "isEnabled": true,
-    "sortOrder": 13,
+    "sortOrder": 14,
     "style": "collections_row",
     "source": {
       "group": {
@@ -45942,7 +46230,7 @@
     "id": "C8D3365E-E690-5D98-96A6-484BF055DCE2",
     "title": "Kids and Family",
     "isEnabled": true,
-    "sortOrder": 14,
+    "sortOrder": 15,
     "style": "collections_row",
     "source": {
       "group": {
@@ -46766,7 +47054,7 @@
     "id": "AD813892-A955-5CC4-B36B-D6A834CFF9FE",
     "title": "Reality TV",
     "isEnabled": true,
-    "sortOrder": 15,
+    "sortOrder": 16,
     "style": "collections_row",
     "source": {
       "group": {
@@ -47569,7 +47857,7 @@
     "id": "4BBB05CB-2059-556A-A186-FDD77404A2BF",
     "title": "Streaming Services",
     "isEnabled": true,
-    "sortOrder": 16,
+    "sortOrder": 17,
     "style": "collections_row",
     "source": {
       "group": {
@@ -68501,7 +68789,7 @@
     "id": "2764CC5C-52B6-57E9-8A11-D490993261FD",
     "title": "Networks",
     "isEnabled": true,
-    "sortOrder": 17,
+    "sortOrder": 18,
     "style": "collections_row",
     "source": {
       "group": {

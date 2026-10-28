@@ -9,7 +9,7 @@ class PipelineTests(unittest.TestCase):
  @classmethod
  def setUpClass(cls):cls.catalog=json.loads((ROOT/'data/catalog.json').read_text())['folders']
  def test_complete_catalogue_is_public_and_has_no_personal_sources(self):
-  self.assertEqual(len(self.catalog),784);self.assertEqual(len({r['id'] for r in self.catalog}),784);self.assertEqual(len({r['key'] for r in self.catalog}),784);build.safe_catalog(self.catalog);self.assertEqual(sum(r['recommended'] for r in self.catalog),163)
+  self.assertEqual(len(self.catalog),787);self.assertEqual(len({r['id'] for r in self.catalog}),787);self.assertEqual(len({r['key'] for r in self.catalog}),787);build.safe_catalog(self.catalog);self.assertEqual(sum(r['recommended'] for r in self.catalog),163)
   for r in self.catalog:
    for s in r['sources']:self.assertNotIn('mediaServer',s);self.assertNotIn('addon',s)
  def test_streaming_and_network_categories_cover_full_upstream_pack(self):
@@ -87,9 +87,9 @@ class PipelineTests(unittest.TestCase):
    out=Path(tmp);(out/'downloads').mkdir();(out/'downloads/spotlight.json').write_text('old export')
    manifest={'tiles':[{'key':'spotlight--the-saga','tile':'images/spotlight--the-saga.webp'}]}
    write_site(out,self.catalog,manifest,'https://example.test/artwork',self.catalog)
-   public=json.loads((out/'catalogue.json').read_text());self.assertEqual(len(public),776)
+   public=json.loads((out/'catalogue.json').read_text());self.assertEqual(len(public),779)
    self.assertNotIn('Spotlight',{r['category'] for r in public});self.assertFalse((out/'downloads/spotlight.json').exists())
-   full=json.loads((out/'downloads/complete.json').read_text());self.assertEqual(len(full),17);self.assertNotIn('Spotlight',{s['title'] for s in full})
+   full=json.loads((out/'downloads/complete.json').read_text());self.assertEqual(len(full),18);self.assertNotIn('Spotlight',{s['title'] for s in full})
    self.assertEqual(json.loads((out/'manifest.json').read_text()),manifest)
  def test_sensitive_source_rejected(self):
   r=copy.deepcopy(self.catalog[0]);r['sources']=[{'mediaServer':{'_0':{'token':'secret'}}}]
@@ -149,14 +149,14 @@ class PipelineTests(unittest.TestCase):
  def test_import_urls_are_stable_and_recommended_pack_has_163_folders(self):
   with tempfile.TemporaryDirectory() as tmp:
    out=Path(tmp);write_site(out,self.catalog,{'tiles':[],'builtAt':'test','preview':True},'https://example.test/artwork',self.catalog)
-   full=json.loads((out/'downloads/complete.json').read_text());small=json.loads((out/'downloads/recommended.json').read_text());folders=[f for s in full for f in s['source']['group']['_0']['contentSources']];self.assertEqual(len(folders),776);self.assertEqual(sum(len(s['source']['group']['_0']['contentSources']) for s in small),163)
+   full=json.loads((out/'downloads/complete.json').read_text());small=json.loads((out/'downloads/recommended.json').read_text());folders=[f for s in full for f in s['source']['group']['_0']['contentSources']];self.assertEqual(len(folders),779);self.assertEqual(sum(len(s['source']['group']['_0']['contentSources']) for s in small),163)
    for f in folders:
     self.assertIn(f['tileShape'],{'wide','poster','square'});self.assertIs(f['showsSourceRows'],True)
     self.assertTrue(f['coverImageURL'].startswith('https://example.test/artwork/images/'));self.assertNotIn('?',f['coverImageURL']);self.assertNotIn('__BASE_URL__',f['backgroundImageURL'])
  def test_all_hosted_imports_hide_folder_titles_by_default(self):
   with tempfile.TemporaryDirectory() as tmp:
    out=Path(tmp);write_site(out,self.catalog,{'tiles':[],'builtAt':'test','preview':True},'https://example.test/artwork',self.catalog)
-   files=list((out/'downloads').glob('*.json'));self.assertEqual(len(files),19)
+   files=list((out/'downloads').glob('*.json'));self.assertEqual(len(files),20)
    for path in files:
     rows=json.loads(path.read_text());self.assertTrue(rows,path.name)
     self.assertTrue(all(row['source']['group']['_0']['hideTitle'] is True for row in rows),path.name)

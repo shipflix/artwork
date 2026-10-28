@@ -22,7 +22,7 @@ For Apple TV, enable Strand’s iCloud sync on both devices using the same Apple
 
 ## What’s included
 
-776 folders across 17 shelf categories, including all 22 streaming services and 80 networks. The Recommended selection has 163 folders, including a starter selection of 20 networks. Expand Networks to choose from all 80. Larger selections may exceed Strand’s iCloud storage allowance; the website shows your import size before importing.
+779 folders across 18 shelf categories, including all 22 streaming services and 80 networks. The Recommended selection has 163 folders, including a starter selection of 20 networks. Expand Networks to choose from all 80. Seasonal is an optional Shipflix addition with Christmas, Valentine’s Day and Halloween; it is not included in Recommended. Larger selections may exceed Strand’s iCloud storage allowance; the website shows your import size before importing.
 
 ## Artwork updates
 

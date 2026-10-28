@@ -6,7 +6,7 @@ const shelves = JSON.parse(fs.readFileSync('data/strand-template.json'));
 const before = JSON.stringify(shelves);
 const select = records => configuration(shelves, new Set(records.map(r=>r.id)));
 const count = rows => rows.reduce((n,r)=>n+r.source.group._0.contentSources.length,0);
-assert.equal(count(select(catalog)),784);
+assert.equal(count(select(catalog)),787);
 assert.deepEqual(select([]),[]);
 const recommended=select(catalog.filter(r=>r.recommended));
 assert.equal(count(recommended),163);

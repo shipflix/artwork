@@ -7,7 +7,7 @@ from . import render as base
 ROOT=base.ROOT;OUT=base.STATE/'rendered';ASSETS=ROOT/'assets'
 W,H=2560,1440;WHITE='#f5f5f5';CHARCOAL=(26,26,26,255)
 TITLE_OVERRIDES=json.loads((ROOT/'data/title-overrides.json').read_text()) if (ROOT/'data/title-overrides.json').exists() else {}
-STACK_GROUPS={'Discover','Genres','Film Collections','By Decade','Documentaries','Kids and Family','Reality TV'}
+STACK_GROUPS={'Discover','Genres','Seasonal','Film Collections','By Decade','Documentaries','Kids and Family','Reality TV'}
 def tile_name(record):return base.slug(record['category'])+'--'+base.slug(record['title'])+'--'+record['id'][:8]+'.webp'
 def smooth(t):
     t=max(0,min(1,t));return t*t*(3-2*t)

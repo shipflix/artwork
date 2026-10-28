@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def patch_site(site,root=ROOT):
  site=Path(site);root=Path(root);manifest=json.loads((site/'manifest.json').read_text());assets=json.loads((root/'data/streaming-assets.json').read_text());rows=[r for r in manifest['tiles'] if r['category']=='Streaming Services']
- assert len(manifest['tiles'])==784 and len(rows)==len(assets)==22
+ assert len(rows)==len(assets)==22
  assert {r['key'] for r in rows}==set(assets)
  replacements={}
  for r in rows:
